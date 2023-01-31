@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <script src="https://kit.fontawesome.com/c5d17fdd58.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
+    <title>Surgipath services (EA) limited</title>
+    <style>
+        *{
+            transition-duration: 300ms;
+        }
+        *:focus,
+        *:hover{
+            transition-duration: 300ms;
+        }
+        .number{
+            font-family: 'Bungee Outline', cursive;
+        }
+        a{
+            text-decoration: inherit;
+        }
+        p::after{
+            content: ".";
+        }
+        .primary-btn{
+            position: relative;
+            border: none;
+            overflow: hidden;
+        }
+        
+        .primary-btn::after{
+            content: " ";
+            padding: .25em;
+            background-color: #FC6C18;
+            position: absolute;
+            width: 100%;
+            left:0;
+            right:0;
+            height: 100%;
+            bottom: -2.2em;
+            z-index: 1;
+            transition-duration: .25s;
+        }
+        .primary-btn:hover::after{
+            transition-duration: .25s;
+            bottom:0;
+        }
+        .primary-btn a{
+            z-index: 10;
+            position: relative; 
+        }
+        img{
+            display:none;
+        }
+        
+        h1{
+            position: relative;
+            border: none;
+        
+        }
+        h1::before{
+            content: " ";
+            padding: .05em;
+            background-color: #FC6C18;
+            position: absolute;
+            width: 2em;
+            top:-.5em;
+            height: .05em;
+            z-index: 1;
+            transition-duration: .25s;
+        }
+        .card{
+            overflow: hidden;
+            position: relative;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+        }
+        .card:hover,
+        .card:focus {
+            transition-duration: .5s;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+        .service-card:hover img{
+            filter:invert(100%);
+            transition-duration: 300ms;
+        }
+        .service-card:hover .number{
+            opacity: 1;
+            transition-duration: 300ms;
+            color: #FFF;
+        }
+        .home-hero,
+        #partners,
+        .contact{
+            position: relative;
+            z-index: 10;
+        }
+        .home-hero::before,
+        #partners::before,
+        .contact::before{
+            content: " ";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top:0;
+            bottom:0;
+            background-color: rgba(0,0,0,0.5);
+            z-index: 1;
+        }
+        #partners::before{
+            background-color: rgba(39, 48, 67,0.5);
+        }
+ 
+
+    </style>
+</head>
+<body>
+    
+<nav class="bg-[#273043] text-[#] border-gray-200 px-2 md:px-4 py-2.5 fixed z-50 w-full lg:pt-10">
+    <div class="top-bar absolute w-full left-0 top-0 bg-[#1E1E24] z-0 hidden text-[#F3F3F7] lg:flex flex-nowrap items-center justify-between  mx-auto">
+        <div class="float-right  ml-auto m-2">
+            <a class="flex flex-nowrap items-center justify-between ">
+                <i class="fa-solid fa-location-dot pr-1 text-[#41D8B5]"></i>
+                Alpha Centre Mombasa Road, Godown No 70(A)
+            </a>
+        </div>
+        <div class="flex flex-nowrap items-center justify-between m-2" >
+            <a href="mailto:sales@surgipath.co.ke"><i class="fa-solid fa-envelope pr-1 text-[#41D8B5]"></i>sales@surgipathealtd.co.ke</a>
+        </div>
+        <div class="social-icons flex flex-nowrap items-center justify-between m-2">
+            <a href=""><i class="fa-brands fa-square-facebook p-2 text-[#41D8B5]"></i></a>
+            <a><i class="fa-brands fa-square-twitter p-2 text-[#41D8B5]"></i></a>
+        </div>
+    </div>
+    <div class="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto ">
+        <!-- <a href="#" class="flex items-center absolute z-50 top-0 left-10 h-32 p-2 bg-white">
+            <img src="media/surgipath-logo.png" class=" h-fuk mr-3 sm:h-9" alt="surgipath Logo" />
+        </a> -->
+        <a href="documents/iso-9001-2015.pdf" class="nav-logo m-1 " >
+            <img src="media/surgipath-white.png " class="w-72 p-5" alt="">
+        </a>
+        <div class="flex items-center md:order-2">
+            <button data-collapse-toggle="mega-menu" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 " aria-controls="mega-menu" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+            </button>
+        </div>
+        <div id="mega-menu" class="items-center justify-between hidden w-full text-sm md:flex md:w-auto md:order-1">
+            <ul class="flex flex-col mt-4 font-medium md:flex-row md:space-x-8 md:mt-0">
+                <li>
+                    <a href="#home" class="block py-2 pl-3 pr-4 text-[#FC6C18] border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 " aria-current="page">Home</a>
+                </li>
+                <li>
+                    <a href="about.html" class="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0">About</a>
+                </li>
+                <li>
+                    <button id="mega-menu-dropdown-button" data-dropdown-toggle="mega-menu-dropdown" class="flex items-center justify-between w-full py-2 pl-3 pr-4 font-medium text-white border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#FC6C18] md:p-0 ">
+                        products <svg aria-hidden="true" class="w-5 h-5 ml-1 md:w-4 md:h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    </button>
+                    <div id="mega-menu-dropdown" class="absolute z-10 grid hidden w-auto grid-cols-2 text-sm bg-white border border-gray-100 rounded-lg shadow-md dark:border-gray-700 md:grid-cols-3 ">
+                        <div class="p-4 pb-0 text-gray-900 md:pb-4 ">
+                            <ul class="space-y-4" aria-labelledby="mega-menu-dropdown-button">
+                                <li>
+                                    <a href="#" class="text-gray-500  hover:text-blue-600 ">
+                                        immunology
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-gray-500 dark:text-gray-400 hover:text-blue-600">
+                                        microbiology
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-gray-500 dark:text-gray-400 hover:text-blue-600 ">
+                                        Elisa- equipment
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-gray-500 dark:text-gray-400 hover:text-blue-600 ">
+                                        molecular
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
+                            <ul class="space-y-4">
+                                <li>
+                                    <a href="#" class="text-gray-500 dark:text-gray-400 hover:text-blue-600 ">
+                                        lab equipment
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-gray-500 dark:text-gray-400 hover:text-blue-600">
+                                        point of care
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-gray-500 dark:text-gray-400 hover:text-blue-600 ">
+                                        lab accessories
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-gray-500 dark:text-gray-400 hover:text-blue-600">
+                                        lab consumables
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="p-4 text-gray-900 dark:text-white">
+                            <ul class="space-y-4">
+                                <li>
+                                    <a href="catalogue.html" class="text-gray-500 dark:text-gray-400 hover:text-blue-600 ">
+                                        spirometry
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="contact.html" class="text-gray-500 dark:text-gray-400 hover:text-blue-600 ">
+                                        Rapid tests
+                                    </a>
+                                </li>
+                                <!-- <li>
+                                    <a href="downloads" class="text-gray-500 dark:text-gray-400 hover:text-blue-600 ">
+                                        Downloads
+                                    </a>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="catalogue.html" class="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#FC6C18] md:p-0">catalogue</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#FC6C18] md:p-0 ">Contact</a>
+                </li>
+                <li>
+                    <a href="downloads" class="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#FC6C18] md:p-0 ">downloads</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <section id="home">
+        <div class="home-hero text-white h-screen bg-[url('media/bg1.jpg')] flex flex-wrap flex-col items-start justify-center bg-no-repeat bg-center bg-cover">
+            <div class="text-left   lg:w-[50vw] float-left z-50 mr-2 p-5">
+                <h2 class="text-4xl font-extrabold py-2">Your trusted healthcare equipment supplier </h2>
+                 <p class="mb-4 text-xl">Surgipath is a top provider of essential healthcare items, dedicated to enhancing patient care through innovative and reliable products</p>
+                 <button class="primary-btn bg-[#208A7E]  px-10 py-2 rounded">
+                    <a href="#" class="text-gray-50 uppercase font-medium">Read more</a>
+                 </button>
+            </div>
+            
+        </div>
+    </section>
+    <section class="bg-white " id="about">
+        <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6 ">
+            <div class="flex items-center justify-center">
+                <div class=" rounded-lg bg-[url('media/about.jpg')] bg-cover bg-center bg-no-repeat h-[75vh] w-full m-8"></div>
+            </div>
+            <div class="font-light  sm:text-lg">
+                <h1 class="mb-4 text-4xl font-extrabold">About us</h1>
+                <p class="mb-4">
+                    Surgipath Services (EA) Limited is a company that provides medical diagnostic and general laboratory services in the East Africa region.
+                    It started operations in 2004 with a share capital of Kshs. 2 million and a small workforce of four people, but has since grown to have a workforce of thirty employees. 
+                    The company values the quality of its products and services and considers it to be its core value and competitive edge in the market
+                </p>
+                <button class="primary-btn bg-[#208A7E]  px-10 py-2 rounded ">
+                    <a href="about.html" class="  rounded  text-gray-50 uppercase font-medium">Learn more</a>
+                 </button>
+            </div>
+        </div>
+        <div class="mission-statement grid grid-cols-1 lg:grid-cols-2 lg:h-full lg:h-[100vh] bg-[url('media/about.jpg')] bg-no-repeat bg-fixed bg-top bg-cover">
+            <div class="p-1  hidden lg:block lg:space-x-6 bg-white bg-[url('media/mission.jpg')] bg-no-repeat bg-fixed bg-top bg-cover "></div>
+            <div class="Mission bg-[#208A7E] py-10 p-5  group  space-x-6 flex flex-wrap justify-center items-center">
+                <div class="basis-full ">
+                    <h1 class="text-4xl font-extrabold ">Mission</h1>
+                    <p  class="mt-6">
+                        To provide quality diagnostics products and service to healthcare institutions to meet their requirements cost effectively
+                    </p>
+                </div>
+            </div>
+            <div class="vision py-10 p-5  group  lg:space-x-6 bg-[#1E1E24] text-[#F3F3F7] flex flex-wrap justify-center items-center">
+                <div class="basis-full">
+                    <h1 class="text-4xl font-extrabold ">Vision</h1>
+                    <p class="mt-6">
+                        To become the preferred diagnostics Company in East Africa
+                    </p>
+                </div>
+            </div>
+            <div class="p-1  hidden lg:block lg:space-x-6 bg-white bg-[url('media/mission.jpg')] bg-no-repeat bg-fixed bg-top bg-cover "></div>
+            <div class="p-1  hidden lg:block lg:space-x-6 bg-white bg-[url('media/mission.jpg')] bg-no-repeat bg-fixed bg-top bg-cover "></div>
+            <div class="vision py-10 p-5  group  lg:space-x-6 bg-[#273043] text-[#F3F3F7]  flex flex-wrap justify-center items-center">
+                <div class="basis-full">
+                    <h1 class="text-4xl font-extrabold ">Goal</h1>
+                    <p class="mt-6">
+                        Our long-term goal is to become the largest & preferred diagnostic company in the East African market and also extend the business to the Democratic republic of Congo (DRC), Ethiopia, Rwanda, Burundi and Eritrea
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="" id="services">
+        <div class=" p-5 flex items-center justify-between justify-center flex-wrap">
+            <div class="service-header py-5 p-2 lg:w-4/12">
+                <div >
+                    <h1 class="text-4xl font-extrabold ">Our services</h1>
+                </div>
+                <p class="pt-6">
+                    Surgipath is a leading supplier of surgical, laboratory, and medical products and equipment operating across East Africa.
+                </p>
+            </div>
+            <div class="services-container lg:w-8/12 flex justify-center items-center flex-wrap">
+                <div class="service-card m-2 block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow text-center bg-slate-100 rounded-lg p-2 flex flex-col justify-center items-center relative transition-duration-300 hover:bg-[#208A7E]">
+                    <img class=" w-28 h-28 p-5 "src="media/icons/chemistry.png" loading="lazy" alt="">
+                    <h2 class="text-2xl font-semibold">Settting up laboratories</h2>
+                    <p> 
+                        Surgipath offers comprehensive laboratory setup services to clients , trust in surgipath to provide a seamless and stress-free laboratory setup experience
+                    </p>
+                    <span class="number text-4xl font-extrabold absolute top-2 right-2 opacity-20">01</span>
+                </div>
+                <div class="service-card m-2 block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow text-center bg-slate-100 rounded-lg p-2 flex flex-col justify-center items-center relative transition-duration-300 hover:bg-[#208A7E]">
+                    <img class=" w-28 h-28 p-5 "src="media/icons/wrench.png" loading="lazy" alt="">
+                    <h2 class="text-2xl font-semibold">installation of laboratory equipment</h2>
+                    <p>
+                        Surgipath offers professional installation of laboratory equipment, ensuring efficient and accurate setup for optimal performance
+                    </p>
+                    <span class="number text-4xl font-extrabold absolute top-2 right-2 opacity-20">01</span>
+                </div>
+                <div class="service-card m-2 block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow text-center bg-slate-100 rounded-lg p-2 flex flex-col justify-center items-center relative transition-duration-300 hover:bg-[#208A7E]">
+                    <img class=" w-28 h-28 p-5 "src="media/icons/chemistry.png" loading="lazy" alt="">
+                    <h2 class="text-2xl font-semibold">Maintenance of  laboratories</h2>
+                    <p>Surgipath provides reliable maintenance services to ensure smooth and uninterrupted operation of laboratory equipment</p>
+                    <span class="number text-4xl font-extrabold absolute top-2 right-2 opacity-20">01</span>
+                </div>
+                <div class="service-card m-2 block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow text-center bg-slate-100 rounded-lg p-2 flex flex-col justify-center items-center relative transition-duration-300 hover:bg-[#208A7E]">
+                    <img class=" w-28 h-28 p-5 "src="media/icons/chemistry.png" loading="lazy" alt="">
+                    <h2 class="text-2xl font-semibold">After sale services</h2>
+                    <p>Surgipath offers exceptional after-sale support for all equipment and kits sold, ensuring customer satisfaction and optimal performance.</p>
+                    <span class="number text-4xl font-extrabold absolute top-2 right-2 opacity-20">01</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="partners">
+        <div class="flex p-3 bg-white bg-white bg-[url('media/mission.jpg')] bg-no-repeat bg-fixed bg-top bg-cover text-[#F3F3F7] z-50">
+            <div class="w-2/12 flex justify-center items-center z-50"><h2 class="font-semibold text-xl ">We work with the best</h2></div>
+            <div class="partners w-10/12 z-50" id="partners-slider">
+                <div class="p-5 m-2 flex justify-center"><img class="opacity-40 hover:opacity-100 grayscale transition-duration-300 hover:grayscale-0 h-36 w-max object-cover object-center"src="media/partnersLogo/das_logo_3.png" alt=""></div>
+                <div class="p-5 m-2 flex justify-center"><img class="opacity-40 hover:opacity-100 grayscale transition-duration-300 hover:grayscale-0 h-36 w-max object-contain" src="media/partnersLogo/DebenDiagnostics.jpg" alt=""></div>
+                <div class="p-5 m-2  flex justify-center"><img class=" opacity-40 hover:opacity-100 grayscale transition-duration-300 hover:grayscale-0 h-36 w-max object-cover object-center" src="media/partnersLogo/diasorin_logo.jpg" alt=""></div>
+                <div class="p-5 m-2 flex justify-center"><img class=" opacity-40 hover:opacity-100 grayscale transition-duration-300 hover:grayscale-0 h-36 w-max object-cover object-center" src="media/partnersLogo/hubdic.jpeg" alt=""></div>
+                <div class="p-5 m-2 flex justify-center"><img  class="opacity-40 hover:opacity-100 grayscale transition-duration-300 hover:grayscale-0 h-36 w-max object-cover object-center" src="media/partnersLogo/microbiologics-logo.svg" alt=""></div>
+                <div class="p-5 m-2 flex justify-center"><img  class="opacity-40 hover:opacity-100 grayscale transition-duration-300 hover:grayscale-0 h-36 w-max object-cover object-center" src="media/partnersLogo/remi.png" alt=""></div>
+                <div class="p-5 m-2 flex justify-center"><img class="opacity-40 hover:opacity-100 grayscale transition-duration-300 hover:grayscale-0 h-36 w-max object-cover object-center" src="media/partnersLogo/qiagen-logo.png" alt=""></div>
+            </div>
+        </div>
+        
+    </section>
+    <section id="catalogue">
+        <div class="catalogue min-h-screen p-10 ">
+            <h1 class="text-4xl font-extrabold">Our catalogue</h1>
+            <div class="flex justify-center items-center flex-wrap">
+                <div class="card max-w-sm min-w-[25vw] min-h- p-6 m-4 bg-white border border-gray-200 rounded-lg shadow ">
+                    <a href="#" class=" items-center flex justify-center w-full">
+                        <img class="rounded-t-lg w-28 h-28" src="media/icons/immunity.png" alt="" />
+                    </a>
+                    <div class="basis-full h-0"></div>
+                    <div class="p-5 text-center  w-full">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Immunology</h5>
+                        </a>
+                        <a href="#" class="inline-flex items-center text-[#1E1E24] hover:underline">
+                            View products
+                            <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </a>
+
+                    </div>
+                </div>
+                
+                <div class="card max-w-sm min-w-[25vw] p-6 m-4 bg-white border border-gray-200 rounded-lg shadow flex items-center flex-wrap justify-between text-center">
+                    <a href="#" class=" items-center flex justify-center w-full">
+                        <img class="rounded-t-lg w-28 h-28" src="media/icons/microbiology.png" alt="" />
+                    </a>
+                    <div class="basis-full h-0"></div>
+                    <div class="p-5 text-center  w-full">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">microbiology</h5>
+                        </a>
+                        <a href="#" class="inline-flex items-center text-[#1E1E24] hover:underline">
+                            View products
+                            <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="card max-w-sm min-w-[25vw] min-h- p-6 m-4 bg-white border border-gray-200 rounded-lg shadow flex items-center flex-wrap justify-between text-center">
+                    <a href="#" class=" items-center flex justify-center w-full">
+                        <img class="rounded-t-lg w-28 h-28" src="media/icons/heat-block.png" alt="" />
+                    </a>
+                    <div class="basis-full h-0"></div>
+                    <div class="p-5 text-center  w-full">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Elisa equipment</h5>
+                        </a>
+                        <a href="#" class="inline-flex items-center text-[#1E1E24] hover:underline">
+                            View products
+                            <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="card max-w-sm min-w-[25vw] p-6 m-4 bg-white border border-gray-200 rounded-lg shadow flex items-center flex-wrap justify-between text-center">
+                    <a href="#" class=" items-center flex justify-center w-full">
+                        <img class="rounded-t-lg w-28 h-28" src="media/icons/molecular.png" alt="" />
+                    </a>
+                    <div class="basis-full h-0"></div>
+                    <div class="p-5 text-center  w-full">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">molecular</h5>
+                        </a>
+                        <a href="#" class="inline-flex items-center text-[#1E1E24] hover:underline">
+                            View products
+                            <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="card max-w-sm min-w-[25vw] p-6 m-4 bg-white border border-gray-200 rounded-lg shadow flex items-center flex-wrap justify-between text-center">
+                    <a href="#" class=" items-center flex justify-center w-full">
+                        <img class="rounded-t-lg w-28 h-28" src="media/icons/microscope.png" alt="" />
+                    </a>
+                    <div class="basis-full h-0"></div>
+                    <div class="p-5 text-center  w-full">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Lab equipment</h5>
+                        </a>
+                        <a href="#" class="inline-flex items-center text-[#1E1E24] hover:underline">
+                            View products
+                            <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="card max-w-sm min-w-[25vw] p-6 m-4 bg-white border border-gray-200 rounded-lg shadow flex items-center flex-wrap justify-between text-center">
+                    <a href="#" class=" items-center flex justify-center w-full">
+                        <img class="rounded-t-lg w-28 h-28" src="media/icons/sugar-blood-level.png" alt="" />
+                    </a>
+                    <div class="basis-full h-0"></div>
+                    <div class="p-5 text-center  w-full">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Point of care</h5>
+                        </a>
+                        <a href="#" class="inline-flex items-center text-[#1E1E24] hover:underline">
+                            View products
+                            <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="card max-w-sm min-w-[25vw] p-6 m-4 bg-white border border-gray-200 rounded-lg shadow flex items-center flex-wrap justify-between text-center">
+                    <a href="#" class=" items-center flex justify-center w-full">
+                        <img class="rounded-t-lg w-28 h-28" src="media/icons/flask.png" alt="" />
+                    </a>
+                    <div class="basis-full h-0"></div>
+                    <div class="p-5 text-center  w-full">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Lab accessories</h5>
+                        </a>
+                        <a href="#" class="inline-flex items-center text-[#1E1E24] hover:underline">
+                            View products
+                            <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="card max-w-sm min-w-[25vw] p-6 m-4 bg-white border border-gray-200 rounded-lg shadow flex items-center flex-wrap justify-between text-center">
+                    <a href="#" class=" items-center flex justify-center w-full">
+                        <img class="rounded-t-lg w-28 h-28" src="media/icons/needle.png" alt="" />
+                    </a>
+                    <div class="basis-full h-0"></div>
+                    <div class="p-5 text-center  w-full">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Lab consumables</h5>
+                        </a>
+                        <a href="#" class="inline-flex items-center text-[#1E1E24] hover:underline">
+                            View products
+                            <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="card max-w-sm min-w-[25vw] p-6 m-4 bg-white border border-gray-200 rounded-lg shadow flex items-center flex-wrap justify-between text-center">
+                    <a href="#" class=" items-center flex justify-center w-full">
+                        <img class="rounded-t-lg w-28 h-28" src="media/icons/spirometry.png" alt="" />
+                    </a>
+                    <div class="basis-full h-0"></div>
+                    <div class="p-5 text-center  w-full">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Spirometry</h5>
+                        </a>
+                        <a href="#" class="inline-flex items-center text-[#1E1E24] hover:underline">
+                            View products
+                            <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class=" cardmax-w-sm min-w-[25vw] p-6 m-4 bg-white border border-gray-200 rounded-lg shadow flex items-center flex-wrap justify-between text-center">
+                    <a href="#" class=" items-center flex justify-center w-full">
+                        <img class="rounded-t-lg w-28 h-28" src="media/icons/blood-sample.png" alt="" />
+                    </a>
+                    <div class="basis-full h-0"></div>
+                    <div class="p-5 text-center  w-full">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Rapid tests</h5>
+                        </a>
+                        <a href="#" class="inline-flex items-center text-[#1E1E24] hover:underline">
+                            View products
+                            <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact bg-[url('media/contact.jpg')] bg-no-repeat h-[55vh] bg-cover bg-center flex justify-center flex-wrap items-center text-white">
+            <div class="text-center w-6/12 z-50">
+                <h2 class="text-4xl font-extrabold">Have any questions?</h2>
+                <p class="my-5">Contact us for any questions or concerns regarding our products. Our dedicated support team is available to assist you Monday to Friday, 9 AM to 5 PM</p>
+                <button class="primary-btn bg-[#208A7E]  px-10 py-2 rounded">
+                    <a href="contact.html" class="text-gray-50 uppercase font-medium whitespace-nowrap">Connect with us</a>
+                 </button>
+            </div>
+                
+
+        </div>
+    </section>
+    <footer class="relative bg-[#273043] text-[#F3F3F7] pt-8 pb-6 relative">
+        <div class="container mx-auto px-4">
+          <div class="flex flex-wrap text-left lg:text-left">
+            <div class="w-full lg:w-4/12 px-4">
+                <div class="nav-logo bg-white pt-10 mb-4 p-4 relative -top-8 ">
+                    <img src="media/surgipath-logo.png" alt="">
+                </div>
+                <a href="documents/iso-9001-2015.pdf" target="_blank">
+                    <img src="media/certification.png " class="w-72 p-5" alt="">
+                </a>
+              
+            </div>
+            <div class="w-full lg:w-2/12 px-4 ">
+                <h1 class="block uppercase text-gray-50 text-sm font-semibold mb-2 text-sm">Quick links</h1>
+                <ul class="list-unstyled">
+                  <li>
+                    <a class="text-gray-200 hover:text-blueGray-800 font-semibold block pb-2 text-lg" href="about.html">about</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-200 hover:text-blueGray-800 font-semibold block pb-2 text-lg" href="certicications.html">contact</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-200 hover:text-blueGray-800 font-semibold block pb-2 text-lg" href="catalogue.html">catalogue</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-200 hover:text-blueGray-800 font-semibold block pb-2 text-lg" href="download.html">downloads</a>
+                  </li>
+                </ul>
+              </div>
+            <div class="w-full lg:w-4/12 px-4 bg-gray">
+              <div class="flex flex-wrap items-top mb-6">
+                <div class="w-full lg:w-7/12 px-4 ml-auto  ">
+                  <h1 class=" block uppercase text-gray-50 text-sm font-semibold mb-2 text-sm">Address</h1>
+                      <div class="text-gray-200 block pb-2 text-lg">
+                        <p class="after:hidden">P.O. Box 10511-00200,</p>
+                        <p class="after:hidden">Nairobi,</p>
+                        <p class="country">Kenya</p>
+                      </div>
+                    
+                </div>
+                <div class="w-full lg:w-5/12 px-4 ">
+                  <h1 class="block uppercase text-gray-50 text-sm font-semibold mb-2 text-sm">Contact us</h1>
+                  <ul class="list-unstyled">
+                    
+                    <li>
+                        <a class="text-gray-200 hover:text-blueGray-800 font-semibold flex items-center flex-wrap pb-2 text-lg justify-between" href="https://goo.gl/maps/5NdJt6xVfyQx4mQR9"><i class="fa-solid fa-location-dot py-2 pr-1"></i>Alpha Centre Mombasa Rd, Godown No 70(A)</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-200 hover:text-blueGray-800 font-semibold flex items-center pb-2 text-lg" href="mailto:sales@surgipath.co.ke"><i class="fa-solid fa-envelope py-2 pr-2"></i>sales@surgipathealtd.co.ke</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-200 hover:text-blueGray-800 font-semibold flex items-center pb-2 text-lg" href="tel:+254-020-2252053"><i class="py-2 pr-2 fa-solid fa-phone"></i>+2540202252053</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-200 hover:text-blueGray-800 font-semibold block pb-2 text-lg" href="tel:+254-020-2243586">+254-020-2243586</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="my-6 border-[#FFF]">
+          <div class="flex flex-wrap items-center md:justify-between justify-center">
+            <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+              <div class="text-sm text-blueGray-500  py-1">
+                Copyright © <span id="get-current-year"></span> Surgipath (EA) Limited 
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="developer bg-[#1E1E24] text-[#F3F3F7] p-2 absolute w-[100%] text-center">
+            <p>Developed by <span>Ian Okova</span></p>
+        </div>
+      </footer>
+</body>
+</html>
+<script>const dateToday = new Date();
+    document.getElementById("get-current-year").innerHTML=dateToday.getFullYear()
+    //accordion</script>
+        <script>
+            $(document).ready(function () {
+                $("#partners-slider").owlCarousel({
+                    items: 3,
+                    itemsDesktop: [1000, 3],
+                    itemsDesktopSmall: [980, 2],
+                    itemsTablet: [768, 2],
+                    itemsMobile: [650, 1],
+                    pagination: false,
+                    navigation: false,
+                    slideSpeed: 100,
+                    autoPlay: true
+                });
+        });
+        </script>
