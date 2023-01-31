@@ -1,0 +1,65 @@
+[ 
+{ 
+    
+    "name": "iPhone 12 Pro Max",    
+    "category": "Electronics",    
+    "image": "media/products/liaison_xs.png",    
+    "description": "The iPhone 12 Pro Max is Apple's latest and greatest smartphone, featuring a stunning OLED display, powerful A14 Bionic chip, and improved camera system."  
+},  
+{    
+    "name": "Bose QuietComfort 35 II",
+    "category": "Electronics",    
+    "image": "https://example.com/bosequietcomfort35ii.jpg",    
+    "description": "The Bose QuietComfort 35 II are wireless over-ear headphones with active noise cancellation, making them perfect for work, travel, or just enjoying your music in peace." 
+ },  
+{    
+    "id":"1",
+    "name": "LIAISON® XS",    
+    "category": "immunology",    
+    "image": "media/products/liaison_xs.png",  
+    "manufacturer":"Diasorin",
+    "readMoreLink":"https://www.diasorin.com/en/immunodiagnostic-solutions/systems/clia-systems/liaison-xs",  
+    "downloadLink":"https://www.diasorin.com/sites/default/files/allegati/corp-other-005048_1_liaisonr_xs_system_brochure_low_res.pdf",
+    "description": "" 
+ },
+ {    
+    "id":"2",
+    "name": "LIAISON® XL",    
+    "category": "immunology",    
+    "image": "media/products/liaison-xl.jpg",  
+    "manufacturer":"diasorin",
+    "readMoreLink":"https://www.diasorin.com/en/immunodiagnostic-solutions/systems/clia-systems/liaisonr-xl",  
+    "downloadLink":"https://www.diasorin.com/sites/default/files/allegati/corp-other-005026_1_-_liaison_xl_assay_menu_low_res.pdf",
+    "description": "LIAISON XL is a fully automated chemiluminescence analyzer, performing complete sample processing (sample pre-dilutions, sample and reagent dispensing, incubations, wash processes, etc.) as well as measurement and evaluation." 
+ },
+ {    
+    "id":"3",
+    "name": "LIAISON®",    
+    "category": "immunology",    
+    "image": "media/products/liaison-analyser.jpg",  
+    "manufacturer":"Diasorin",
+    "readMoreLink":"https://www.diasorin.com/en/immunodiagnostic-solutions/systems/clia-systems/liaisonr",  
+    "downloadLink":"https://www.diasorin.com/sites/default/files/allegati/ese_brochure_liaison_m0870004124_07.19_pag_sing_0.pdf",
+    "description": "The LIAISON analyzer combines a flexible operating module with a broad menu of assays and leads to high efficiency due to its long walk-away time. The possibility to run up to 15 different assays at a time provides rational everyday testing even with a small number of sample" 
+ },
+ {   
+    "id":"",
+    "name": "",    
+    "category": "",    
+    "image": "media/products/",  
+    "manufacturer":"",
+    "readMoreLink":"",  
+    "downloadLink":"",
+    "description": "" 
+ },
+ {    
+    "id":"",
+    "name": "",    
+    "category": "",    
+    "image": "",  
+    "manufacturer":"",
+    "readMoreLink":"",  
+    "downloadLink":"",
+    "description": "" 
+ }
+]

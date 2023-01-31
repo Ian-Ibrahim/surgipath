@@ -1,0 +1,130 @@
+<form id="product-form">
+  <div class="form-group">
+    <label for="name">Product Name:</label>
+    <input type="text" class="form-control" id="name" required>
+  </div>
+  <div class="form-group">
+    <label for="category">Category:</label>
+    <input type="text" class="form-control" id="category" required>
+  </div>
+  <div class="form-group">
+    <label for="image">Image URL:</label>
+    <input type="text" class="form-control" id="image" required>
+  </div>
+  <div class="form-group">
+    <label for="download-link">Download Link:</label>
+    <textarea class="form-control" id="download-link" rows="3" required></textarea>
+  </div>
+  <div class="form-group">
+    <label for="read-more-link">read more Link:</label>
+    <textarea class="form-control" id="read-more-link" rows="3" required></textarea>
+  </div>
+  <div class="form-group">
+    <label for="description">Description:</label>
+    <textarea class="form-control" id="description" rows="3" required></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Add Product</button>
+</form>
+
+<script>
+  // Handle the form submit event
+  document.getElementById('product-form').addEventListener('submit', event => {
+    event.preventDefault();
+
+    // Get the form data
+    const name = document.getElementById('name').value;
+    const category = document.getElementById('category').value;
+    const image = document.getElementById('image').value;
+    const description = document.getElementById('description').value;
+    const readMoreLink = document.getElementById('read-more-link').value;
+    const downloadLink = document.getElementById('download-link').value;
+
+    // Send the new product data to the server
+    fetch('add-product.php', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        name,
+        category,
+        image,
+        description,
+        readMoreLink,
+        downloadLink
+      })
+    })
+      .then(response => response.json())
+      .then(data => {
+        if (data.success)
+// Show a success message
+alert('Product added successfully');
+
+// Clear the form
+document.getElementById('product-form').reset();
+} else {
+// Show an error message
+alert('Failed to add product');
+}
+});
+});
+</script>
+<form id="product-form">
+  <div class="form-group">
+    <label for="name">Product Name:</label>
+    <input type="text" class="form-control" id="name" required>
+  </div>
+  <div class="form-group">
+    <label for="category">Category:</label>
+    <input type="text" class="form-control" id="category" required>
+  </div>
+  <div class="form-group">
+    <label for="image">Image URL:</label>
+    <input type="text" class="form-control" id="image" required>
+  </div>
+  <div class="form-group">
+    <label for="description">Description:</label>
+    <textarea class="form-control" id="description" rows="3" required></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Add Product</button>
+</form>
+
+<script>
+  // Handle the form submit event
+  document.getElementById('product-form').addEventListener('submit', event => {
+    event.preventDefault();
+
+    // Get the form data
+    const name = document.getElementById('name').value;
+    const category = document.getElementById('category').value;
+    const image = document.getElementById('image').value;
+    const description = document.getElementById('description').value;
+
+    // Send the new product data to the server
+    fetch('add-product.php', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        name,
+        category,
+        image,
+        description
+      })
+    })
+      .then(response => response.json())
+      .then(data => {
+        if (data.success) {
+          // Show a success message
+          alert('Product added successfully');
+
+          // Clear the form
+          document.getElementById('product-form').reset();
+        } else {
+          // Show an error message
+          alert('Failed to add product');
+        }
+      });
+  });
+</script>
