@@ -24,6 +24,7 @@
         *:hover{
             transition-duration: 300ms;
         }
+        
         .number{
             font-family: 'Bungee Outline', cursive;
         }
@@ -302,6 +303,15 @@
             const productImage = document.getElementById('product-image');
             productImage.src = selectedProduct.image;
 
+            const productReadMore = document.getElementById('read-more');
+            productReadMore.href = selectedProduct.readMoreLink;
+            if(selectedProduct.downloadLink!=""){
+            const productDownloadBtnBtn = document.getElementById('download-brochure');
+            productDownloadBtnBtn.href = selectedProduct.downloadLink;
+            productDownloadBtnBtn.innerText="Download brochure";
+            }
+            
+
             var category=selectedProduct.category;
             var result = "";
             for (var i = 0; i < category.length; i++) {
@@ -344,7 +354,7 @@
                         const otherProductItem = document.createElement('div');
                         otherProductItem.innerHTML = `
                         
-                        <div  onclick="openProductPage('${otherProduct.id}')" class="card max-w-sm min-w-[15vw] max-h-[50vh] m-2 text-center bg-white border border-gray-200 rounded-lg shadow "  > 
+                        <div  onclick="openProductPage('${otherProduct.id}')" class="card w-[15em] max-h-[50vh] m-2 text-center bg-white border border-gray-200 rounded-lg shadow "  > 
                             <div class="p-5">
                             <a href="#">
                                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-[#1E1E24] ">${otherProduct.name}</h5>
@@ -371,7 +381,7 @@
     </script>
     <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6 ">
         <div class="flex items-center justify-center">
-            <img class="w-96 h-96" id="product-image">
+            <img class="w-96 h-96 object-contain object-center" id="product-image">
         </div>
         
         <div class="font-light pt-6       sm:text-lg">
@@ -380,20 +390,18 @@
                 ${product.description}
             </p>
             <button class="primary-btn bg-[#208A7E] text-center  px-10 py-2 rounded ">
-                <a href="${product.readMoreLink}" target="_blank" class=" inline-flex items-center text-white">
+                <a href="#" id="read-more" target="_blank" class=" inline-flex items-center text-white">
                     Read more
                     <svg class="w-5 h-5 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path></svg>
                 </a>
             </button>
             <br>
-            <a href="${product.downloadLink}" target="_blank" class=" inline-flex items-center px-2 py-2  mt-2 hover:underline">
-                    Download brochure
-            </a>
+            <a href="#" target="_blank" id="download-brochure"class=" inline-flex items-center px-2 py-2  mt-2 hover:underline">    </a>
         </div>
     </div>
     <section class="p-10">
         <h1 class="text-4xl font-extrabold " id="categoryName">Other products in <span id="category-name"></span></h1>
-        <div class="flex flex-wrap -mx-3  flex justify-between flex-wrap  my-2" id="other-products-list">
+        <div class="flex flex-wrap -mx-3  flex  items-center lg:items-start flex-wrap  my-2" id="other-products-list">
         </div>
     </section>
     <footer class="relative bg-[#273043] text-[#F3F3F7] pt-8 pb-6 relative">
