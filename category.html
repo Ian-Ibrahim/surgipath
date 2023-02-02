@@ -320,7 +320,7 @@
                                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-[#1E1E24] ">${product.name}</h5>
                             </a>
                             <a href="#" class="bg-blue-500 w-full">
-                                <img class="rounded-t-lg w-full max-h-72 p-6 object-center object-contain" src="${product.image}" alt="${product.name}" />
+                                <img class="rounded-t-lg w-full max-h-64 p-6 object-center object-contain" src="${product.image}" alt="${product.name}" />
                             </a>
                             <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center  rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300">
                                 Find out more
@@ -368,12 +368,7 @@
             }
             };
         </script>
-        <script>
-            function openProductPage(productId) {
 
-              window.location.href = `product.html?productId=${productId}`;
-            }
-          </script>
     </section>
     <footer class="relative bg-[#273043] text-[#F3F3F7] pt-8 pb-6 relative">
         <div class="container mx-auto px-4">
@@ -452,21 +447,4 @@
 </body>
 </html>
 <script src="app.js"></script>
-<script>const dateToday = new Date();
-    document.getElementById("get-current-year").innerHTML=dateToday.getFullYear()
-    //accordion</script>
-        <script>
-            $(document).ready(function () {
-                $("#partners-slider").owlCarousel({
-                    items: 3,
-                    itemsDesktop: [1000, 3],
-                    itemsDesktopSmall: [980, 2],
-                    itemsTablet: [768, 2],
-                    itemsMobile: [650, 1],
-                    pagination: false,
-                    navigation: false,
-                    slideSpeed: 100,
-                    autoPlay: true
-                });
-        });
-</script>
+

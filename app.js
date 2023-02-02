@@ -17,3 +17,7 @@ $(document).ready(function () {
         autoPlay: true
     });
 });
+function openProductPage(productId) {
+
+    window.location.href = `product.html?productId=${productId}`;
+  }
