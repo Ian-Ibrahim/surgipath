@@ -1,17 +1,4 @@
-[ 
-{ 
-    
-    "name": "iPhone 12 Pro Max",    
-    "category": "Electronics",    
-    "image": "media/products/liaison_xs.png",    
-    "description": "The iPhone 12 Pro Max is Apple's latest and greatest smartphone, featuring a stunning OLED display, powerful A14 Bionic chip, and improved camera system."  
-},  
-{    
-    "name": "Bose QuietComfort 35 II",
-    "category": "Electronics",    
-    "image": "https://example.com/bosequietcomfort35ii.jpg",    
-    "description": "The Bose QuietComfort 35 II are wireless over-ear headphones with active noise cancellation, making them perfect for work, travel, or just enjoying your music in peace." 
- },  
+[  
 {    
     "id":"1",
     "name": "LIAISON® XS",    
@@ -42,24 +29,884 @@
     "downloadLink":"https://www.diasorin.com/sites/default/files/allegati/ese_brochure_liaison_m0870004124_07.19_pag_sing_0.pdf",
     "description": "The LIAISON analyzer combines a flexible operating module with a broad menu of assays and leads to high efficiency due to its long walk-away time. The possibility to run up to 15 different assays at a time provides rational everyday testing even with a small number of sample" 
  },
- {   
-    "id":"",
-    "name": "",    
-    "category": "",    
-    "image": "media/products/",  
-    "manufacturer":"",
-    "readMoreLink":"",  
-    "downloadLink":"",
-    "description": "" 
- },
  {    
-    "id":"",
-    "name": "",    
-    "category": "",    
-    "image": "",  
-    "manufacturer":"",
-    "readMoreLink":"",  
+   "id":"41",
+   "name": "Etimax 300",    
+   "category": "immunology",    
+   "image": "media/products/eti-max.jpg",  
+   "manufacturer":"Diasorin",
+   "readMoreLink":"https://www.diasorin.com/en/immunodiagnostic-solutions/systems/elisa-systems/eti-max-3000",  
+   "downloadLink":"https://www.diasorin.com/sites/default/files/allegati/corp-other-005042_1_eti-max_3000_brochure_low_res.pdf",
+   "description": "The Etimax 3000 is a fully automated microtiter plate analyzer performing the complete sample processing (sample pre-dilutions, sample and reagent dispensing, incubations, wash processes, plate transports) as well as the photometric measurement and evaluation." 
+},
+ {   
+    "id":"4",
+    "name": "ELISA reader",    
+    "category": "elisaEquipment",    
+    "image": "media/products/elisaStripReader.jpg",  
+    "manufacturer":"DAS",
+    "readMoreLink":"https://www.dasitaly.com/en/products/?prod_name=reader",  
+    "downloadLink":"https://dasitaly.com/wp-content/uploads/2019/11/Brochure-Stand-Alone_NEW.pdf",
+    "description": "PLATE READER is an eight channel photometer for sequential and simultaneous reading of micro-plate strips with 96 wells. Designed according to the most sophisticated technologies it turns out to be of top quality and reliability, as well as of high precision and simple to use.STRIP READER is an one channel photometer able to read strips with 8/12 wells or part of them. Mono and bi-chromatic reading system. Designed according to the most sophisticated technologies it turns out to be of top quality and reliability, as well as high precision." 
+ },
+ {   
+    "id":"5",
+    "name": "ELISA washer",    
+    "category": "elisaEquipment",    
+    "image": "media/products/elisaWasher.jpg",  
+    "manufacturer":"DAS",
+    "readMoreLink":"https://www.dasitaly.com/en/data_plate-washer/",  
+    "downloadLink":"https://dasitaly.com/wp-content/uploads/2019/11/Brochure-Stand-Alone_NEW.pdf",
+    "description": "Plate washer is an automated washer for micro-plates with 96 wells. Original and versatile aspirate and dispense system: less than 3 µl of residue washing liquid. The software powerful and versatile, is able to manage and memorize as much as 100 washing programs. Programmable incubation capability. In combination with the Plate Reader it turns out to be a complete work station for the washing and reading of ELISA tests. The software allows the operator to execute any washing cycle; parameters setting through keyboard and display." 
+ },
+ {   
+   "id":"6",
+   "name": "HemoCue® HbA1c 501",    
+   "category": "POC",    
+   "image": "media/products/HbA1c500.png",  
+   "manufacturer":"HemoCue® ",
+   "readMoreLink":"https://www.hemocue.com/en/solutions/diabetes/hemocue-hba1c-501-system",  
+   "downloadLink":"",
+   "description": "It is used for early detection of microalbuminuria and ideal within diabetes are and hypertension treatment." 
+},
+{   
+   "id":"7",
+   "name": "HemoCue® Glucose 201+ System",    
+   "category": "POC",    
+   "image": "media/products/glucose201+.png",  
+   "manufacturer":"HemoCue®",
+   "readMoreLink":"https://www.hemocue.com/en/solutions/diabetes/hemocue-glucose-201plus-system",  
+   "downloadLink":"",
+   "description": "It measures blood glucose levels in the diabetes management. The unique microcuvette technology gives high accuracy and reduces contamination risks" 
+},
+{   
+   "id":"8",
+   "name": "HemoCue® Glucose 201 RT System",    
+   "category": "POC",    
+   "image": "media/products/glucose201RT.png",  
+   "manufacturer":"HemoCue®",
+   "readMoreLink":"https://www.hemocue.com/en/solutions/diabetes/hemocue-glucose-201-rt-system",  
+   "downloadLink":"",
+   "description": "It is portable and a battery-operated system with room temperature microcuvette storage." 
+},
+{   
+   "id":"9",
+   "name": "HemoCue® Glucose 201 DM System",    
+   "category": "POC",    
+   "image": "media/products/glucose201DM.png",  
+   "manufacturer":"HemoCue®",
+   "readMoreLink":"",  
+   "downloadLink":"https://www.hemocue.com/en/solutions/diabetes/hemocue-glucose-201-dm-system",
+   "description": "It measures blood glucose levels in the diabetes management. With data management you gain higher efficiency and optimized workflow" 
+},
+{   
+   "id":"10",
+   "name": "HemoCue® Glucose 201 DM RT System",    
+   "category": "POC",    
+   "image": "media/products/glucoseDM-RT.png",  
+   "manufacturer":"HemoCue®",
+   "readMoreLink":"https://www.hemocue.com/en/solutions/diabetes/hemocue-glucose-201-dm-rt-system",  
+   "downloadLink":"",
+   "description": "It is portable and a battery-operated system with room temperature microcuvette storage." 
+},
+{   
+   "id":"11",
+   "name": "HemoCue® Albumin 201 System",    
+   "category": "POC",    
+   "image": "media/products/albumin201.png",  
+   "manufacturer":"HemoCue®",
+   "readMoreLink":"https://www.hemocue.com/en/solutions/diabetes/hemocue-albumin-201-system",  
+   "downloadLink":"",
+   "description": "It is used for early detection of microalbuminuria and ideal within diabetes are and hypertension treatment." 
+},
+ {   
+    "id":"12",
+    "name": "Blood Pressure Monitor (Arm)-HBP-1520",    
+    "category": "POC",    
+    "image": "media/products/armBloodPressureMonitor.png",  
+    "manufacturer":"Hubdic",
+    "readMoreLink":"http://www.hubdic.com/product/?mod=document&pageid=1&kboard_search_option%5Btree_category_1%5D%5Bkey%5D=tree_category_1&kboard_search_option%5Btree_category_1%5D%5Bvalue%5D=Blood+Pressure+Monitor&uid=136",  
     "downloadLink":"",
-    "description": "" 
- }
+    "description": "Blood pressure monitors advance accuracy with smart pulse technology,arrhythmia detection,pulse rate,systolic & diastolic blood pressure, Inflating detection, 250 records" 
+ },
+ {   
+    "id":"13",
+    "name": "Blood Pressure Monitor (Wrist)-HBP-700",    
+    "category": "POC",    
+    "image": "media/products/wristPressureMonitor.png",  
+    "manufacturer":"Hubdic",
+    "readMoreLink":"http://www.hubdic.com/product/?mod=document&pageid=1&kboard_search_option%5Btree_category_1%5D%5Bkey%5D=tree_category_1&kboard_search_option%5Btree_category_1%5D%5Bvalue%5D=Blood+Pressure+Monitor&uid=137",  
+    "downloadLink":"",
+    "description": "Blood pressure monitors: 3rd technology: Measuring during inflation, systolic and diastolic blood pressure, pulse rate, Inlating detection, 60 records and a rechargeble battery" 
+ },
+ {   
+   "id":"14",
+   "name": "Diabetes management",    
+   "category": "POC",    
+   "image": "media/products/bloodGlucoseMonitor.png",  
+   "manufacturer":"",
+   "readMoreLink":"http://www.hubdic.com/product/?mod=document&pageid=1&kboard_search_option%5Btree_category_1%5D%5Bkey%5D=tree_category_1&kboard_search_option%5Btree_category_1%5D%5Bvalue%5D=Blood+Glucose+Meter&uid=126",  
+   "downloadLink":"",
+   "description": "Model-GM500 has an automatic coding system, with fast measuringin 5 seconds using a small amount of blood sample-(0.5 micro-litre) in 3 simple steps. It also has large memory with averaging 300 test results" 
+},
+{   
+   "id":"15",
+   "name": "FS-700pro Non-Contact IR Thermometer",    
+   "category": "POC",    
+   "image": "media/products/FS-700pro.png",  
+   "manufacturer":"Hubdic",
+   "readMoreLink":"http://www.hubdic.com/product/?mod=document&pageid=1&kboard_search_option%5Btree_category_1%5D%5Bkey%5D=tree_category_1&kboard_search_option%5Btree_category_1%5D%5Bvalue%5D=Thermometer&uid=146",  
+   "downloadLink":"",
+   "description": "It is Comfortable and Easy use,Fever Alarm,User Friendly Functions (Auto Off 1 minute,Cent/Fernh Conversion, 32 Memories, Sound On/Off" 
+},
+{   
+   "id":"16",
+   "name": "Non-Contact IR Thermometer-FS-300",    
+   "category": "POC",    
+   "image": "media/products/fs-300.png",  
+   "manufacturer":"Hubdic",
+   "readMoreLink":"http://www.hubdic.com/product/?pageid=1&mod=document&kboard_search_option%5Btree_category_1%5D%5Bkey%5D=tree_category_1&kboard_search_option%5Btree_category_1%5D%5Bvalue%5D=Thermometer&uid=147",  
+   "downloadLink":"",
+   "description": "No Contact, No Virus,LED Back Light, 32 Memories, Pocket Size" 
+},
+{   
+   "id":"17",
+   "name": "Infrared Forehead Thermometer-FS-201",    
+   "category": "POC",    
+   "image": "media/products/FS-201.png",  
+   "manufacturer":"Huddic",
+   "readMoreLink":"http://www.hubdic.com/product/?pageid=1&mod=document&kboard_search_option%5Btree_category_1%5D%5Bkey%5D=tree_category_1&kboard_search_option%5Btree_category_1%5D%5Bvalue%5D=Thermometer&uid=148",  
+   "downloadLink":"",
+   "description": "Forehead thermometer,  Wide Measurement,   Indoor Temperature,   Indoor Humidity " 
+},
+{   
+   "id":"18",
+   "name": "Volumetric glassware",    
+   "category": "glassware",    
+   "image": "media/products/volumetric-flask.jpg",  
+   "manufacturer":"Scharlau",
+   "readMoreLink":"https://scharlab.com/productos-producto-detalle.php?c=45&pd=61",  
+   "downloadLink":"",
+   "description": "In line with Scharlab’s philosophy, all Scharlau volumetric glassware products are manufactured following the highest quality in compliance with applicable European (EN) and international (ISO) standards. Statistical process control (SPC) helps us to obtain the smallest possible deviation from the nominal value (precision) and at the same time the minimum dispersion of individual results (coefficient of variation). We have established an exhaustive quality control schedule to determine the quality of the blowing work, maximizing the absence of imperfection in the glass piece, regarding aesthetical, functional, and dimensional according to UNE-EN ISO 4787" 
+},
+{   
+   "id":"19",
+   "name": "Volumetric flask with coloured neck ",    
+   "category": "glassware",    
+   "image": "media/products/colored-neck-volumetric-flask.jpg",  
+   "manufacturer":"Scharlau",
+   "readMoreLink":"https://scharlab.com/productos-producto-detalle.php?c=45&pd=74",  
+   "downloadLink":"",
+   "description": "Scharlab has designed volumetric flasks from 10 ml up to 1000 ml with a coloured neck to avoid mistakes in the laboratory and cross-contamination of samples.It has Acid, base and solvent resistant screen printing and are available in four colors red,blue,green and yellow" 
+},
+{   
+   "id":"20",
+   "name": "Moulded Glassware",    
+   "category": "glassware",    
+   "image": "media/products/moulded-glassware.jpg",  
+   "manufacturer":"Scharlau",
+   "readMoreLink":"https://scharlab.com/productos-producto-detalle.php?c=45&pd=60",  
+   "downloadLink":"",
+   "description": "In order to meet the increasing quality assurance requirements and standards, all our Scharlau laboratory bottles, beakers and Erlenmeyer flasks are provided with a retrace code.This retrace code consists of a 9-digit batch code that allows the products to be retraced to the production point and the matching batch which is very important in medicine, and the pharmaceutical and food industries where traceability of primary packaging and auxiliary materials are necessary.For convenience, these products also have a double graduated scale to indicate approximate content." 
+},
+{   
+   "id":"21",
+   "name": "Ground Joint Glassware",    
+   "category": "glassware",    
+   "image": "media/products/ground-joint.png",  
+   "manufacturer":"Scharlau",
+   "readMoreLink":"https://scharlab.com/productos-producto-detalle.php?c=45&pd=62",  
+   "downloadLink":"",
+   "description": " The Scharlau range of ground joint instruments includes conical joints, stopcocks, ground joint flasks, separating and dropping funnels as well as a large range of ground joint components. All our glass components for blowing, such as frosted, glass and PTFE keys, threaded tubes and olives of the highest quality and DURAN brand, which is critical for us to keep a high-quality standard in our finished products. Tubes are blown by highly skilled glass blowers to ensure the exact shape and dimensions are in accordance with international standards or customer requirements. All our staff have extensive experience in handling glassware." 
+},
+{   
+   "id":"22",
+   "name": "Pipette",    
+   "category": "labAccessories",    
+   "image": "media/products/pipette.png",  
+   "manufacturer":"Cypress",
+   "readMoreLink":"https://diagnostics.be/product/ps01000",  
+   "downloadLink":"",
+   "description": "CYANPipette 100 - 1000 µl provides precision equipment for laboratories. As liquid handling forms the input for many diagnoses, precision in pipetting is one of the most important factors in achieving a higher level of quality." 
+},
+{   
+   "id":"23",
+   "name": " Deep Well Storage Plates- 96 wells",    
+   "category": "labAccessories",    
+   "image": "media/products/96-wells.jpg",  
+   "manufacturer":"Tarsons",
+   "readMoreLink":"https://tarsons.com/product/deep-well-storage-plates-96-wells/",  
+   "downloadLink":"",
+   "description": "These deep well polypropylene plates are specially designed for high throughput screening, sample collection, compound storage, compound libraries, and combinatorial chemistry applications. Certified DNase,RNase and Pyrogen Free. Material: PP confirming to US FDA 21 CFR" 
+},
+{   
+   "id":"24",
+   "name": "Maxiamp 0.1 ml Low Profile Tube Strips with Cap",    
+   "category": "labAccessories",    
+   "image": "media/products/Maxiamp-0.1-ml-Low-Profile-Tube-Strips-with-Cap.jpg",  
+   "manufacturer":"Tarsons",
+   "readMoreLink":"https://tarsons.com/product/maxiamp-0-1-ml-low-profile-tube-strips-with-cap/",  
+   "downloadLink":"",
+   "description": "Available in 0.1 ml clear tubes, with a choice of flat,domed and ultra clear cap types. Suitable for 0.1 ml thermal blocks.Only Ultra Clear variety suitable for REAL TIME PCR Low profile reduces dead space between heated lid and sample. Thin  wall design for even heat transfer. Clean room production for consistent results. High quality amplification. Suitable for traditional PCR/ Hot start PCR. Material:PP" 
+},
+{   
+   "id":"25",
+   "name": "Maxiamp 0.2 ml Tube Strips with Attached Cap",    
+   "category": "labAccessories",    
+   "image": "media/products/Maxiamp-0.2 ml-Tube-Strips-with-Attached-Cap.jpg",  
+   "manufacturer":"Tarsons",
+   "readMoreLink":"https://tarsons.com/product/maxiamp-0-2-ml-tube-strips-with-attached-cap/",  
+   "downloadLink":"",
+   "description": "8 tube strips available in 0.2 ml clear or white tubes. Available in Ultra 8 tube strips available in 0.2 ml clear or white tubes. Available in Ultra Clear cap variety only. Maxiamp 0.2 ml tube strips are suitable for REAL TIME PCR applications. Thin wall design for even heat transfer.Clean room production for consistent results. High quality amplification.Suitable for tradition a I PCR/ Hot start PCR.RNase/DNase/ pyrogen free. Material : PP cap variety only.Maxiamp 0.2 ml tube strips are suitable for REAL TIME PCR applications.Thin wall design for even heat transfer.Clean room production for consistent results. High quality amplification.Suitable for traditional PCR/ Hot start PCR. RNase/DNase/ pyrogen free. Material : PP" 
+},
+{    
+    "id":"26",
+    "name": "SURE CHECK® HIV Self-Test",    
+    "category": "rapidTests",    
+    "image": "media/products/sure-check-hiv-self-test.png",  
+    "manufacturer":"Chembio diagnostics Inc.",
+    "readMoreLink":"https://chembio.com/products/sure-check-hiv-self-test-international/",  
+    "downloadLink":"",
+    "description": "One Drop of Blood is All You Need. A WHO Prequalified single-use in-vitro diagnostic self-test that detects antibodies to HIV-1 and HIV-2 in fingerstick whole blood." 
+},
+{    
+    "id":"27",
+    "name": "DPP® HIV 1/2 Assay",    
+    "category": "rapidTests",    
+    "image": "media/products/HIV-1-2-Assay.png",  
+    "manufacturer":"Chembio diagnostics Inc.",
+    "readMoreLink":"https://chembio.com/products/sure-check-hiv-1-2-assay-international/",  
+    "downloadLink":"",
+    "description": "A WHO Prequalified, rapid point-of-care test that detects antibodies to HIV-1 and HIV-2 .It works with Oral Fluid and Blood" 
+},
+{    
+    "id":"28",
+    "name": "SURE CHECK® HIV 1/2 Assay",    
+    "category": "rapidTests",    
+    "image": "media/products/sure-check-hiv-self-test.png",  
+    "manufacturer":"Chembio diagnostics Inc.",
+    "readMoreLink":"https://chembio.com/products/dpp-hiv-12-assay-international/",  
+    "downloadLink":"",
+    "description": "One Drop of Blood is All You Need.A WHO Prequalified rapid point-of-care test that detects antibodies to HIV-1 and HIV-2 in fingerstick whole blood, venous whole blood, serum and plasma specimens." 
+},
+{    
+   "id":"29",
+   "name": "Capilia™ Flu Neo",    
+   "category": "rapidTests",    
+   "image": "media/products/Capilia-flu-neo.png",  
+   "manufacturer":"Tauns",
+   "readMoreLink":"https://www.tauns.co.jp/en/product/capilia-flu-neo/",  
+   "downloadLink":"https://www.tauns.co.jp/en/wp-content/uploads/2021/08/capilia_flu-neo_brochure_2011a.pdf",
+   "description": "Rapid test for detecting RS virus antigen.Adopting the latest nanotechnology, “Platinum-Gold Colloid” it has an easy to read black line. It has achieved reading times of between 3 to 5 minutes. 1 sample can be used for 4 types of tests (Flu, Adeno, RSV, hMPV) at once." 
+},
+{    
+   "id":"30",
+   "name": "Capilia™ Adeno Neo",    
+   "category": "rapidTests",    
+   "image": "media/products/Capilia-adeno-neo.png",  
+   "manufacturer":"Tauns",
+   "readMoreLink":"https://www.tauns.co.jp/en/product/capilia-adeno-neo/",  
+   "downloadLink":"https://www.tauns.co.jp/en/wp-content/uploads/2021/08/capilia_adeno.neo_Brochure_2007A.pdf",
+   "description": "Rapid test for detecting RS virus antigen.Adopting the latest nanotechnology, “Platinum-Gold Colloid” it has an easy to read black line. It has achieved reading times of between 3 to 5 minutes. 1 sample can be used for 4 types of tests (Flu, Adeno, RSV, hMPV) at once." 
+},
+{    
+   "id":"31",
+   "name": "Capilia™ RSV Neo",    
+   "category": "rapidTests",    
+   "image": "media/products/Capilia-rsv-neo.png",  
+   "manufacturer":"Tauns",
+   "readMoreLink":"https://www.tauns.co.jp/en/product/capilia-rsv-neo/",  
+   "downloadLink":"https://www.tauns.co.jp/en/wp-content/uploads/2021/08/capilia_rsv_neo_packageinsert_c61.pdf",
+   "description": "Rapid test for detecting RS virus antigen.Adopting the latest nanotechnology, “Platinum-Gold Colloid” it has an easy to read black line. It has achieved reading times of between 3 to 5 minutes. 1 sample can be used for 4 types of tests (Flu, Adeno, RSV, hMPV) at once." 
+},
+{    
+   "id":"32",
+   "name": "Capilia™ hMPV",    
+   "category": "rapidTests",    
+   "image": "media/products/Capilia-hMPV.png",  
+   "manufacturer":"Tauns",
+   "readMoreLink":"https://www.tauns.co.jp/en/product/capilia-hmpv/",  
+   "downloadLink":"https://www.tauns.co.jp/en/wp-content/uploads/2021/08/capilia_hmpv_packageinsert_c31.pdf",
+   "description": "Rapid test for detecting Human Metapneumovirus (hMPV) antigen.Adopting the latest nanotechnology, “Platinum-Gold Colloid” it has an easy to read black line. It has achieved reading times of between 3 to 5 minutes. 1 sample can be used for 4 types of tests (Flu, Adeno, RSV, hMPV) at once." 
+},
+{    
+   "id":"33",
+   "name": "Capilia™ TB-Neo",    
+   "category": "rapidTests",    
+   "image": "media/products/Capilia-TB-neo.png",  
+   "manufacturer":"Tauns",
+   "readMoreLink":"https://www.tauns.co.jp/en/product/capilia-tb-neo/",  
+   "downloadLink":"https://www.tauns.co.jp/en/wp-content/uploads/2022/06/capilia_tb-neo_packageinsert_c82.pdf",
+   "description": "Rapid test for identification of M.tuberculosis complex by Detecting MPB 64 protein, specifically produced by M.tuberculosis complex. It has Extremely high specificity to M.tuberculosis complex. It can also use both solid and liquid mediums as samples but for solid mediums, CapiliaTM TB-Neo Extraction Buffer (sold separately) is required.Achieving reading time is 15 min. No special equipment is required." 
+},
+{    
+   "id":"34",
+   "name": "Capilia™ Strep A",    
+   "category": "rapidTests",    
+   "image": "media/products/Capilia-strep-a.png",  
+   "manufacturer":"Tauns",
+   "readMoreLink":"https://www.tauns.co.jp/en/product/capilia-strep-a/",  
+   "downloadLink":"https://www.tauns.co.jp/en/wp-content/uploads/2021/08/capilia_strep_a_packageinsert_c41.pdf",
+   "description": " A rapid test for detecting group A beta-hemolytic streptococcal antigen with Easy to read Black Line-Adopting the latest nanotechnology, “Platinum-Gold Colloid”,fast test results achiving 5 min reading time." 
+},
+{    
+   "id":"35",
+   "name": "Capilia™ Mycoplasma",    
+   "category": "rapidTests",    
+   "image": "media/products/Capilia-mycoplasma.png",  
+   "manufacturer":"Tauns",
+   "readMoreLink":"https://www.tauns.co.jp/en/product/capilia-mycoplasma/",  
+   "downloadLink":"https://www.tauns.co.jp/en/wp-content/uploads/2021/08/capilia_mycoplasma_Brochure_2007A.pdf",
+   "description": " A rapid test for detecting Mycoplasma pneumoniae antigen with Easy to read Black Line ,fast test results (5-15min).Kit contents: Test Plate×10, Extraction Buffer 0.45mL×10, Nozzle×10, Pharyngeal Swab×10" 
+},
+{    
+   "id":"36",
+   "name": "gastroenterology Rapid Tests",    
+   "category": "rapidTests",    
+   "image": "media/products/",  
+   "manufacturer":"Biolife Italiana",
+   "readMoreLink":"https://www.masciabrunelli.it/prodotti.asp?id1=04&id2=401&UseLng=en",  
+   "downloadLink":"",
+   "description": "" 
+},
+{    
+   "id":"37",
+   "name": "Respiratory Rapid Tests",    
+   "category": "rapidTests",    
+   "image": "media/products/",  
+   "manufacturer":"Biolife Italiana",
+   "readMoreLink":"https://www.masciabrunelli.it/prodotti.asp?id1=04&id2=402&UseLng=en",  
+   "downloadLink":"",
+   "description": "" 
+},
+{    
+   "id":"38",
+   "name": "Sexually Transmitted Diseases Rapid Tests",    
+   "category": "rapidTests",    
+   "image": "media/products/",  
+   "manufacturer":"Biolife Italiana",
+   "readMoreLink":"https://www.masciabrunelli.it/prodotti.asp?id1=04&id2=403&UseLng=en",  
+   "downloadLink":"",
+   "description": "" 
+},
+{    
+   "id":"39",
+   "name": "Parasitology Rapid Tests",    
+   "category": "rapidTests",    
+   "image": "media/products/",  
+   "manufacturer":"Biolife Italiana",
+   "readMoreLink":"https://www.masciabrunelli.it/prodotti.asp?id1=04&id2=404&UseLng=en",  
+   "downloadLink":"",
+   "description": "" 
+},
+{    
+   "id":"40",
+   "name": "Positive Rapid Tests",    
+   "category": "rapidTests",    
+   "image": "media/products/",  
+   "manufacturer":"Biolife Italiana",
+   "readMoreLink":"https://www.masciabrunelli.it/prodotti.asp?id1=04&id2=406&UseLng=en",  
+   "downloadLink":"",
+   "description": "" 
+},
+{    
+   "id":"41",
+   "name": "Spirometers",    
+   "category": "spirometry",    
+   "image": "media/products/spirometers.png",  
+   "manufacturer":"Vitalograph",
+   "readMoreLink":"https://vitalograph.com/product-category/spirometers/",  
+   "downloadLink":"",
+   "description": "Choose from our range of desktop, handheld or PC-based spirometers.When you register a qualifying Vitalograph device for our 5 year warranty, we will provide one free enrolment to device specific training on SpiroTutor. Upon successful completion, a manufacturer’s training certificate is issued. With products such as pneumotrac with RMS, pneumotrac spirometer with spirotrac  6 software, Alpha spirometer, in2itive spirometer,int2itive spriometer with spirotrac software, micro Spirometer, Spirotrac 6 software, Spirotrac software development kit." 
+},
+{    
+   "id":"42",
+   "name": "Monitors and Screeners",    
+   "category": "spirometry",    
+   "image": "media/products/monitors.png",  
+   "manufacturer":"Vitalograph",
+   "readMoreLink":"https://vitalograph.com/product-category/monitors-screeners/",  
+   "downloadLink":"",
+   "description": "Choose from our range of asthma monitors, COPD Screener, lung monitors, peak flow meters. With products such as asma-1 Asthma monitor, copd-6 Screener, myPEF, peak flow meter asmaplan standard, lung monitor" 
+},
+{    
+   "id":"43",
+   "name": "ECG",    
+   "category": "spirometry",    
+   "image": "media/products/ecg.png",  
+   "manufacturer":"Vitalograph",
+   "readMoreLink":"https://vitalograph.com/product-category/ecg/",  
+   "downloadLink":"",
+   "description": "Our ECG device comes with 5 year warranty and SpiroTutor® training. With products such as 12 Lead Bt ECG, disposable ECG electrodes, BT12 ECG device with spirotrac 6 software" 
+},
+{    
+   "id":"44",
+   "name": "Nose clips with foam pads(200)",    
+   "category": "spirometry",    
+   "image": "media/products/nose-clips.png",  
+   "manufacturer":"Vitalograph",
+   "readMoreLink":"https://vitalograph.com/product/nose-clips-with-foam-pads/",  
+   "downloadLink":"",
+   "description": "Our noseclips are ergonomically designed for comfort. Their use in spirometry is recommended by international spirometry guidelines.Use of noseclips during spirometry testing is recommended in the ATS/ERS Standardization of Spirometry 2019 Update." 
+},
+{    
+   "id":"45",
+   "name": "Inhaler Training",    
+   "category": "spirometry",    
+   "image": "media/products/inhaler-training.png",  
+   "manufacturer":"Vitalograph",
+   "readMoreLink":"",  
+   "downloadLink":"",
+   "description": "Mastery of the correct technique will support more accurate drug delivery in the use of DPI and MDI inhalers and good patient compliance, resulting in better disease management and fewer visits to medical professionals. With products such as AIM Aerosol inhalation Trainer and Starter Pack, AIM Starter Pack, Disposable Generic DPI Simulator, Disposable Generic MDI simulator,MDI Placebo Canisters." 
+},
+{    
+   "id":"46",
+   "name": "Front Bite Mouthpiece",    
+   "category": "spirometry",    
+   "image": "media/products/front-bite-mouthpiece.png",  
+   "manufacturer":"Vitalograph",
+   "readMoreLink":"",  
+   "downloadLink":"",
+   "description": "High quality mouthpieces ergonomically designed for comfort. For pulmonary function testing and constructed from taste-free, soft Thermolast® plastic. It is suitable for adults and children." 
+},
+{    
+   "id":"47",
+   "name": "Plastic mouthpiece for 4000 series",    
+   "category": "spirometry",    
+   "image": "media/products/plastic-mouthpiece.png",  
+   "manufacturer":"Vitalograph",
+   "readMoreLink":"https://vitalograph.com/product/plastic-mouthpiece-4000-series/",  
+   "downloadLink":"",
+   "description": "Plastic Mouthpiece for the Vitalograph 4000 Series respiratory monitors & screeners (pack of 20) " 
+},
+{    
+   "id":"48",
+   "name": "Petridish",    
+   "category": "labConsumables",    
+   "image": "media/products/petridish.jpg",  
+   "manufacturer":"Tarsons",
+   "readMoreLink":"https://tarsons.com/product/petridish-2/",  
+   "downloadLink":"",
+   "description": "Moulded in Polypropylene, clear and unbreakable. PP confirming to US FDA 21 CFR.  Autoclavable" 
+},
+{    
+   "id":"49",
+   "name": "Verisafe® Safety Huber needles",    
+   "category": "labConsumables",    
+   "image": "media/products/huber-needle.png",  
+   "manufacturer":"Promisemed",
+   "readMoreLink":"https://www.promisemed-global.com/Products/info.aspx?itemid=1127&lcid=2",  
+   "downloadLink":"https://www.promisemed-global.com/uploadfiles/2022/11/20221114100721392.png",
+   "description": "Verisafe® Safety Huber Needles are non-coring safety needles for implanted vascular ports, allowing power injection (up to 330 psi). Two types of safety huber needles are available for your choice. These two intuitive safety mechanisms are designed to reduce the accidental stick injuries." 
+},
+{    
+   "id":"50",
+   "name": "Verisafe® Fine Biopsy Needles",    
+   "category": "labConsumables",    
+   "image": "media/products/fine-biopsy-needle.png",  
+   "manufacturer":"Promisemed",
+   "readMoreLink":"https://www.promisemed-global.com/Products/info.aspx?itemid=1126&lcid=2",  
+   "downloadLink":"https://www.promisemed-global.com/uploadfiles/2022/11/20221111131327418.png",
+   "description": "Designed for harvesting cells for cytological examinations, Verisafe® Fine Biopsy Needles are available with Chiba tips." 
+},
+{    
+   "id":"51",
+   "name": "Verisafe® Semi-automatic Biopsy Needles",    
+   "category": "labConsumables",    
+   "image": "media/products/semi-automatic-biopsy-needle.png",  
+   "manufacturer":"Promisemed",
+   "readMoreLink":"https://www.promisemed-global.com/Products/info.aspx?itemid=100&lcid=2",  
+   "downloadLink":"https://www.promisemed-global.com/uploadfiles/2022/11/20221115091622225.png",
+   "description": "Verisafe® Semi-automatic Biopsy Needles offer many of the same features that our automatic biopsy needles possess. The difference is that you need to advance the stylet manually" 
+},
+{    
+   "id":"52",
+   "name": "Verisafe® Automatic Biopsy Needles",    
+   "category": "labConsumables",    
+   "image": "media/products/automatic-biopsy-needle.png",  
+   "manufacturer":"Promisemed",
+   "readMoreLink":"https://www.promisemed-global.com/Products/info.aspx?itemid=101&lcid=2",  
+   "downloadLink":"https://www.promisemed-global.com/uploadfiles/2022/11/20221115091304859.png",
+   "description": "Verisafe® Automatic Biopsy Needles are designed for getting ideal samples from a wide range of soft tissue for diagnosis and causing less trauma to patients. Two triggering buttons respectively on the side and at the bottom meet different operating habits." 
+},
+{    
+   "id":"53",
+   "name": "Verisafe® Co-axial Biopsy Devices",    
+   "category": "labConsumables",    
+   "image": "media/products/co-axial-biopsy-device.png",  
+   "manufacturer":"Promisemed",
+   "readMoreLink":"https://www.promisemed-global.com/Products/info.aspx?itemid=1125&lcid=2",  
+   "downloadLink":"https://www.promisemed-global.com/uploadfiles/2022/11/20221111132832473.png",
+   "description": "Verisafe® Co-axial Biopsy Devices are compatible with Verisafe® biopsy needles, helping accurate location and allowing multiple sampling from one puncture with minimal trauma to organs and/or surrounding tissue." 
+},
+{    
+   "id":"54",
+   "name": "Verifine® Blood Lancets ",    
+   "category": "labConsumables",    
+   "image": "media/products/diabetic-blood-lancet.png",  
+   "manufacturer":"Promisemed",
+   "readMoreLink":"https://www.promisemed-global.com/Products/info.aspx?itemid=87&lcid=11#Product5",  
+   "downloadLink":"https://www.promisemed-global.com/uploadfiles/2022/10/20221027090707334.png",
+   "description": "They are sterlized by Gamma iradiation with a Tri-bevel needle tip keeping good blood flow." 
+},
+{    
+   "id":"55",
+   "name": "Verifine® Triple Safety Pen Needles",    
+   "category": "labConsumables",    
+   "image": "media/products/insulin-pen-needles.png",  
+   "manufacturer":"Promisemed",
+   "readMoreLink":"https://www.promisemed-global.com/Products/info.aspx?itemid=11&lcid=14",  
+   "downloadLink":"https://www.promisemed-global.com/uploadfiles/2022/10/20221027131226145.png",
+   "description": "Shield locks automatically at injection end after injection to help prevent accidental needlesticks.Shield locks automatically at insulin pen end after injection to help prevent accidental needlesticks during disposal. Needle front Pre-covered for less risk of needle stick.Safety indicator after safety activation" 
+},
+{    
+   "id":"56",
+   "name": "Verisafe® Safety Needle and Syringes Combinations",    
+   "category": "labConsumables",    
+   "image": "media/products/needle-syringe-combination.png",  
+   "manufacturer":"Promisemed",
+   "readMoreLink":"https://www.promisemed-global.com/Products/info.aspx?itemid=1148&lcid=1",  
+   "downloadLink":"https://www.promisemed-global.com/uploadfiles/2022/12/20221203113443103.png",
+   "description": "Developed for avoiding needle stick injury, Verisafe® Safety Needles with intuitive safety mechanism are easy to use which allows minimal training. The needle is also compatible with all standard luer lock and luer slip syringes." 
+},
+{    
+   "id":"62",
+   "name": "Verisafe® Luer Lock Syringes without Needles",    
+   "category": "labConsumables",    
+   "image": "media/products/syringe-without-needle.png",  
+   "manufacturer":"Promisemed",
+   "readMoreLink":"https://www.promisemed-global.com/Products/info.aspx?itemid=1147&lcid=1",  
+   "downloadLink":"https://www.promisemed-global.com/uploadfiles/2022/12/20221202170619951.png",
+   "description": "Special Design for Reliable Performance" 
+},
+{    
+   "id":"57",
+   "name": "Verisafe®  Safety Needles",    
+   "category": "labConsumables",    
+   "image": "media/products/safety-needles.png",  
+   "manufacturer":"Promisemed",
+   "readMoreLink":"https://www.promisemed-global.com/Products/info.aspx?itemid=1124&lcid=1",  
+   "downloadLink":"https://www.promisemed-global.com/uploadfiles/2022/12/20221202164338686.png",
+   "description": "Developed for avoiding needle stick injury, Verisafe® Safety Needles with intuitive safety mechanism are easy to use which allows minimal training. The needle is also compatible with all standard luer lock and luer slip syringes." 
+},
+{    
+   "id":"58",
+   "name": "Verisafe® Winged Blood Collection Sets",    
+   "category": "labConsumables",    
+   "image": "media/products/winged-blood-collection-sets.png",  
+   "manufacturer":"Promisemed",
+   "readMoreLink":"https://www.promisemed-global.com/Products/info.aspx?itemid=98&lcid=1",  
+   "downloadLink":"https://www.promisemed-global.com/uploadfiles/2022/10/20221031133738145.png",
+   "description": "Verisafe® Safety Winged Blood Collection Sets are designed for minimizing patients’ discomfort, improving professionals' efficiency and ensuring the safety of both sides. " 
+},
+{    
+   "id":"59",
+   "name": "Verisafe® Safety Syringes with Fixed Needles",    
+   "category": "labConsumables",    
+   "image": "media/products/safety-syringes-with-Fixed-Needles.png",  
+   "manufacturer":"Promisemed",
+   "readMoreLink":"https://www.promisemed-global.com/Products/info.aspx?itemid=1132&lcid=1",  
+   "downloadLink":"https://www.promisemed-global.com/uploadfiles/2022/09/20220909183422784.png",
+   "description": "Specially designed safety mechanisms help to reduce the risk of accidental needle stick injuries and the transmission of blood borne pathogens for professionals, patients and downstream workers. And the intuitive safety mechanism design requires minimal training. Promisemed Cares about your safety and makes injection safe and easy!" 
+},
+{    
+   "id":"60",
+   "name": "Verisafe® Sterile Syringes with Fixed Needles",    
+   "category": "labConsumables",    
+   "image": "media/products/Sterile-Syringes-with-Fixed-Needles.png",  
+   "manufacturer":"Promisemed",
+   "readMoreLink":"https://www.promisemed-global.com/Products/info.aspx?itemid=1131&lcid=1",  
+   "downloadLink":"https://www.promisemed-global.com/uploadfiles/2022/09/20220909180820652.png",
+   "description": "Almost zero dead-space design which is better than low dead-space, also known as low dead-volume (LDV) design facilitates in precise injection dose and reducing medication waste." 
+},
+{    
+   "id":"61",
+   "name": "Verisafe® Safety Winged Infusion Sets",    
+   "category": "labConsumables",    
+   "image": "media/products/winged-infusion-sets.png",  
+   "manufacturer":"Promisemed",
+   "readMoreLink":"https://www.promisemed-global.com/Products/info.aspx?itemid=1134&lcid=1",  
+   "downloadLink":"https://www.promisemed-global.com/uploadfiles/2022/10/20221027094016428.png",
+   "description": "Verisafe® Safety Winged Infusion Sets are designed for minimizing patients’ discomfort, improving professionals' efficiency and ensuring the safety of both sides." 
+},
+{    
+   "id":"62",
+   "name": "Verisafe® Blood Collection Holder",    
+   "category": "labConsumables",    
+   "image": "media/products/blood-collection-holder.png",  
+   "manufacturer":"Promisemed",
+   "readMoreLink":"https://www.promisemed-global.com/Products/info.aspx?itemid=1135&lcid=1",  
+   "downloadLink":"",
+   "description": "Accidental exposure to bloodborne pathogens is a big concern of healthcare workers. Verisafe® Blood Collection Holder is designed for safer blood collection. It provides a thread connection." 
+},
+{    
+   "id":"63",
+   "name": "LUXEO 2S",    
+   "category": "labEquipment",    
+   "image": "media/products/luxeo-2s.png",  
+   "manufacturer":"Labomed",
+   "readMoreLink":"https://www.laboamerica.com/products/stereo-microscopes/luxeo-2s/",  
+   "downloadLink":"https://imk.storage.googleapis.com/file/MMN7xaQPPLutLJmkT/file_Luxeo.pdf",
+   "description": "The Luxeo 2S encompasses all the performance benefits of a university level microscope in a highly affordable and durable middle and high school solution. With a super bright and white light emitting diode (LED) illumination system, superb optics, and a single-cast durable construction, the Luxeo 2S stereo microscope is perfect for student operation. " 
+},
+{    
+   "id":"64",
+   "name": "LUXEO 4Z",    
+   "category": "labEquipment",    
+   "image": "media/products/luxeo-4z.png",  
+   "manufacturer":"Labomed",
+   "readMoreLink":"https://www.laboamerica.com/products/stereo-microscopes/luxeo-4z/",  
+   "downloadLink":"https://imk.storage.googleapis.com/file/MMN7xaQPPLutLJmkT/file_Luxeo.pdf",
+   "description": "The Luxeo 4Z reflects high performance engineering in every detail, demonstrating yet again, an unwavering focus on delivering superb value. With a super bright and white light emitting diode (LED) illumination system, superb optics, and a single-cast durable construction, the Luxeo 4Z addresses the needs of modern biology programs as well as a host of quality control and routine inspection applications." 
+},
+{    
+   "id":"65",
+   "name": "LUXEO 6Z",    
+   "category": "labEquipment",    
+   "image": "media/products/luxeo-6z.png",  
+   "manufacturer":"Labomed",
+   "readMoreLink":"https://www.laboamerica.com/products/stereo-microscopes/luxeo-6z/",  
+   "downloadLink":"https://imk.storage.googleapis.com/file/MMN7xaQPPLutLJmkT/file_luxeo%206z.pdf",
+   "description": "The Luxeo 6Z is the first in a new series of stereo microscopes designed to bring greater flexibility and performance to work stations. With total integration of gooseneck and axial illumination, versatility in transmitted illumination features, and highly ergonomic stand options to choose from, the Luxeo 6Z will delight in every environment." 
+},
+{    
+   "id":"66",
+   "name": "CXL",    
+   "category": "labEquipment",    
+   "image": "media/products/cxl.png",  
+   "manufacturer":"Labomed",
+   "readMoreLink":"https://www.laboamerica.com/products/life-materials-microscopes/upright/cxl/",  
+   "downloadLink":"https://imk.storage.googleapis.com/file/MMN7xaQPPLutLJmkT/file_CXL.pdf",
+   "description": "Designed for both classroom and laboratory environments, the CxL reflects a sleek design composed of a durable aluminum stand, high throughput glass and optical coatings, and brass gears, all of which position the CxL to withstand the most demanding of user environments. And with lead-free optics and paints, the CxL is a truly eco friendly solution." 
+},
+{    
+   "id":"67",
+   "name": "LX 300",    
+   "category": "labEquipment",    
+   "image": "media/products/lx-300.png",  
+   "manufacturer":"Labomed",
+   "readMoreLink":"https://www.laboamerica.com/products/life-materials-microscopes/upright/lx-300/",  
+   "downloadLink":"https://imk.storage.googleapis.com/file/MMN7xaQPPLutLJmkT/file_lx_300.pdf",
+   "description": "Today's educators call for a classroom microscope that would be ideal for continued education and pre-clincial programs. Demanded is a product with crisp optics, ergonomic features for a mature classroom, and a price point that supports institutional purchases. Provided is the Lx 300, putting all requests to rest." 
+},
+{    
+   "id":"68",
+   "name": "LX 400",    
+   "category": "labEquipment",    
+   "image": "media/products/lx-400.png",  
+   "manufacturer":"Labomed",
+   "readMoreLink":"https://www.laboamerica.com/products/life-materials-microscopes/upright/lx-400/",  
+   "downloadLink":"https://imk.storage.googleapis.com/file/MMN7xaQPPLutLJmkT/file_Lx_400.pdf",
+   "description": "Designed for scaleability, the Lx 400 can take on a broad range of applications and curriculum requirements. Reflecting innovations in optical and illumination design as well as mechanical breakthroughs, the Lx 400 delivers unparalleled performance to price value to an expanding list of delighted users." 
+},
+{    
+   "id":"69",
+   "name": "LX 500",    
+   "category": "labEquipment",    
+   "image": "media/products/lx-500.png",  
+   "manufacturer":"Labomed",
+   "readMoreLink":"https://www.laboamerica.com/products/life-materials-microscopes/upright/lx-500/",  
+   "downloadLink":"https://imk.storage.googleapis.com/file/MMN7xaQPPLutLJmkT/file_Lx_500.pdf",
+   "description": "The Lx 500 clinical microscope is the outcome of world-class technologies and design innovations. Highly modular and accessory friendly, the Lx 500 is a versatile and fully extendable clinical microscope that boasts graceful symmetry and performance thanks to its ergonomic and optical features." 
+},
+{    
+   "id":"70",
+   "name": "TCM 400",    
+   "category": "labEquipment",    
+   "image": "media/products/tcm-400.png",  
+   "manufacturer":"Labomed",
+   "readMoreLink":"https://www.laboamerica.com/products/life-materials-microscopes/inverted/tcm-400/",  
+   "downloadLink":"https://imk.storage.googleapis.com/file/MMN7xaQPPLutLJmkT/file_TCM%20400.pdf",
+   "description": "Cell culture, In Vitro Fertilization (IVF), and fluorescence stains are viewed in high fidelity with the TCM 400. A host of optional accessories make the system modular and versatile. High-performance optics configured in a durable, compact footprint make the TCM 400 inverted microscope ideal for clinical needs. " 
+},
+{    
+   "id":"71",
+   "name": "PRIMA TRAINER",    
+   "category": "labEquipment",    
+   "image": "media/products/prima-trainer.png",  
+   "manufacturer":"Labomed",
+   "readMoreLink":"https://www.laboamerica.com/products/dental-microscopes/prima-dnt-trainer/#rmcollapsed",  
+   "downloadLink":"https://imk.storage.googleapis.com/file/MMN7xaQPPLutLJmkT/file_DNT.pdf",
+   "description": "The Prima Trainer is designed for educational and research facilities looking for table-top magnification systems that can provide a long working distance, bright and homogenous LED illumination, and super resolution images all in a compact form factor with fluid maneuverability. Our MaxLite™ coated apochromatic magnichanger promises high color fidelity in three color wavelengths. A well designed arm enables a lower center of gravity, ensuring a well balanced and vibration free microscope that won't monopolize your workstation." 
+},
+{    
+   "id":"72",
+   "name": "LUXEO 6I",    
+   "category": "labEquipment",    
+   "image": "media/products/luxeo-6xl.png",  
+   "manufacturer":"Labomed",
+   "readMoreLink":"https://www.laboamerica.com/products/stereo-microscopes/luxeo-6i/",  
+   "downloadLink":"https://imk.storage.googleapis.com/file/MMN7xaQPPLutLJmkT/file_LUXEO%206i.pdf",
+   "description": "Luxeo 6i delivers state-of-art engineering and design to users most concerned with performance and value. From a fluid zoom control (6:1), bright and efficient co-axial LED illumination with ergonomically placed light controls, and a crisp apochromatic galiliean optical system delivering the highest fidelity image resolution, our team has met the call to deliver the most attractive and valuable stereo microscope for industrial and medical purposes. An optional tilting viewing body makes the system more ergonomic, and a range of stand types promise" 
+},
+{    
+   "id":"73",
+   "name": "MTB Baby and Toddler Scale",    
+   "category": "labEquipment",    
+   "image": "media/products/MTB20-F.png",  
+   "manufacturer":"Adam equipment",
+   "readMoreLink":"https://www.adamequipment.com/mtb-baby-and-toddler-scale",  
+   "downloadLink":"https://www.adamequipment.com/media/docs/Print%20Publications/Data%20Sheets/Letter/English/Email-Web/MTB-DS-LT-EN.pdf",
+   "description": "Versatile and portable, the MTB baby scale offers excellent value for pediatricians and other healthcare providers. With a capacity of 44lb/20kg, this scale boasts the ability to weigh both newborn infants and toddlers on the same instrument. The MTB features quick start-up and easy operation, so minimal training is needed." 
+},
+{    
+   "id":"74",
+   "name": "Highland® Portable Precision Balances",    
+   "category": "labEquipment",    
+   "image": "media/products/HCB-range.png",  
+   "manufacturer":"Adam equipment",
+   "readMoreLink":"https://www.adamequipment.com/highland-portable-precision-balances",  
+   "downloadLink":"https://www.adamequipment.com/media/docs/Print%20Publications/Data%20Sheets/Letter/English/Email-Web/HCB-Highland-DS-LT-EN.pdf",
+   "description": "The Highland® portable precision balance offers advanced features in a compact, durable balance that stacks for easy storage. Featuring multiple weighing applications including parts counting, percent weighing and accumulation, the Highland provides fast, accurate weighing in a number of different environments – from science research in the laboratory or field, to manufacturing operations. Sturdy ABS construction allows the Highland to stand up to demanding lab use, while Highland’s ShockProtect® offers advanced overload protection to keep the balance safe. HandiCal® facilitates internal calibration without the need for external weights." 
+},
+{    
+   "id":"75",
+   "name": "Equinox Precision Balances",    
+   "category": "labEquipment",    
+   "image": "media/products/EPB1203i-R.png",  
+   "manufacturer":"Adam equipment",
+   "readMoreLink":"https://www.adamequipment.com/equinox-precision-balances",  
+   "downloadLink":"https://www.adamequipment.com/media/docs/Print%20Publications/Brochures/Letter/English/Equinox-Brochure-(8008)-Digital-EN.pdf",
+   "description": "Equinox precision balances deliver remarkable precision to labs that perform highly detailed testing. The Equinox is ideal for research and quality assurance facilities; science education; precision counting; and production and manufacturing applications needing exceptionally precise results. Twelve precision models offer capacities from 360g to 8200g and readabilities of 1mg and 0.01g. A color touch screen display provides intuitive operation, with icon-driven menus and readily accessible applications and functions. The five-inch screen is generously sized, offering 800 X 480 pixel resolution for excellent visibility." 
+},
+{    
+   "id":"76",
+   "name": "Luna Analytical Balances",    
+   "category": "labEquipment",    
+   "image": "media/products/LAB84e-R.png",  
+   "manufacturer":"Adam equipment",
+   "readMoreLink":"https://www.adamequipment.com/luna-analytical-balances",  
+   "downloadLink":"https://www.adamequipment.com/media/docs/Print%20Publications/Data%20Sheets/Letter/English/Email-Web/LAB-Luna-DS-LT-EN.pdf",
+   "description": "With stylish, modern backlighting, Luna's impressive display gives an aura of smart sophistication. The LCD features large, readily discernible 24mm digits in blue on a black background. Multilingual text and display capability make Luna well-suited for users in various regions. Luna provides USB and RS-232 interfaces for speedy data collection and transmission to computers or printers. ABS plastic construction and rugged grade 304 stainless steel pan mean Luna is easy to clean and can withstand demanding lab use. Available in four models with capacities up to 250g, Luna offers a readability of 0.0001g and can perform basic and detailed measuring tasks." 
+},
+{    
+   "id":"77",
+   "name": "Meling 4±1℃ Blood Bank Refrigerator XC-368L",    
+   "category": "labEquipment",    
+   "image": "media/products/XC-368L.png",  
+   "manufacturer":"Remi scientific",
+   "readMoreLink":"https://remi.com.my/Product/Details/410/41-blood-bank-refrigerator-xc-368l",  
+   "downloadLink":"https://remi.com.my/Download/Product/378",
+   "description": "Meling 4±1℃ Blood Bank Refrigerator XC-368L is a reliable blood storage refrigerator for safeguarding security of whole blood, blood plasmas, blood compartments and blood samples. The intelligent constant temperature control ensures the temperature control precision of ±1℃ inside the cabinet, which can perfectly promise the temperature uniformity. The blood storage refrigerator equipped with auto-defrost glass door ensures safe medical or lab material storage. What makes this blood refrigerator outstanding is that it meets or exceeds the AABB and CDC regulations for blood storage." 
+},
+{    
+   "id":"78",
+   "name": "CHEST CRYOGENIC FREEZER RACK MATCHING SOLUTION",    
+   "category": "labEquipment",    
+   "image": "media/products/CHEST-CRYOGENIC-FREEZER.png",  
+   "manufacturer":"Remi scientific",
+   "readMoreLink":"https://remi.com.my/Product/Details/404/-164-152-chest-cryogenic-freezer-rack-matching-solution",  
+   "downloadLink":"https://remi.com.my/Download/Product/372",
+   "description": "-164℃ / 152℃ Cryogenic freezer choose stainless steel chest frozen layer rack, high strength PC frozen layer box, can withstand the temperature of -196℃~121℃; The new appearance design, the gap and line design of the box body, is conducive to the rapid cooling of samples and the rapid discharge of liquid, the transparent box cover design, and the clear digital mark on the box body, easy to observe and  find samples. " 
+},
+{    
+   "id":"79",
+   "name": "-86℃ VERTICAL ULT FREEZER RACK MATCHING SOLUTION",    
+   "category": "labEquipment",    
+   "image": "media/products/vertical-ult-freezer.png",  
+   "manufacturer":"Remi scientific",
+   "readMoreLink":"https://remi.com.my/Product/Details/402/-86-vertical-ult-freezer-rack-matching-solution",  
+   "downloadLink":"https://remi.com.my/Download/Product/370",
+   "description": "Side-access freezer rack-Made of 304 stainless steel for durability and better appearance. No sharp edges to avoid risk of injury. Steel plate thickness: combination of 0.5 and 1 mm. Side-access design makes it convenient and economic.Sliding-drawer freezer rack-Made of 304 stainless steel for durability and better appearance. No sharp edges to avoid risk of injury. Steel plate thickness: combination of 0.6 and 1.2 mm. Suitable for common low temperature freezers and standard sized freezer boxes. " 
+},
+{    
+   "id":"80",
+   "name": "Laminar Airflow Cabinets",    
+   "category": "labEquipment",    
+   "image": "media/products/laminar-airflow.png",  
+   "manufacturer":"Dasit Group",
+   "readMoreLink":"https://www.faster-air.com/en/products/laminar-airflow-cabinets",  
+   "downloadLink":"",
+   "description": "Vertical/horizontal laminar flow cabinets for guarantee and mantain excellent product protection.<br> Examples:<br>FLOWFAST V<br>SMARTFAST<br>SMARTFAST MINI<br>FLOWFAST H" 
+},
+{    
+   "id":"81",
+   "name": "CytoFAST Elite",    
+   "category": "labEquipment",    
+   "image": "media/products/cytofast-elite.png",  
+   "manufacturer":"Dasit Group",
+   "readMoreLink":"https://www.faster-air.com/en/products/cytotoxic-solutions/cytofast-elite",  
+   "downloadLink":"",
+   "description": "CytoFAST Elite Cytotoxic Safety Cabinets belong to the latest generation of laminar airflow systems manufactured by Faster, in which the choice of materials of construction of the highest quality guarantees conformity to the strictest safety standards. <br>CytoFAST Elite are Cytotoxic Drug and Microbiological Safety Cabinets designed and built to performance requirements of the EN 12469:2000 and DIN 12980:2005-06 European Standards. They are triple HEPA filter technology cabinet, with 100% of the air filtered via the main H14 HEPA/ULPA filter directly below the work surface and then 70% of the air re-circulated via the recirculating H14 HEPA/ULPA filter within the cabinet, whilst the remaining 30% is discharged through an exhaust H14 HEPA/ULPA filter." 
+},
+{    
+   "id":"82",
+   "name": "CytoFAST Top",    
+   "category": "labEquipment",    
+   "image": "media/products/cytofast-top.png",  
+   "manufacturer":"Dasit Group",
+   "readMoreLink":"https://www.faster-air.com/en/products/cytotoxic-solutions/cytofast-top",  
+   "downloadLink":"",
+   "description": "CytoFAST Top Cytotoxic Safety Cabinets belong to the latest generation of laminar airflow systems manufactured by Faster, in which the choice of materials of construction of the highest quality guarantees conformity to the strictest safety standards.<br>CytoFAST Top are Cytotoxic Drug and Microbiological Safety Cabinets designed and built to performance requirements of the EN 12469:2000 and DIN 12980:2005-06 European Standards." 
+},
+{    
+   "id":"83",
+   "name": "GloveFAST Cyto",    
+   "category": "labEquipment",    
+   "image": "media/products/glovefast-cyto.png",  
+   "manufacturer":"Dasit Group",
+   "readMoreLink":"https://www.faster-air.com/en/products/cytotoxic-solutions/glovefast-cyto",  
+   "downloadLink":"",
+   "description": "GloveFAST Cyto are compact versions of cytotoxic isolators provided by Faster which represent a valid alternative for markets having limited space and limited budget. <br>They are available in 3 different sizes (1.2/1.5/1.8 mt width)." 
+},
+{    
+   "id":"84",
+   "name": "Calypso",    
+   "category": "labEquipment",    
+   "image": "media/products/calypso-distiller.png",  
+   "manufacturer":"Fistreem",
+   "readMoreLink":"https://www.fistreeminternational.com/product/calypso-water-still/",  
+   "downloadLink":"https://www.fistreeminternational.com/wp-content/uploads/fistreem-brochure-scan.pdf",
+   "description": "Perfect for smaller Laboratories providing pure water in two convenient production rates of 2 or 4 Lhr-1.<br>Perfect for smaller Laboratories providing pure water in two convenient production rates of 2 or 4 Lhr-1.<br>Perfect for smaller Laboratories providing pure water in two convenient production rates of 2 or 4 Lhr-1." 
+},
+{    
+   "id":"85",
+   "name": "Cyclon",    
+   "category": "labEquipment",    
+   "image": "media/products/cyclon-distiller.png",  
+   "manufacturer":"Fistreem",
+   "readMoreLink":"https://www.fistreeminternational.com/product/cyclon-ultrapure-water-stills/",  
+   "downloadLink":"https://www.fistreeminternational.com/wp-content/uploads/fistreem-brochure-scan.pdf",
+   "description": "Perfect for Laboratories providing pure water in two convenient production rates of 4 or 8 Lhr-1 single distilled or 4Lhr-1 double distilled.<br>The Cyclon stills simple design and ease of use, water can be dispensed from the system or collected in a storage reservoir. With the automated cleaning facility descaling is simplified requiring no dismantling of glassware.<br>This economical and space saving water distiller can be bench or wall mounted." 
+},
+{    
+   "id":"",
+   "name": "",    
+   "category": "",    
+   "image": "media/products/",  
+   "manufacturer":"",
+   "readMoreLink":"",  
+   "downloadLink":"",
+   "description": "" 
+},
+{    
+   "id":"",
+   "name": "",    
+   "category": "",    
+   "image": "media/products/",  
+   "manufacturer":"",
+   "readMoreLink":"",  
+   "downloadLink":"",
+   "description": "" 
+},
+{    
+   "id":"",
+   "name": "",    
+   "category": "",    
+   "image": "media/products/",  
+   "manufacturer":"",
+   "readMoreLink":"",  
+   "downloadLink":"",
+   "description": "" 
+},
+{    
+   "id":"",
+   "name": "",    
+   "category": "",    
+   "image": "media/products/",  
+   "manufacturer":"",
+   "readMoreLink":"",  
+   "downloadLink":"",
+   "description": "" 
+}
 ]
