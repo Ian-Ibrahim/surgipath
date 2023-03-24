@@ -1088,24 +1088,24 @@
    "description": "QIAquant instruments are all-round systems designed for performance. They combine high-quality thermal elements for fast heating and cooling ramping rates and a fast multi-channel detection system for shorter cycling times. The open system is compatible with plasticware in standard SBS formats, low-and normal-profile, and all skirting types.<br>The QIAquant qPCR instruments deliver on the fundamental expectations to combine high performance optical detection of qPCR products with a high performance thermal block. The result is an all-round versatile system for quantitative PCR applications such as expression analyses, genotyping and the detection of pathogens. The combination of high quality thermal elements, fast heating and cooling ramping rates and the fiber-optic shuttle system enables shorter cycling times down to less than 30 minutes for 40 cycles." 
 },
 {    
-   "id":"",
-   "name": "",    
-   "category": "",    
-   "image": "media/products/",  
-   "manufacturer":"",
-   "readMoreLink":"",  
+   "id":"90",
+   "name": "Abon kits",    
+   "category": "rapidTests",    
+   "image": "media/products/abon-kits.png",  
+   "manufacturer":"Abbott",
+   "readMoreLink":"https://www.globalpointofcare.abbott/en/product-details/abon.html",  
    "downloadLink":"",
-   "description": "" 
+   "description": "ABON Biopharm is thriving on innovative research, fast product development and efficient manufacturing of the lateral flow and IVD products. They provide cardiometabolic, infectious disease, oncology,toxicology and women's health testing kits." 
 },
 {    
    "id":"",
-   "name": "",    
-   "category": "",    
-   "image": "media/products/",  
-   "manufacturer":"",
-   "readMoreLink":"",  
+   "name": "Micro tips",    
+   "category": "labConsumables",    
+   "image": "media/products/yellow-tips.jpg",  
+   "manufacturer":"Tarsons",
+   "readMoreLink":"https://tarsons.com/product/micro-tips/",  
    "downloadLink":"",
-   "description": "" 
+   "description": "Material:Medical grade polypropylene autoclavable, free of lubricants, dyes and heavy metals.Certified DNase, RNase, Human DNA and PCR inhibitor free. Sterile Tips are Pyrogen Free." 
 },
 {    
    "id":"",
