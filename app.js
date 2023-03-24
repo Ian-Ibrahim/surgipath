@@ -34,7 +34,7 @@ function openProductPage(productId) {
 
     // Create list items with links for each download link
     const listItems = downloadLinks.map((link, index) => {
-      return `<li><a href="${link}" class="download-links" target="_blank">${productNames[index]}</a></li>`;
+        return `<li><a href="${link}" target="_blank" class="link text-blue-600 hover:text-blue-800">${productNames[index]}</a></li>`;
     });
 
     // Add the list items to the ul element

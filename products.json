@@ -1098,7 +1098,7 @@
    "description": "ABON Biopharm is thriving on innovative research, fast product development and efficient manufacturing of the lateral flow and IVD products. They provide cardiometabolic, infectious disease, oncology,toxicology and women's health testing kits." 
 },
 {    
-   "id":"",
+   "id":"91",
    "name": "Micro tips",    
    "category": "labConsumables",    
    "image": "media/products/yellow-tips.jpg",  
@@ -1106,6 +1106,176 @@
    "readMoreLink":"https://tarsons.com/product/micro-tips/",  
    "downloadLink":"",
    "description": "Material:Medical grade polypropylene autoclavable, free of lubricants, dyes and heavy metals.Certified DNase, RNase, Human DNA and PCR inhibitor free. Sterile Tips are Pyrogen Free." 
+},
+{    
+   "id":"201",
+   "name": "iso-PROPYL Alcohol 99.5% AR",    
+   "category": "chemicals",    
+   "image": "media/products/isopropyl-alcohol.png",  
+   "manufacturer":"Lobachemie",
+   "readMoreLink":"https://www.lobachemie.com/High-Purity-Solvents-00271/isoPROPYL-ALCOHOL-CASNO-67-63-0.aspx?search=isopropyl%20alcohol",  
+   "downloadLink":"https://www.lobachemie.com/lab-chemical-msds/MSDS-isoPROPYL-ALCOHOL-CASNO-67-63-00271-EN.aspx",
+   "description": "LobaChemie Isopropyl Alcohol is a chemical solvent with the chemical formula C<sub>3</sub>H<sub>8</sub>O. It is also known as 2-propanol, isopropanol, or IPA. It is a clear, colorless liquid with a strong odor, similar to that of rubbing alcohol." 
+},
+{    
+   "id":"200",
+   "name": "Xylene AR",    
+   "category": "chemicals",    
+   "image": "media/products/xylene.png",  
+   "manufacturer":"Lobachemie",
+   "readMoreLink":"https://www.lobachemie.com/High-Purity-Solvents-00371/xylene-CASNO-1330-20-7.aspx?search=xylene",  
+   "downloadLink":"https://www.lobachemie.com/lab-chemical-msds/MSDS-xylene-CASNO-1330-20-00371-EN.aspx",
+   "description": "LobaChemie Xylene AR is a colorless, highly flammable liquid with a sweet odor. It has a high purity level, low water content, and low impurities, making it suitable for a wide range of laboratory applications, including histology, microscopy, and tissue processing. It is also commonly used as a solvent for various chemical reactions, as well as in the production of resins, varnishes, and paints." 
+},
+{    
+   "id":"204",
+   "name": "Acetone",    
+   "category": "chemicals",    
+   "image": "media/products/acetone.png",  
+   "manufacturer":"Lobachemie",
+   "readMoreLink":"https://www.lobachemie.com/Gas-Chromatography-GC-Solvents-0013A/ACETONE-CASNO-67-64-1.aspx?search=acetone",  
+   "downloadLink":"https://www.lobachemie.com/lab-chemical-msds/MSDS-ACETONE-CASNO-67-64-0013A-EN.aspx",
+   "description": "LobaChemie Acetone is a high-purity analytical reagent grade solvent with a low water content and low impurities. It is suitable for use in various laboratory applications, including chemical reactions, extractions, and cleaning of laboratory equipment. It is also used in the production of various chemicals, such as methyl methacrylate, bisphenol A, and methyl isobutyl ketone." 
+},
+{    
+   "id":"205",
+   "name": "Fuchsin Basic 85% dye Content",    
+   "category": "chemicals",    
+   "image": "media/products/fuchsin.png",  
+   "manufacturer":"Lobachemie",
+   "readMoreLink":"https://www.lobachemie.com/Biological-Stains-for-Microscopy-03886/FUCHSIN-BASIC-CASNO-632-99-5.aspx?search=fuchsin",  
+   "downloadLink":"https://www.lobachemie.com/lab-chemical-msds/MSDS-FUCHSIN-BASIC-CASNO-632-99-03886-EN.aspx",
+   "description": "It is used for acid-fast staining with carbol-fuchsin, as ENDO medium" 
+},
+{    
+   "id":"206",
+   "name": "sodium arsenite",    
+   "category": "chemicals",    
+   "image": "media/products/sodium-arsenite.png",  
+   "manufacturer":"Oxford Lab Fine Chemicals",
+   "readMoreLink":"https://www.oxfordlabchem.com/product-details.php?id=2493&name=SODIUM-ARSENITE-Anhydrous-98-5-AR",  
+   "downloadLink":"https://www.oxfordlabchem.com/msds/(S-07966)%20SODIUM%20ARSENITE%20Anhydrous%20%20AR.pdf",
+   "description": "Sodium arsenite anhydrous 98.5% AR is a chemical compound supplied by Oxford Lab Chem. It is a highly pure analytical reagent grade of sodium arsenite, which is a white, odorless, and crystalline powder." 
+},
+{    
+   "id":"207",
+   "name": "glycerine",    
+   "category": "chemicals",    
+   "image": "media/products/glycerine.png",  
+   "manufacturer":"Oxford Lab Fine Chemicals",
+   "readMoreLink":"https://www.oxfordlabchem.com/product-details.php?id=1286&name=GLYCERINE-98-Extra-pure",  
+   "downloadLink":"https://www.oxfordlabchem.com/msds/(G-04415)%20GLYCERINE%20Purified%2098%20(Glycerol).pdf",
+   "description": "Glycerine 98% Extra Pure is a highly pure analytical reagent grade with a purity of 98%, low water content, and low impurities. It is commonly used as a solvent, a humectant in cosmetics and personal care products, and in the food industry as a sweetener and preservative." 
+},
+{    
+   "id":"208",
+   "name": "sodiumhyrdoxide pellets",    
+   "category": "chemicals",    
+   "image": "media/products/sodium-hyrdoxide-pellets.png",  
+   "manufacturer":"Oxford Lab Fine Chemicals",
+   "readMoreLink":"https://www.oxfordlabchem.com/msds/(S-08140)%20SODIUM%20HYDROXIDE%20PELLETS%2098%20Extra%20Pure.pdf",  
+   "downloadLink":"https://www.oxfordlabchem.com/product-details.php?id=2556&name=SODIUM-HYDROXIDE-PELLETS-98-Extra-Pure",
+   "description": "Sodium hydroxide pellets 98% extra pure is a chemical compound supplied by Oxford Lab Chem. It is a highly pure analytical reagent grade of sodium hydroxide, which is a white solid in the form of pellets." 
+},
+{    
+   "id":"209",
+   "name": "leishman stain",    
+   "category": "chemicals",    
+   "image": "media/products/leishman-stain.png",  
+   "manufacturer":"Oxford Lab Fine Chemicals",
+   "readMoreLink":"https://www.oxfordlabchem.com/product-details.php?id=1532&name=LEISHMAN-S-STAIN-For-Microscopy",  
+   "downloadLink":"https://www.oxfordlabchem.com/msds/LEISHMANS-STAIN-MSDS.pdf",
+   "description": "Leishman's stain is a combination of eosin and methylene blue dyes, which selectively stain different components of the cells, allowing for the identification and differentiation of various blood cells, including red blood cells, white blood cells, and platelets." 
+},
+{    
+   "id":"210",
+   "name": "OIL OF IMMERSION Extra Pure",    
+   "category": "chemicals",    
+   "image": "media/products/immersion-oil.png",  
+   "manufacturer":"Oxford Lab Fine Chemicals",
+   "readMoreLink":"https://www.oxfordlabchem.com/msds/(O-06483-116)%20OIL%20OF%20IMMERSION%20Extra%20Pure.pdf",  
+   "downloadLink":"https://www.oxfordlabchem.com/msds/(O-06483-116)%20OIL%20OF%20IMMERSION%20Extra%20Pure.pdf",
+   "description": "Oil of immersion extra pure is commonly used in light microscopy to improve the resolution and clarity of images by reducing the amount of light that is scattered. It is applied to the specimen slide and the objective lens of the microscope to create a high-refractive-index medium that enhances the resolution of the image." 
+},
+{    
+   "id":"211",
+   "name": "Neutral red indicator solution",    
+   "category": "chemicals",    
+   "image": "media/products/neutral-red.png",  
+   "manufacturer":"Oxford Lab Fine Chemicals",
+   "readMoreLink":"https://www.oxfordlabchem.com/product-details.php?id=1807&name=NEUTRAL-RED-INDICATOR-SOLUTION",  
+   "downloadLink":"https://www.oxfordlabchem.com/msds/(N-06182)%20NEUTRAL%20RED%20INDICATOR%20SOLUTION.pdf",
+   "description": "Neutral red indicator solution changes color depending on the acidity or basicity of the solution it is added to. It is used in various biochemical and microbiological tests to determine the pH levels of a solution or to detect the presence of certain types of bacteria." 
+},
+{    
+   "id":"212",
+   "name": "Sodium phosphate Dibasic",    
+   "category": "chemicals",    
+   "image": "media/products/Sodium-phosphate-dibasic.png",  
+   "manufacturer":"Oxford Lab Fine Chemicals",
+   "readMoreLink":"https://www.oxfordlabchem.com/product-details.php?id=2608&name=SODIUM-PHOSPHATE-DIBASIC-Anhydrous-98",  
+   "downloadLink":"https://www.oxfordlabchem.com/msds/(S-08255)SODIUM%20PHOSPHATE%20DIBASIC%20(Anhydrous)%2098.pdf",
+   "description": "Sodium phosphate dibasic anhydrous 98% is a chemical compound supplied by Oxford Lab Chem. It is a highly pure analytical reagent grade of sodium phosphate dibasic, which is a white crystalline powder." 
+},
+{    
+   "id":"213",
+   "name": "sodium chloride",    
+   "category": "chemicals",    
+   "image": "media/products/sodium-chloride.png",  
+   "manufacturer":"Oxford Lab Fine Chemicals",
+   "readMoreLink":"https://www.oxfordlabchem.com/product-details.php?id=2526&name=SODIUM-CHLORIDE-99-5-AR",  
+   "downloadLink":"https://www.oxfordlabchem.com/msds/(S-08037-100%20)SODIUM%20CHLORIDE%20AR.pdf",
+   "description": "Sodium chloride 99.5% AR is a chemical compound supplied by Oxford Lab Chem. It is a high-quality analytical reagent grade of sodium chloride, which is a white crystalline salt. " 
+},
+{    
+   "id":"",
+   "name": "",    
+   "category": "",    
+   "image": "media/products/",  
+   "manufacturer":"",
+   "readMoreLink":"",  
+   "downloadLink":"",
+   "description": "" 
+},
+{    
+   "id":"",
+   "name": "",    
+   "category": "",    
+   "image": "media/products/",  
+   "manufacturer":"",
+   "readMoreLink":"",  
+   "downloadLink":"",
+   "description": "" 
+},
+{    
+   "id":"",
+   "name": "",    
+   "category": "",    
+   "image": "media/products/",  
+   "manufacturer":"",
+   "readMoreLink":"",  
+   "downloadLink":"",
+   "description": "" 
+},
+{    
+   "id":"",
+   "name": "",    
+   "category": "",    
+   "image": "media/products/",  
+   "manufacturer":"",
+   "readMoreLink":"",  
+   "downloadLink":"",
+   "description": "" 
+},
+{    
+   "id":"",
+   "name": "",    
+   "category": "",    
+   "image": "media/products/",  
+   "manufacturer":"",
+   "readMoreLink":"",  
+   "downloadLink":"",
+   "description": "" 
 },
 {    
    "id":"",
