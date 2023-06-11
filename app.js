@@ -5,6 +5,16 @@ function openCategoryPage(category) {
 const dateToday = new Date();
 document.getElementById("get-current-year").innerHTML=dateToday.getFullYear()
 $(document).ready(function () {
+  // Get all buttons with anchor inside
+const anchorButtons = document.querySelectorAll('button  a');
+
+anchorButtons.forEach((button) => {
+  button.parentElement.addEventListener('click', () => {
+    const href = button.getAttribute('href');
+    window.location.href = href;
+  });
+});
+
     $("#partners-slider").owlCarousel({
         items: 3,
         itemsDesktop: [1000, 3],
