@@ -338,86 +338,7 @@
    "downloadLink":"",
    "description": "8 tube strips available in 0.2 ml clear or white tubes. Available in Ultra 8 tube strips available in 0.2 ml clear or white tubes. Available in Ultra Clear cap variety only. Maxiamp 0.2 ml tube strips are suitable for REAL TIME PCR applications. Thin wall design for even heat transfer.Clean room production for consistent results. High quality amplification.Suitable for tradition a I PCR/ Hot start PCR.RNase/DNase/ pyrogen free. Material : PP cap variety only.Maxiamp 0.2 ml tube strips are suitable for REAL TIME PCR applications.Thin wall design for even heat transfer.Clean room production for consistent results. High quality amplification.Suitable for traditional PCR/ Hot start PCR. RNase/DNase/ pyrogen free. Material : PP" 
 },
-{    
-    "id":"26",
-    "name": "SURE CHECK® HIV Self-Test",    
-    "category": "rapidTests",    
-    "image": "media/products/sure-check-hiv-self-test.png",  
-    "manufacturer":"Chembio diagnostics Inc.",
-    "readMoreLink":"https://chembio.com/products/sure-check-hiv-self-test-international/",  
-    "downloadLink":"",
-    "description": "One Drop of Blood is All You Need. A WHO Prequalified single-use in-vitro diagnostic self-test that detects antibodies to HIV-1 and HIV-2 in fingerstick whole blood." 
-},
-{    
-    "id":"27",
-    "name": "DPP® HIV 1/2 Assay",    
-    "category": "rapidTests",    
-    "image": "media/products/HIV-1-2-Assay.png",  
-    "manufacturer":"Chembio diagnostics Inc.",
-    "readMoreLink":"https://chembio.com/products/sure-check-hiv-1-2-assay-international/",  
-    "downloadLink":"",
-    "description": "A WHO Prequalified, rapid point-of-care test that detects antibodies to HIV-1 and HIV-2 .It works with Oral Fluid and Blood" 
-},
-{    
-    "id":"28",
-    "name": "SURE CHECK® HIV 1/2 Assay",    
-    "category": "rapidTests",    
-    "image": "media/products/sure-check-hiv-self-test.png",  
-    "manufacturer":"Chembio diagnostics Inc.",
-    "readMoreLink":"https://chembio.com/products/dpp-hiv-12-assay-international/",  
-    "downloadLink":"",
-    "description": "One Drop of Blood is All You Need.A WHO Prequalified rapid point-of-care test that detects antibodies to HIV-1 and HIV-2 in fingerstick whole blood, venous whole blood, serum and plasma specimens." 
-},
-{    
-   "id":"29",
-   "name": "Strep A",    
-   "category": "rapidTests",    
-   "image": "media/partnersLogo/cypress_logo.svg",  
-   "manufacturer":"Cypress",
-   "readMoreLink":"https://diagnostics.be/product/337",  
-   "downloadLink":"",
-   "description": "The Cypress Diagnostics’ Strep A test is a rapid immunochromatographic screening test for the qualitative detection of group A streptococcus antigen from human throat swab samples." 
-},
-{    
-   "id":"30",
-   "name": "PSA",    
-   "category": "rapidTests",    
-   "image": "media/products/psa.png",  
-   "manufacturer":"Cypress",
-   "readMoreLink":"https://diagnostics.be/product/343",  
-   "downloadLink":"",
-   "description": "Cypress Diagnostics’ PSA Quick Test is a rapid direct binding test for the qualitative detection of Prostate Specific Antigen (PSA) in serum or plasma as an aid in the diagnosis of prostate cancer. The sensitivity of the test is adjusted to 4 ng/mL." 
-},
-{    
-   "id":"31",
-   "name": "FOB Faecal Occult Blood",    
-   "category": "rapidTests",    
-   "image": "media/products/FOB.png",  
-   "manufacturer":"Cypress",
-   "readMoreLink":"hhttps://diagnostics.be/product/347-020",  
-   "downloadLink":"",
-   "description": "Cypress Diagnostics’ FOB Test is a rapid, one-step, visual immunochromatographic test for the qualitative detection of human blood hemoglobin in fecal samples. This test is intended as an aid in the diagnosis of lower gastrointestinal (g.i.) disorders." 
-},
-{    
-   "id":"32",
-   "name": "HCG",    
-   "category": "rapidTests",    
-   "image": "media/products/hCG_Card.png",  
-   "manufacturer":"Cypress",
-   "readMoreLink":"https://diagnostics.be/product/132-200-20",  
-   "downloadLink":"h",
-   "description": "The Cypress Diagnostics test hCG Card is a rapid immunochromatographic test for the qualitative detection of human chorionic gonadotropin (hCG) in human urine, serum or plasma. This test kit is to be used to obtain a visual qualitative result for early detection of pregnancy." 
-},
-{    
-   "id":"33",
-   "name": "Drug of Abuse",    
-   "category": "rapidTests",    
-   "image": "media/products/DOA-10.png",  
-   "manufacturer":"Cypress",
-   "readMoreLink":"https://diagnostics.be/product/doa-10",  
-   "downloadLink":" ",
-   "description": "The Cypress Diagnostics Drug Screen card is a lateral flow, one-step panel immunoassay for the qualitative detection of multiple drug metabolites in human urine at the following cut-off concentrations: MOR: 300 ng/mL AMP: 1000 ng/mL THC: 50 ng/mL COC: 300 ng/mL MAMP: 1000 ng/mL BZO: 300 ng/mL PCP: 25 ng/mL BAR: 300 ng/mL MTD: 300 ng/mL MDMA: 500 ng/mL This product is used to obtain a visual, qualitative result and is intended for professional use. The assay should not be used without proper supervision. This assay provides only a preliminary analytical test result. A more specific alternative chemical method must be used in order to obtain a confirmed analytical result. Gas chromatography/mass spectrometry (GC/MS) has been established as the preferred confirmatory method by the National Institute on Drug Abuse (NIDA)." 
-},
+
 
 {    
    "id":"36",
@@ -1087,16 +1008,7 @@
    "downloadLink":"documents/QPRO-2180_1130039_BRO_PCR_QIAquant_1222.pdf",
    "description": "QIAquant instruments are all-round systems designed for performance. They combine high-quality thermal elements for fast heating and cooling ramping rates and a fast multi-channel detection system for shorter cycling times. The open system is compatible with plasticware in standard SBS formats, low-and normal-profile, and all skirting types.<br>The QIAquant qPCR instruments deliver on the fundamental expectations to combine high performance optical detection of qPCR products with a high performance thermal block. The result is an all-round versatile system for quantitative PCR applications such as expression analyses, genotyping and the detection of pathogens. The combination of high quality thermal elements, fast heating and cooling ramping rates and the fiber-optic shuttle system enables shorter cycling times down to less than 30 minutes for 40 cycles." 
 },
-{    
-   "id":"90",
-   "name": "Abon kits",    
-   "category": "rapidTests",    
-   "image": "media/products/abon-kits.png",  
-   "manufacturer":"Abbott",
-   "readMoreLink":"https://www.globalpointofcare.abbott/en/product-details/abon.html",  
-   "downloadLink":"",
-   "description": "ABON Biopharm is thriving on innovative research, fast product development and efficient manufacturing of the lateral flow and IVD products. They provide cardiometabolic, infectious disease, oncology,toxicology and women's health testing kits." 
-},
+
 {    
    "id":"91",
    "name": "Micro tips",    
