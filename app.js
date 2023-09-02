@@ -13,6 +13,21 @@ s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
 })();
 // end of tawk.to script
+console.log(searchModal)
+function showSearchModal(){
+  searchModal.style.bottom='-9rem'
+}
+function closeSearchModal(){
+  searchModal.style.bottom='14rem';
+}
+function navSearch(){
+  let queryTerm=document.getElementById('query').value
+  window.location.href=`search.html?keyword=${queryTerm}`;
+  return false;
+}
+function searchSubmit(){
+  return false;
+}
 const dateToday = new Date();
 document.getElementById("get-current-year").innerHTML=dateToday.getFullYear()
 $(document).ready(function () {

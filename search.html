@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <script src="https://kit.fontawesome.com/c5d17fdd58.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
+    <title>Surgipath services (EA) limited</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <nav class="bg-white shadow-lg border-gray-200 px-2 md:px-4 py-2.5 fixed z-[60] w-full lg:pt-10">
+        <div class="top-bar absolute w-full left-0 top-0 bg-[#27836e] text-[#F3F3F7] z-0 hidden  lg:flex flex-nowrap items-center justify-between  mx-auto">
+            <div class="float-right  ml-auto m-2">
+                <a href="https://goo.gl/maps/5NdJt6xVfyQx4mQR9" target="_blank" class="flex flex-nowrap items-center justify-between hover:underline " > Alpha Centre Mombasa Road, Godown No 70(A)      </a>
+            </div>
+            <div class="flex flex-nowrap items-center justify-between m-2" >
+                <a href="mailto: inquiries@surgipathealtd.co.ke " class="hover:underline"> inquiries@surgipathealtd.co.ke </a>
+            </div>
+            <div class="social-icons flex flex-nowrap items-center justify-between m-2">
+                <a href=""><i class="fa-brands fa-square-facebook m-1 text-2xl text-[#41D8B5]"></i></a>
+                <a><i class="fa-brands fa-square-twitter text-2xl mx-2 text-[#41D8B5]"></i></a>
+            </div>
+        </div>
+        <div class="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto ">
+            <a href="index.html" class="bg-white     nav-logo m-1 " >
+                <img src="media/surgipath-logo.png " class="lg:w-72 w-60 p-5" alt="surgipath logo">
+            </a>
+            <div class="flex items-center md:order-2">
+                <button data-collapse-toggle="mega-menu" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-[#000000] rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 " aria-controls="mega-menu" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                </button>
+            </div>
+            
+            <div id="mega-menu" class="items-center justify-between hidden w-full text-sm md:flex md:w-auto md:order-1">
+                <ul class="flex flex-col mt-4 font-medium md:flex-row md:space-x-8 md:mt-0">
+                    <li>
+                        <a href="#home" class="block py-2 pl-3 pr-4 text-[#1E1E24] border-b-2 border-[#1E1E24]  md:p-0 " aria-current="page">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="block py-2 pl-3 pr-4 text-[#1E1E24] border-b border-[#1E1E24]  md:hover:bg-transparent md:border-b-2 md:border-transparent md:hover:border-[#1E1E24] md:p-0">About</a>
+                    </li>
+                    <li>
+                        <button id="mega-menu-dropdown-button" data-dropdown-toggle="mega-menu-dropdown" class="flex items-center justify-between w-full py-2 pl-3 pr-4 font-medium text-[#1E1E24] border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent  md:border-b-2 md:border-transparent md:hover:border-[#1E1E24] md:p-0 ">
+                            products <svg aria-hidden="true" class="w-5 h-5 ml-1 md:w-4 md:h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </button>
+                        <div id="mega-menu-dropdown" class="absolute z-10 grid hidden w-auto grid-cols-2 text-sm bg-white border border-gray-100 rounded-lg shadow-md md:grid-cols-3 ">
+                            <div class="p-4 pb-0 text-gray-900 md:pb-4 ">
+                                <ul class="space-y-4" aria-labelledby="mega-menu-dropdown-button">
+                                    <li>
+                                        <a  href="category.html?category=immunology" class="text-gray-500  hover:text-[#1E1E24] " onclick="openCategoryPage('immunology')">
+                                            Immunology
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a  href="category.html?category=surgicals" class="text-gray-500  hover:text-[#1E1E24]" onclick="openCategoryPage('surgicals')">
+                                            Surgicals
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="category.html?category=elisaEquipment" class="text-gray-500  hover:text-[#1E1E24]" onclick="openCategoryPage('elisaEquipment')">
+                                            Elisa- equipment
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="category.html?category=molecular" class="text-gray-500  hover:text-[#1E1E24]" onclick="openCategoryPage('molecular')">
+                                            Molecular
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="p-4 pb-0 text-gray-900 md:pb-4 ">
+                                <ul class="space-y-4">
+                                    <li>
+                                        <a  href="category.html?category=pointOfCare" class="text-gray-500 hover:text-[#1E1E24] " onclick="openCategoryPage('pointOfCare')">
+                                            Point of care
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a  href="category.html?category=labEquipment" class="text-gray-500 hover:text-[#1E1E24] " onclick="openCategoryPage('labEquipment')">
+                                            General lab equipment
+                                        </a>
+                                    </li>
+                                    
+                                    <li>
+                                        <a  href="category.html?category=chemicals" class="text-gray-500 hover:text-[#1E1E24] " onclick="openCategoryPage('chemicals')">
+                                            Lab Chemicals
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a  href="category.html?category=labConsumables" class="text-gray-500 hover:text-[#1E1E24]" onclick="openCategoryPage('labConsumables')">
+                                            Lab consumables
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="p-4 text-gray-900 ">
+                                <ul class="space-y-4">
+                                    <li>
+                                        <a href="category.html?category=spirometry" class="text-gray-500 hover:text-[#1E1E24] " onclick="openCategoryPage('spirometry')">
+                                            Spirometry
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="category.html?category=rapidTests" class="text-gray-500 hover:text-[#1E1E24]" onclick="openCategoryPage('rapidTests')">
+                                            Rapid tests
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="category.html?category=glassware" class="text-gray-500 hover:text-[#1E1E24]"onclick="openCategoryPage('glassware')">
+                                            Glassware
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="category.html?category=waterDistillers" class="text-gray-500 hover:text-[#1E1E24]"onclick="openCategoryPage('waterDistillers')">
+                                            Water Distillers
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="catalogue.html" class="block py-2 pl-3 pr-4 text-[#1E1E24] border-b border-[#1E1E24]  md:hover:bg-transparent md:border-b-2 md:border-transparent md:hover:border-[#1E1E24] md:p-0">Catalogue</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="block py-2 pl-3 pr-4 text-[#1E1E24] border-b border-[#1E1E24]  md:hover:bg-transparent md:border-b-2 md:border-transparent md:hover:border-[#1E1E24] md:p-0">Contact</a>
+                    </li>
+                    <li>
+                        <a href="downloads.html" class="block py-2 pl-3 pr-4 text-[#1E1E24] border-b border-[#1E1E24]  md:hover:bg-transparent md:border-b-2 md:border-transparent md:hover:border-[#1E1E24] md:p-0">Downloads</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <section id="home">
+        <div class="text-white min-h-[60vh]  flex  items-center justify-center relative ">
+
+              <form action="" class="z-30 w-full lg:w-7/12 md:w-9/12 py-4 bg-[#FC6C18] rounded " onsubmit="return searchSubmit()">
+                <div class="p-4 font-extrabold  z-50 w-full" id="pre-search">
+                    <span>Search for product by id, name or manuacturer </span>
+                </div>
+                <div class="w-full flex p-4 bg-transparent">
+                    <input type="search" required name="query" id="query" placeholder="Search by category, id, manufacturer..." class="w-full bg-transparent border-none  border-black placeholder:text-white" style="border-bottom: 2px solid black;">
+                    <button  class="w-12 h-12   inline-flex items-center justify-center border-none  border-black" id="search-button"
+                    style="border-bottom: 2px solid black;">
+                        <svg class="w-5 h-5 invert" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                        </svg>
+                    </button>
+                </div>
+                
+                    
+              </form>
+            
+        </div>
+    </section>
+    
+    <section id="search-page-text">
+        <div class=" grid grid-cols-12 gap-4 px-4">
+            <div class="col-span-12 md:col-span-6 lg:col-span-6 py-3 md:border-r lg:border-r  flex flex-wrap justify-center m-2">
+                <div class="flex place-items-end ">
+                    <img src="media/icons/microscope.png" alt="microscope icon" class="w-32 h-32 my-4"> 
+                </div>
+                
+                <p class="basis-full text-center my-4"> 
+                    Explore the extensive range of products we offer and see how Ultralab can empower you to achieve your healthcare and laboratory goals.
+                    <br><button class="primary-btn bg-[#208A7E]  px-10 py-2 rounded my-4 "> 
+                        <a href="catalogue.html" class="  rounded  text-gray-50 uppercase font-medium">View products</a>
+                    </button>
+                </p>
+                
+            </div>
+            <div class="col-span-12 md:col-span-6 lg:col-span-6 py-3 flex flex-wrap justify-center m-2">
+                <div class="flex place-items-end ">
+                    <img src="media/icons/maintenance.png" alt="Binoculars icon" class="w-32 h-32 my-4"> 
+                </div>
+                
+                <p class="basis-full text-center my-4">
+                    Do not hesitate to reach out to us; your inquiries matter, and we're here to provide prompt assistance and address any your concerns.<br>
+                    <button class="primary-btn bg-[#208A7E]  px-10 py-2 rounded my-4">
+                        <a href="mailto:info@ultralabealtd.co.ke" class="  rounded  text-gray-50 uppercase font-medium">Speak to us</a>
+                     </button>
+                </p>
+                
+            </div>
+        </div>
+       </section>
+    <section class="p-10 hidden" id="results-container">
+        <h1 class="text-4xl font-extrabold text-left"  id="queryTerm">Search for something</h1>
+        <div class=" my-3 hidden" id="loading">
+            <div class="flex flex-col items-center">
+                <div style="border-top-color:transparent" class="w-8 h-8 border-4 border-blue-200 rounded-full animate-spin"></div>
+                <p class="ml-2 text-xl">Browsing our catalogue.</p>
+            </div>
+            
+        </div>
+        <div  class="flex flex-wrap -mx-3 min-h-screen flex  flex-wrap" id="products-container">
+            
+        </div>
+    </section>
+    <footer class="relative bg-gray-100 text-[#000000] pt-8 pb-6 relative">
+        <div class="container mx-auto px-4">
+          <div class="flex flex-wrap text-left lg:text-left">
+            <div class="w-full lg:w-4/12 px-4">
+                <div class="nav-logo pt-10 mb-4 p-4 relative -top-8 ">
+                    <img src="media/surgipath-logo.png" alt="">
+                    <a href="documents/ISO CERTIFICATE -2022-2024 - SURGIPATH.pdf" target="_blank">
+                        <img src="media/ISO-logo-removebg-preview.png " class="w-72 p-5 " alt="ISO certicication">
+                    </a>
+            </div>   
+            </div>
+            <div class="w-full lg:w-2/12 px-4 ">
+                <h1 class="block uppercase text-black text-sm font-semibold mb-2 text-sm">Quick links</h1>
+                <ul class="list-unstyled">
+                  <li>
+                    <a class="text-black hover:underline font-semibold block pb-2 text-lg" href="index.html">Home</a>
+                  </li>
+                  <li>
+                    <a class="text-black hover:underline font-semibold block pb-2 text-lg" href="contact.html">contact</a>
+                  </li>
+                  <li>
+                    <a class="text-black hover:underline font-semibold block pb-2 text-lg" href="catalogue.html">catalogue</a>
+                  </li>
+                  <li>
+                    <a class="text-black hover:underline font-semibold block pb-2 text-lg" href="download.html">downloads</a>
+                  </li>
+                </ul>
+              </div>
+            <div class="w-full lg:w-4/12 px-4 bg-gray">
+              <div class="flex flex-wrap items-top mb-6">
+                <div class="w-full lg:w-7/12 px-4 ml-auto  ">
+                  <h1 class=" block uppercase text-black text-sm font-semibold mb-2 text-sm">Address</h1>
+                      <div class="text-black block pb-2 text-lg">
+                        <p class="after:hidden  font-semibold">P.O. Box 10511-00200,</p>
+                        <p class="after:hidden  font-semibold">Nairobi,</p>
+                        <p class="country font-semibold">Kenya</p>
+                      </div>
+                    
+                </div>
+                <div class="w-full lg:w-5/12 px-4 ">
+                  <h1 class="block uppercase  font-semibold text-sm font-semibold mb-2 text-sm">Contact us</h1>
+                  <ul class="list-unstyled">
+                    
+                    <li>
+                        <a class="text-black hover:underline font-semibold flex items-center flex-wrap pb-2 text-lg justify-between" target="_blank" href="https://goo.gl/maps/5NdJt6xVfyQx4mQR9"><i class="fa-solid fa-location-dot py-2 pr-1"></i>Alpha Centre Mombasa Rd, Godown No 70(A)</a>
+                    </li>
+                    <li>
+                      <a class="text-black hover:underline font-semibold flex items-center pb-2 text-lg" href="mailto: inquiries@surgipathealtd.co.ke "><i class="fa-solid fa-envelope py-2 pr-2"></i> inquiries@surgipathealtd.co.ke </a>
+                    </li>
+                    <li>
+                      <a class="text-black hover:underline font-semibold flex items-center pb-2 text-lg" href="tel:+254-020-2252053"><i class="py-2 pr-2 fa-solid fa-phone"></i>+2540202252053</a>
+                    </li>
+                    <li>
+                      <a class="text-black hover:underline font-semibold block pb-2 text-lg" href="tel:+254-020-2243586">+254-020-2243586</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="my-6 border-[#FFF]">
+          <div class="flex flex-wrap items-center md:justify-between justify-center">
+            <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+              <div class="text-sm text-blueGray-500  py-1">
+                Copyright © <span id="get-current-year"></span> Surgipath (EA) Limited 
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="developer bg-[#27836e] text-[#F3F3F7] p-2 absolute w-[100%] text-center">
+            <p>Developed by <span>Ian Okova</span></p>
+            <p>Icons by <u class="text-sm https://www.flaticon.com/authors/freepik">Freepik</u></p>
+        </div>
+    </footer>
+</body>
+</html>
+<script src="app.js"></script>
+<script>
+    // Assuming you have the products.json structure
+    const urlParams = new URLSearchParams(window.location.search);
+    const keyword = urlParams.get('keyword');
+    // Define a global variable to store the loaded products
+    let products = [];
+    let loadedProducts = [];
+
+    // Fetch and parse JSON data
+    fetch('products.json')
+    .then(response => response.json())
+    .then(data => {
+        products = data; // Store the parsed data
+    })
+    .catch(error => console.error('Error loading JSON:', error));
+
+    // Search form elements
+    const searchForm = document.getElementById('search-form');
+    const queryInput = document.getElementById('query');
+    
+    const searchButton = document.getElementById('search-button'); 
+    const queryTerm=document.getElementById('queryTerm');
+    const preSearchText=document.getElementById('pre-search');
+    const resultsArea=document.getElementById('results-container');
+    const searchPageText=document.getElementById('search-page-text');
+    // Result container
+    const resultsContainer = document.getElementById('products-container');
+
+    
+    // Event listener for search button click
+    searchButton.addEventListener('click', function () {
+        const searchTerm = queryInput.value.toLowerCase();
+
+        console.log(queryInput.value)
+        console.log(queryInput)
+    // Filter products based on the search term
+        const filteredProducts = products.filter(product => {
+        // You can customize the search logic based on your needs
+        
+            return (
+            product.id.toLowerCase().includes(searchTerm) ||
+            product.name.toLowerCase().includes(searchTerm) ||
+            product.manufacturer.toLowerCase().includes(searchTerm) ||
+            product.description.toLowerCase().includes(searchTerm) ||
+            product.category.toLowerCase().includes(searchTerm) 
+
+            );
+            
+        }
+        
+    );
+    console.log("this is"+searchTerm)
+    // Clear existing results before displaying new ones
+    resultsContainer.innerHTML = '';
+    loadedProducts = [];
+    const loadProducts = () => {
+                // Show the loading indicator
+        document.getElementById('loading').style.display = 'flex';
+
+        // Load a batch of products from the JSON file
+        const batchSize = 10;
+        const startIndex = loadedProducts.length;
+
+        const endIndex = startIndex + batchSize;
+        const batchProducts = filteredProducts.slice(startIndex, Math.min(endIndex, filteredProducts.length));
+        // Generate the product cards for the batch of products
+        const productCards = batchProducts.map(product => {
+            return `
+                    <a href='product.html?productId=${product.id}'>
+                        <div  onclick="openProductPage('${product.id}')" class="card max-w-sm min-w-[25vw] h-[25rem] m-4 text-center bg-white border border-gray-200 rounded-lg shadow ">
+                            <div class="p-5">
+                                <a href='product.html?productId=${product.id}'>
+                                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-[#1E1E24] ">${product.name}</h5>
+                                </a>
+                                <a href='product.html?productId=${product.id}' class="bg-blue-500 w-full">
+                                    <img class="rounded-t-lg w-full max-h-64 p-6 object-center object-contain" src="${product.image}" alt="${product.name}" />
+                                </a>
+                                <a href='product.html?productId=${product.id}' class="inline-flex items-center px-3 py-2 text-sm font-medium text-center  rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300">
+                                    Find out more
+                                    <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </a>
+                `;
+        }).join('');
+
+
+        // Add the generated product cards to the product container
+        resultsContainer.innerHTML += productCards;
+        loadedProducts = loadedProducts.concat(batchProducts);
+
+        // Hide the loading indicator
+        document.getElementById('loading').style.display = 'none';
+        };
+            
+    resultsArea.style.display="block";
+    searchPageText.style.display="none";
+    if(filteredProducts.length<=0){
+        // no items found
+        queryTerm.innerHTML='Search results for " '+searchTerm+' "';
+        preSearchText.innerHTML="No items found in database.";
+        resultsContainer.style.display='block';
+        resultsContainer.innerHTML=`
+        <div class="m-3 ">
+            No items found in the database
+        </div>
+        
+        `;
+    }
+    else if(filteredProducts.length>=1){
+        //items found
+        resultsContainer.style.display='flex';
+        loadProducts();
+        queryTerm.innerHTML='Search results for " '+searchTerm+' "';
+        preSearchText.innerHTML=filteredProducts.length+" items found in database.";
+    }
+
+    window.onscroll=()=>{
+    const bottomOfPage = resultsContainer.scrollHeight - window.innerHeight <= window.scrollY + 1;
+    if (bottomOfPage && loadedProducts.length < filteredProducts.length) {
+        // Load the next batch of products if the page has scrolled to the bottom
+        loadProducts();
+    }
+    }
+    });
+
+
+    if(keyword!==null){
+        
+        queryInput.value=keyword;
+        searchTerm=queryInput.value
+        let loadedProducts = [];
+        let products = [];  
+        fetch('products.json')
+        .then(response => response.json())
+        .then(data => {
+
+            products = data; // Store the parsed data
+        
+        
+        
+        const filteredProducts = products.filter(product => {
+            
+            // You can customize the search logic based on your needs
+                return (
+                product.id.toLowerCase().includes(searchTerm) ||
+                product.name.toLowerCase().includes(searchTerm) ||
+                product.manufacturer.toLowerCase().includes(searchTerm) ||
+                product.description.toLowerCase().includes(searchTerm) ||
+                product.category.toLowerCase().includes(searchTerm) 
+
+                );
+        });
+
+        
+        const initialLoadProducts = () => {
+                    // Show the loading indicator
+            document.getElementById('loading').style.display = 'flex';
+
+            // Load a batch of products from the JSON file
+            const batchSize = 10;
+            const startIndex = loadedProducts.length;
+
+            const endIndex = startIndex + batchSize;
+            const batchProducts = filteredProducts.slice(startIndex, Math.min(endIndex, filteredProducts.length));
+            // Generate the product cards for the batch of products
+            const productCards = batchProducts.map(product => {
+                return `
+                <div onclick="openProductPage('${product.id}')"class="m-3 product-container card w-[20rem] h-[28rem]  flex flex-wrap items-center relative">
+                    <div class="product-image-container w-full  flex items-center">
+                        <img class="h-64 object-center object-contain p-2 w-full" src="${product.image}" alt="${product.name}">
+                    </div>
+                    <div class="product-desc p-2 py-10 ">
+                        <h2>${product.manufacturer}</h2>
+                        <h2 class="font-bold relative text-2xl">${product.name}</h2>
+                        
+                    </div>
+
+                </div>
+                `;
+            }).join('');
+
+
+            // Add the generated product cards to the product container
+            resultsContainer.innerHTML += productCards;
+            loadedProducts = loadedProducts.concat(batchProducts);
+
+            // Hide the loading indicator
+            document.getElementById('loading').style.display = 'none';
+        };
+        if(filteredProducts.length<=0){
+            // no items found
+            queryTerm.innerHTML='Search results for " '+searchTerm+' "';
+            preSearchText.innerHTML="No items found in database.";
+            resultsContainer.style.display='block';
+            resultsContainer.innerHTML=`
+            <div class="m-3 ">
+                No items found in the database
+            </div>
+            
+            `;
+        }
+        else if(filteredProducts.length>=1){
+            //items found
+            resultsContainer.style.display='flex';
+            initialLoadProducts();
+            queryTerm.innerHTML='Search results for " '+searchTerm+' "';
+            preSearchText.innerHTML=filteredProducts.length+" items found in database.";
+        }
+        
+        
+        document.getElementById('loading').style.display = 'none';
+        resultsArea.style.display="block";
+        searchPageText.style.display="none";
+        window.onscroll=()=>{
+        const bottomOfPage = resultsContainer.scrollHeight - window.innerHeight <= window.scrollY + 1;
+        if (bottomOfPage && loadedProducts.length < filteredProducts.length) {
+            // Load the next batch of products if the page has scrolled to the bottom
+            initialLoadProducts();
+        }
+        }
+    })
+        .catch(error => console.error('Error loading JSON:', error));
+    }
+
+
+</script>
