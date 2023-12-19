@@ -13,12 +13,13 @@ s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
 })();
 // end of tawk.to script
-console.log(searchModal)
+
 function showSearchModal(){
-  searchModal.style.bottom='-9rem'
+  console.log('search shown')
+  searchModal.style.top='0rem';
 }
 function closeSearchModal(){
-  searchModal.style.bottom='14rem';
+  searchModal.style.top='-20rem';
 }
 function navSearch(){
   let queryTerm=document.getElementById('query').value
