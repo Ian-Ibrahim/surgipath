@@ -36,11 +36,11 @@ $(document).ready(function () {
 const anchorButtons = document.querySelectorAll('button  a');
 
 anchorButtons.forEach((button) => {
-  button.parentElement.addEventListener('click', () => {
-    const href = button.getAttribute('href');
-    window.location.href = href;
-  });
-});
+    button.parentElement.addEventListener('click', () => {
+      const href = button.getAttribute('href');
+      window.location.href = href;
+    });
+    });
 
     $("#partners-slider").owlCarousel({
         items: 3,
@@ -57,8 +57,9 @@ anchorButtons.forEach((button) => {
 document.addEventListener('click', function(event) {
   // Check if the clicked element is outside the div
   if (!nav.contains(event.target)) {
-      document.getElementById('mega-menu-show').setAttribute("aria-expanded",'false');
-      document.getElementById('mega-menu').classList.add('hidden')
+    document.getElementById('mega-menu-show').click()
+      // document.getElementById('mega-menu-show').setAttribute("aria-expanded",'false');
+      // document.getElementById('mega-menu').classList.add('hidden');
   }
 });
 function openProductPage(productId) {
