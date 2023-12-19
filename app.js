@@ -1,4 +1,5 @@
-
+var nav = document.querySelector("nav");
+console.log(nav)
 function openCategoryPage(category) {
     window.location.href = `category.html?category=${category}`;
 }
@@ -52,6 +53,13 @@ anchorButtons.forEach((button) => {
         slideSpeed: 100,
         autoPlay: true
     });
+});
+document.addEventListener('click', function(event) {
+  // Check if the clicked element is outside the div
+  if (!nav.contains(event.target)) {
+      document.getElementById('mega-menu-show').setAttribute("aria-expanded",'false');
+      document.getElementById('mega-menu').classList.add('hidden')
+  }
 });
 function openProductPage(productId) {
     window.location.href = `product.html?productId=${productId}`;
