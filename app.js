@@ -15,7 +15,6 @@ s0.parentNode.insertBefore(s1,s0);
 // end of tawk.to script
 
 function showSearchModal(){
-  console.log('search shown')
   searchModal.style.top='0rem';
 }
 function closeSearchModal(){
@@ -55,9 +54,8 @@ anchorButtons.forEach((button) => {
     });
 });
 function openProductPage(productId) {
-
     window.location.href = `product.html?productId=${productId}`;
-  }
+}
   fetch('products.json')
   .then(response => response.json())
   .then(products => {
