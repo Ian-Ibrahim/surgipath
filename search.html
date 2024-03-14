@@ -160,9 +160,9 @@
                         d="M6 18L18 6M6 6l12 12"></path>
             </svg>
             <label for="query" class="block font-semibold text-left text-lg">What are you looking for?</label>
-            <form onsubmit="return navSearch()" class="flex items-center rounded overflow-hidden w-full lg:w-1/3 md:w-2/3 my-4 z-50   bg-white border m-2 my-4">
+            <form id="nav-search" onsubmit="return navSearch()" class="flex items-center rounded overflow-hidden w-full lg:w-1/3 md:w-2/3 my-4 z-50   bg-white border m-2 my-4">
                 
-                <input type="search" required  name="query" id="query" placeholder="Search by category, id, manufacturer..." class="w-full outline-none border-none focus:outline-none focus:border-none">
+                <input type="text" required  name="query" id="query" placeholder="Search by category, id, manufacturer..." class="w-full outline-none border-none focus:outline-none focus:border-none">
                 <button type="submit" class="w-12 h-12 bg-[#27836e] inline-flex items-center justify-center">
                     <svg class="w-5 h-5 invert" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                         xmlns="http://www.w3.org/2000/svg">
@@ -176,12 +176,12 @@
     <section id="home">
         <div class="text-white min-h-[60vh] pb-6 flex  items-end justify-center relative ">
 
-              <form action="" class="z-30 w-full lg:w-7/12 md:w-9/12 py-4 bg-[#FC6C18] rounded " onsubmit="return searchSubmit()">
+              <form action="" id="search-form" class="z-30 w-full lg:w-7/12 md:w-9/12 py-4 bg-[#FC6C18] rounded " onsubmit="return searchSubmit()">
                 <div class="p-4 font-extrabold  z-50 w-full" id="pre-search">
                     <span>Search for product by id, name or manuacturer </span>
                 </div>
                 <div class="w-full flex p-4 bg-transparent">
-                    <input type="search" required name="query" id="query" placeholder="Search by category, id, manufacturer..." class="w-full bg-transparent border-none  border-black placeholder:text-white" style="border-bottom: 2px solid black;">
+                    <input type="search"  required name="query" id="in-page-query" placeholder="Search by category, id, manufacturer..." class="w-full bg-transparent border-none  border-black placeholder:text-white" style="border-bottom: 2px solid black;">
                     <button  class="w-12 h-12   inline-flex items-center justify-center border-none  border-black" id="search-button"
                     style="border-bottom: 2px solid black;">
                         <svg class="w-5 h-5 invert" fill="none" stroke="currentColor" viewBox="0 0 24 24"
@@ -194,6 +194,7 @@
                 
                     
               </form>
+
             
         </div>
     </section>
@@ -317,7 +318,6 @@
     </footer>
 </body>
 </html>
-<script src="app.js"></script>
 <script>
     // Assuming you have the products.json structure
     const urlParams = new URLSearchParams(window.location.search);
@@ -336,8 +336,7 @@
 
     // Search form elements
     const searchForm = document.getElementById('search-form');
-    const queryInput = document.getElementById('query');
-    
+    const queryInput = document.getElementById('in-page-query');
     const searchButton = document.getElementById('search-button'); 
     const queryTerm=document.getElementById('queryTerm');
     const preSearchText=document.getElementById('pre-search');
@@ -349,10 +348,9 @@
     
     // Event listener for search button click
     searchButton.addEventListener('click', function () {
+
         const searchTerm = queryInput.value.toLowerCase();
 
-        console.log(queryInput.value)
-        console.log(queryInput)
     // Filter products based on the search term
         const filteredProducts = products.filter(product => {
         // You can customize the search logic based on your needs
@@ -369,7 +367,7 @@
         }
         
     );
-    console.log("this is"+searchTerm)
+ 
     // Clear existing results before displaying new ones
     resultsContainer.innerHTML = '';
     loadedProducts = [];
@@ -546,3 +544,4 @@
 
 
 </script>
+<script src="app.js"></script>
