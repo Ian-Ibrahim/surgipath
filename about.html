@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="bg-white shadow-lg border-gray-200 px-2 md:px-4 py-2.5 fixed z-50 w-full lg:pt-10">
+    <nav class="bg-white capitalize shadow-lg border-gray-200 px-2 md:px-4 py-2.5 fixed z-50 w-full lg:pt-10">
         <div class="top-bar absolute w-full left-0 top-0 bg-[#27836e] text-[#F3F3F7] z-0 hidden  lg:flex flex-nowrap items-center justify-between  mx-auto">
             <div class="float-right  ml-auto m-2">
                 <a href="https://goo.gl/maps/5NdJt6xVfyQx4mQR9" target="_blank" class="flex flex-nowrap items-center justify-between hover:underline " > Alpha Centre Mombasa Road, Godown No 70(A)      </a>
@@ -54,14 +54,14 @@
             <div id="mega-menu" class="items-center justify-between hidden w-full text-sm md:flex md:w-auto md:order-1">
                 <ul class="flex flex-col mt-4 font-medium md:flex-row md:space-x-8 md:mt-0">
                     <li>
-                        <a href="#home" class="block py-2 pl-3 pr-4 text-[#1E1E24] border-b border-transparent md:hover:bg-transparent md:border-b-2 md:border-transparent md:hover:border-[#1E1E24] md:p-0"  aria-current="page">Home</a>
+                        <a href="/" class="block py-2 pl-3 pr-4 text-[#1E1E24] border-b border-transparent md:hover:bg-transparent md:border-b-2 md:border-transparent md:hover:border-[#1E1E24] md:p-0"  aria-current="page">Home</a>
                     </li>
                     <li>
                         <a href="about.html"  class="block py-2 pl-3 pr-4 text-[#1E1E24] border-b-2 border-[#1E1E24]  md:p-0 ">About</a>
                     </li>
                     <li>
                         <button id="mega-menu-dropdown-button" data-dropdown-toggle="mega-menu-dropdown" class="flex items-center justify-between w-full py-2 pl-3 pr-4 font-medium text-[#1E1E24] border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent  md:border-b-2 md:border-transparent md:hover:border-[#1E1E24] md:p-0 ">
-                            products <svg aria-hidden="true" class="w-5 h-5 ml-1 md:w-4 md:h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                            Products <svg aria-hidden="true" class="w-5 h-5 ml-1 md:w-4 md:h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                         </button>
                         <div id="mega-menu-dropdown" class="absolute z-10 grid hidden w-auto grid-cols-2 text-sm bg-white border border-gray-100 rounded-lg shadow-md md:grid-cols-3 ">
                             <div class="p-4 pb-0 text-gray-900 md:pb-4 ">
@@ -131,8 +131,8 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="category.html?category=waterDistillers" class="text-gray-500 hover:text-[#1E1E24]"onclick="openCategoryPage('waterDistillers')">
-                                            Water Distillers
+                                        <a href="category.html?category=syndromicTesting" class="text-gray-500 hover:text-[#1E1E24]"onclick="openCategoryPage('glassware')">
+                                            Syndromic Testing
                                         </a>
                                     </li>
                                 </ul>
@@ -203,10 +203,10 @@
                     needs. We take pride in providing efficient, accessible, quality and affordable services, across 47
                     counties in Kenya and other East Africa countries. <br>
                     Established in 2004, Surgipath Services E.A. Ltd is an ISO Certified company distinguished by her
-corporate values.
-Surgipath has a unique distribution and marketing network of 25 medical sales representatives
-and medical engineers. The company is managed by highly experience directors with diverse
-backgrounds and skill set.
+                    corporate values.
+                    Surgipath has a unique distribution and marketing network of 25 medical sales representatives
+                    and medical engineers. The company is managed by highly experience directors with diverse
+                    backgrounds and skill set.
                 </p>
                  <a href="documents/ISO CERTIFICATE -2022-2024 - SURGIPATH.pdf" target="_blank" class="relative -bottom-4">
                     <img src="media/certification.png " class="w-56 p-5 invert" alt="">
@@ -247,7 +247,7 @@ product distributor in the East African market                    </p>
             </div>
         </div>
     </section>
-    <section id="contact">
+    <section >
         <div class="contact bg-[#] flex justify-center flex-wrap items-center text-white">
             <div class="text-center p-5 z-50">
                 <h2 class="text-4xl font-extrabold">Quality statement</h2>
@@ -316,24 +316,23 @@ product distributor in the East African market                    </p>
         <div class="partners  text-center  flex flex-wrap justify-center items-center p-4  w-full">
             <h1 class="header-center text-4xl font-extrabold basis-full text-center">Our Partners</h1>
             <p class="text-center justify-center mt-4 flex items-center basis-full"><span class="lg:w-7/12">We work with the best</span></p>
-            <div class="partners-container grid grid-cols-12 items-start  p-5 basis-full">
-                <div class="icon-hexagon lg:col-span-1 col-span-8 m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy" src="media/partnersLogo/das_logo_3.png" alt=""></div>               
-                <div class="icon-hexagon lg:col-span-1 col-span-4 m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy" src="media/partnersLogo/diasorin_logo.jpg" alt=""></div>               
-                <div class="icon-hexagon lg:col-span-1 col-span-8 m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy" src="media/partnersLogo/hubdic.jpeg" alt=""></div>               
-                <div class="icon-hexagon lg:col-span-1 col-span-4 m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy" src="media/partnersLogo/remi.png" alt=""></div>               
-                <div class="icon-hexagon lg:col-span-1 col-span-8 m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy" src="media/partnersLogo/qiagen-logo.png" alt=""></div>               
-                <div class="icon-hexagon lg:col-span-1 col-span-4 m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy" src="media/partnersLogo/voxtur.png" alt=""></div>               
-                <div class="icon-hexagon lg:col-span-1 col-span-8 m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy" src="media/partnersLogo/hemocue.svg" alt=""></div>               
-                <div class="icon-hexagon lg:col-span-1 col-span-4 m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy" src="media/partnersLogo/gms.png" alt=""></div>               
-                <div class="icon-hexagon lg:col-span-1 col-span-8 m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy" src="media/partnersLogo/biohall_1610348945.jpg" alt=""></div>               
-                <div class="icon-hexagon lg:col-span-1 col-span-4 m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy" src="media/partnersLogo/Logo-Scharlau-250px.png" alt=""></div>               
-                <div class="icon-hexagon lg:col-span-1 col-span-8 m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy" src="media/partnersLogo/tarsons.png" alt=""></div>               
-                <div class="icon-hexagon lg:col-span-1 col-span-4 m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy" src="media/partnersLogo/chembio_diagnostics_inc_lOGO.jpg" alt=""></div>               
-                <div class="icon-hexagon lg:col-span-1 col-span-8 m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy" src="media/partnersLogo/biolife-italiana.png" alt=""></div>               
-                <div class="icon-hexagon lg:col-span-1 col-span-4 m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy" src="media/partnersLogo/adamlogo.png" alt=""></div>               
-                <div class="icon-hexagon lg:col-span-1 col-span-8 m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy" src="media/partnersLogo/New-Fistreem-Logo-2.png" alt=""></div>               
-                <div class="icon-hexagon lg:col-span-1 col-span-4 m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy" src="media/partnersLogo/promisemed-logo.png" alt=""></div>      
-                <div class="icon-hexagon lg:col-span-1 col-span-8 m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy" src="media/partnersLogo/Labomed-Corporate-Logo.svg" alt=""></div>               
+            <div class="partners-container grid grid-cols-12 items-start gap-6 p-5 basis-full">
+                <div class="icon-hexagon lg:col-span-1 md:col-span-2 col-span-8 m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy" src="media/partnersLogo/das_logo_3.png" alt=""></div>               
+                <div class="icon-hexagon lg:col-span-1 md:col-span-2 col-span-4 m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy" src="media/partnersLogo/diasorin_logo.jpg" alt=""></div>               
+                <div class="icon-hexagon lg:col-span-1 md:col-span-2 col-span-8 m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy" src="media/partnersLogo/hubdic.jpeg" alt=""></div>               
+                <div class="icon-hexagon lg:col-span-1 md:col-span-2 col-span-4 m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy" src="media/partnersLogo/remi.png" alt=""></div>               
+                <div class="icon-hexagon lg:col-span-1 md:col-span-2 col-span-8 m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy" src="media/partnersLogo/qiagen-logo.png" alt=""></div>               
+                <div class="icon-hexagon lg:col-span-1 md:col-span-2 col-span-4 m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy" src="media/partnersLogo/hemocue.svg" alt=""></div>               
+                <div class="icon-hexagon lg:col-span-2 md:col-span-3 col-span-8 m-2 flex justify-center items-center mx-6"><img class="w-32 h-64 object-center object-contain scale-150" loading="lazy" src="media/partnersLogo/voxtur.png" alt=""></div>               
+                <div class="icon-hexagon lg:col-span-1 md:col-span-2 col-span-4 m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy" src="media/partnersLogo/gms.png" alt=""></div>               
+                <div class="icon-hexagon lg:col-span-1 md:col-span-2 col-span-8 m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy" src="media/partnersLogo/biohall_1610348945.jpg" alt=""></div>               
+                <div class="icon-hexagon lg:col-span-1 md:col-span-2 col-span-4 m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy" src="media/partnersLogo/Logo-Scharlau-250px.png" alt=""></div>               
+                <div class="icon-hexagon lg:col-span-1 md:col-span-2 col-span-8 m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy" src="media/partnersLogo/tarsons.png" alt=""></div>               
+                <div class="icon-hexagon lg:col-span-1 md:col-span-2 col-span-4 m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy" src="media/partnersLogo/chembio_diagnostics_inc_lOGO.jpg" alt=""></div>               
+                <div class="icon-hexagon lg:col-span-1 md:col-span-2 col-span-8 m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy" src="media/partnersLogo/biolife-italiana.png" alt=""></div>               
+                <div class="icon-hexagon lg:col-span-1 md:col-span-2 col-span-4 m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy" src="media/partnersLogo/adamlogo.png" alt=""></div>               
+                <div class="icon-hexagon lg:col-span-1 md:col-span-2 col-span-8 m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy" src="media/partnersLogo/promisemed-logo.png" alt=""></div>      
+                <div class="icon-hexagon lg:col-span-1 md:col-span-2 col-span-4 m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy" src="media/partnersLogo/Labomed-Corporate-Logo.svg" alt=""></div>               
 
              
             </div>
@@ -349,16 +348,20 @@ product distributor in the East African market                    </p>
                 sector, NGOs and the Private sector.</span></p>
                 
             <div class="customers-container grid grid-cols-12 lg:grid-cols-10 justify-center p-5 basis-full ">
-                <div class="icon-hexagon lg:col-span-1 col-span-6 bg-white m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy"  src="media/customers/MOH.png" alt=""></div>               
-                <div class="icon-hexagon lg:col-span-1 col-span-6 bg-white m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy"  src="media/customers/kemri.svg" alt=""></div>               
-                <div class="icon-hexagon lg:col-span-1 col-span-6 bg-white m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy"  src="media/customers/icrc.png" alt=""></div>               
-                <div class="icon-hexagon lg:col-span-1 col-span-6 bg-white m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy"  src="media/customers/kmlogo.jpg" alt=""></div>               
-                <div class="icon-hexagon lg:col-span-1 col-span-6 bg-white m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy"  src="media/customers/M.P.-SHAH-Logo-2022-v2.png" alt=""></div>               
-                <div class="icon-hexagon lg:col-span-1 col-span-6 bg-white m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy"  src="media/customers/rmslogo.jpeg" alt=""></div>               
-                <div class="icon-hexagon lg:col-span-1 col-span-6 bg-white m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy"  src="media/customers/uvri.jpg" alt=""></div>               
-                <div class="icon-hexagon lg:col-span-1 col-span-6 bg-white m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy"  src="media/customers/mrc.png" alt=""></div>               
-                <div class="icon-hexagon lg:col-span-1 col-span-6 bg-white m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy"  src="media/customers/chmpLogo.png" alt=""></div>               
-                <div class="icon-hexagon lg:col-span-1 col-span-6 bg-white m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy"  src="media/customers/PSK-Full-Logo-2.png" alt=""></div>               
+                <div class="icon-hexagon lg:col-span-1 col-span-6 bg-white m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy"  src="media/customers/MOH.png" alt="Ministry of Health Kenya logo"></div>               
+                <div class="icon-hexagon lg:col-span-1 col-span-6 bg-white m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy"  src="media/customers/nairobi-hospital.svg" alt="Nairobi hospital logo"></div>               
+                <div class="icon-hexagon lg:col-span-1 col-span-6 bg-white m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy"  src="media/customers/Mater hospital.jpg" alt="Mater hospital logo"></div>               
+                <div class="icon-hexagon lg:col-span-1 col-span-6 bg-white m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy"  src="media/customers/Aga khan hospital.png" alt="Aga khan hosipital  logo"></div>               
+                <div class="icon-hexagon lg:col-span-1 col-span-6 bg-white m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy"  src="media/customers/kemri.svg" alt="Kenya Medical Research Institute (KEMRI)  logo"></div>               
+                <div class="icon-hexagon lg:col-span-1 col-span-6 bg-white m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy"  src="media/customers/icrc.png" alt="ICRC logo"></div>               
+                <div class="icon-hexagon lg:col-span-1 col-span-6 bg-white m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy"  src="media/customers/IOM_logo.svg" alt="International Organization for Migration (IOM) Logo"></div>               
+                <div class="icon-hexagon lg:col-span-1 col-span-6 bg-white m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy"  src="media/customers/kmlogo.jpg" alt="Kenya Medical Suppliers Authority - KEMSA logo"></div>               
+                <div class="icon-hexagon lg:col-span-1 col-span-6 bg-white m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy"  src="media/customers/M.P.-SHAH-Logo-2022-v2.png" alt="MP Shah hospital logo"></div>               
+                <div class="icon-hexagon lg:col-span-1 col-span-6 bg-white m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy"  src="media/customers/rmslogo.jpeg" alt="Rwanda Medical Supply logo"></div>               
+                <div class="icon-hexagon lg:col-span-1 col-span-6 bg-white m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy"  src="media/customers/uvri.jpg" alt="Uganda Virus Research Institute (UVRI)"></div>               
+                <div class="icon-hexagon lg:col-span-1 col-span-6 bg-white m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy"  src="media/customers/mrc.png" alt="Medical Research council logo"></div>               
+                <div class="icon-hexagon lg:col-span-1 col-span-6 bg-white m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy"  src="media/customers/chmpLogo.png" alt="chmp Logo"></div>               
+                <div class="icon-hexagon lg:col-span-1 col-span-6 bg-white m-2 flex justify-center items-center"><img class="w-32 h-64 object-center object-contain" loading="lazy"  src="media/customers/PSK-Full-Logo-2.png" alt="PS Kenya logo"></div>               
 
             </div>
               
@@ -367,7 +370,7 @@ product distributor in the East African market                    </p>
         </div>
     </section>
     <footer class="relative bg-gray-100 text-[#000000] pt-8 pb-6 relative">
-        <div class="container mx-auto px-4">
+        <div class="container mx-auto px-4 capitalize">
           <div class="flex flex-wrap text-left lg:text-left">
             <div class="w-full lg:w-4/12 px-4">
                 <div class="nav-logo  pt-10 mb-4 p-4 relative -top-8 ">
@@ -416,14 +419,11 @@ product distributor in the East African market                    </p>
                       <a class="text-black hover:underline font-semibold flex items-center pb-2 text-lg" href="mailto: inquiries@surgipathealtd.co.ke "><i class="fa-solid fa-envelope py-2 pr-2"></i> inquiries@surgipathealtd.co.ke </a>
                     </li>
                     <li>
-                        <a class="text-black hover:underline font-semibold flex items-center pb-2 text-lg" href="tel:0729566598"><i class="py-2 pr-2 fa-solid fa-phone"></i>0729566598</a>
-                      </li>
-                      <li>
-                          <a class="text-black hover:underline font-semibold flex items-center pb-2 text-lg" href="tel:0114202162"><i class="py-2 pr-2 fa-solid fa-phone invisible"></i>0114202162</a>
-                        </li>
-                      <li>
-                        <a class="text-black hover:underline font-semibold flex items-center pb-2 text-lg" href="tel:0111760986"><i class="py-2 pr-2 fa-solid fa-phone invisible"></i>0111760986</a>
-                      </li>
+                      <a class="text-black hover:underline font-semibold flex items-center pb-2 text-lg" href="tel:+254-020-2252053"><i class="py-2 pr-2 fa-solid fa-phone"></i>+2540202252053</a>
+                    </li>
+                    <li>
+                      <a class="text-black hover:underline font-semibold block pb-2 text-lg" href="tel:+254-020-2243586">+254-020-2243586</a>
+                    </li>
                   </ul>
                 </div>
               </div>

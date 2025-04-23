@@ -391,7 +391,7 @@
    "description": "" 
 },
 {    
-   "id":"41",
+   "id":"410",
    "name": "Front Bite Mouthpiece",    
    "category": "spirometry",    
    "image": "media/products/front-bite-mouthpiece.png",  
@@ -635,7 +635,7 @@
    "category": "labEquipment",    
    "image": "media/products/prima-ent.webp",  
    "manufacturer":"Labomed",
-   "readMoreLink":"https://www.laboamerica.com/products/medical-microscopes/ent-products/prima-ent-microscope/#rmcollapsed",  
+   "readMoreLink":"",  
    "downloadLink":"https://imk.storage.googleapis.com/file/MMN7xaQPPLutLJmkT/file_ENT.pdf",
    "description": "The Prima ENT microscope features a performance driven, highly modular design best suited for the dyanmic needs of modern ENT clinical and surgical environments. With an efficient and intelligent LED coaxial illumination system, pristine apochromatic optics, responsive arm movements, the Prima ENT microscope brings with it a high standard of performance and reliability " 
 },
@@ -645,7 +645,7 @@
    "category": "labEquipment",    
    "image": "media/products/luxeo-4z.png",  
    "manufacturer":"Labomed",
-   "readMoreLink":"https://www.laboamerica.com/products/stereo-microscopes/luxeo-4z/",  
+   "readMoreLink":"",  
    "downloadLink":"https://imk.storage.googleapis.com/file/MMN7xaQPPLutLJmkT/file_Luxeo.pdf",
    "description": "The Luxeo 4Z reflects high performance engineering in every detail, demonstrating yet again, an unwavering focus on delivering superb value. With a super bright and white light emitting diode (LED) illumination system, superb optics, and a single-cast durable construction, the Luxeo 4Z addresses the needs of modern biology programs as well as a host of quality control and routine inspection applications." 
 },
@@ -655,7 +655,7 @@
    "category": "labEquipment",    
    "image": "media/products/PRIMA MU.jpg",  
    "manufacturer":"Labomed",
-   "readMoreLink":"https://www.laboamerica.com/products/medical-microscopes/multi-disciplinary/prima-mu/",  
+   "readMoreLink":"",  
    "downloadLink":"https://imk.storage.googleapis.com/file/MMN7xaQPPLutLJmkT/file_PRIMA_Mu.pdf",
    "description": "TThe Prima Mu is intended for routine inspection and in screening clinical environments. A well-designed apochromatic optical system with a high output LED built directly into the microscope housing provides users with a compact solution. The arm system has been carefully designed to mitigate vibration and lower the system's center of gravity to provide a more stable, lighter weight solution. " 
 },
@@ -665,7 +665,7 @@
    "category": "labEquipment",    
    "image": "media/products/cxl.png",  
    "manufacturer":"Labomed",
-   "readMoreLink":"https://www.laboamerica.com/products/life-materials-microscopes/upright/cxl/",  
+   "readMoreLink":"",  
    "downloadLink":"https://imk.storage.googleapis.com/file/MMN7xaQPPLutLJmkT/file_CXL.pdf",
    "description": "Designed for both classroom and laboratory environments, the CxL reflects a sleek design composed of a durable aluminum stand, high throughput glass and optical coatings, and brass gears, all of which position the CxL to withstand the most demanding of user environments. And with lead-free optics and paints, the CxL is a truly eco friendly solution." 
 },
@@ -675,7 +675,7 @@
    "category": "labEquipment",    
    "image": "media/products/stella.webp",  
    "manufacturer":"Labomed",
-   "readMoreLink":"https://www.laboamerica.com/products/medical-microscopes/eye-care-microscopes/surgical/stella/",  
+   "readMoreLink":"",  
    "downloadLink":"https://imk.storage.googleapis.com/file/MMN7xaQPPLutLJmkT/file_stella.pdf",
    "description": "A sturdy workhorse in the most demanding of surgical environments. Built-in modularity and optional filter packages provide added versatility in Ophthalmic retinal and cataract surgery as well as Neurosurgery.  A proprietary pyramidal stand helps quickly offset weight as the arm rotates, keeping the system vibration-free and easy to maneuver. Apochromatic optics, compatibilty with image inverters, and a host of video and ergonomic accessories make Stella a value leader. " 
 },
@@ -685,7 +685,7 @@
    "category": "labEquipment",    
    "image": "media/products/lx-400.png",  
    "manufacturer":"Labomed",
-   "readMoreLink":"https://www.laboamerica.com/products/life-materials-microscopes/upright/lx-400/",  
+   "readMoreLink":"",  
    "downloadLink":"https://imk.storage.googleapis.com/file/MMN7xaQPPLutLJmkT/file_Lx_400.pdf",
    "description": "Designed for scaleability, the Lx 400 can take on a broad range of applications and curriculum requirements. Reflecting innovations in optical and illumination design as well as mechanical breakthroughs, the Lx 400 delivers unparalleled performance to price value to an expanding list of delighted users." 
 },
@@ -695,7 +695,7 @@
    "category": "labEquipment",    
    "image": "media/products/lx-500.png",  
    "manufacturer":"Labomed",
-   "readMoreLink":"https://www.laboamerica.com/products/life-materials-microscopes/upright/lx-500/",  
+   "readMoreLink":"",  
    "downloadLink":"https://imk.storage.googleapis.com/file/MMN7xaQPPLutLJmkT/file_Lx_500.pdf",
    "description": "The Lx 500 clinical microscope is the outcome of world-class technologies and design innovations. Highly modular and accessory friendly, the Lx 500 is a versatile and fully extendable clinical microscope that boasts graceful symmetry and performance thanks to its ergonomic and optical features." 
 },
@@ -705,7 +705,7 @@
    "category": "labEquipment",    
    "image": "media/products/tcm-400.png",  
    "manufacturer":"Labomed",
-   "readMoreLink":"https://www.laboamerica.com/products/life-materials-microscopes/inverted/tcm-400/",  
+   "readMoreLink":"",  
    "downloadLink":"https://imk.storage.googleapis.com/file/MMN7xaQPPLutLJmkT/file_TCM%20400.pdf",
    "description": "Cell culture, In Vitro Fertilization (IVF), and fluorescence stains are viewed in high fidelity with the TCM 400. A host of optional accessories make the system modular and versatile. High-performance optics configured in a durable, compact footprint make the TCM 400 inverted microscope ideal for clinical needs. " 
 },
@@ -715,7 +715,7 @@
    "category": "labEquipment",    
    "image": "media/products/prima-trainer.png",  
    "manufacturer":"Labomed",
-   "readMoreLink":"https://www.laboamerica.com/products/dental-microscopes/prima-dnt-trainer/#rmcollapsed",  
+   "readMoreLink":"",  
    "downloadLink":"https://imk.storage.googleapis.com/file/MMN7xaQPPLutLJmkT/file_DNT.pdf",
    "description": "The Prima Trainer is designed for educational and research facilities looking for table-top magnification systems that can provide a long working distance, bright and homogenous LED illumination, and super resolution images all in a compact form factor with fluid maneuverability. Our MaxLite™ coated apochromatic magnichanger promises high color fidelity in three color wavelengths. A well designed arm enables a lower center of gravity, ensuring a well balanced and vibration free microscope that won't monopolize your workstation." 
 },
@@ -725,17 +725,17 @@
    "category": "labEquipment",    
    "image": "media/products/YC-315.png",  
    "manufacturer":"Meling Biomedical",
-   "readMoreLink":"https://www.melingbiomedical.com/2-8-pharmacy-medical-refrigerator-vaccine-refrigerator-yc-315l_p51.html",  
+   "readMoreLink":"",  
    "downloadLink":"",
    "description": "Meling 2℃~8℃ Pharmacy / Medical & Lab Refrigerator YC-315L is premium and high-quality refrigerator for medical and laboratory grade, which is perfect for storing sensitive materials in pharmacies, medical offices, clinics, laboratories, scientific institutions and more. This medical refrigerator has updated in quality and durability, and it can meet the stringent guidelines demands for medical and laboratory. YC-315L medical fridge is designed with 5 PVC-coated steel wire shelves with tag card for easy storage and clean. And it is equipped with high-efficiency air-cooling condenser and a finned evaporator for fast refrigeration. The digital display control panel ensure the temperature display accurately in 0.1℃." 
 },
 {    
-   "id":"97",
+   "id":"970",
    "name": "Laboratory Refrigerator YC-725L",    
    "category": "labEquipment",    
    "image": "media/products/YC-725L.png",  
    "manufacturer":"Meling Biomedical",
-   "readMoreLink":"https://www.melingbiomedical.com/2-8-pharmacy-medical-grade-refrigerator-laboratory-refrigerator-yc-725l_p55.html",  
+   "readMoreLink":"",  
    "downloadLink":"",
    "description": "Meling 2℃～8℃ Pharmacy refrigerator YC-725L is pharmaceutical grade refrigerators for vaccines， storing sensitive materials in pharmacies, medical offices, laboratories, clinics, or scientific institutions. It is produced in quality and durability, and meets the stringent guidelines demands for medical and laboratory grade. YC-725L medical fridge provides you with 725L of interior storage with adjustable 12 shelves for high efficient capacity storage. This medical / lab refrigerator is equipped with high –precision microcomputer temperature control system and ensures the temperature range in 2℃～8℃. And it comes with 1 high-brightness digital temperature display ensuring the display precision in 0.1℃." 
 },
@@ -745,7 +745,7 @@
    "category": "labEquipment",    
    "image": "media/products/Blood Bank Refrigerator XC-168L.png",  
    "manufacturer":"Meling Biomedical",
-   "readMoreLink":"https://www.melingbiomedical.com/meling-4-blood-bank-refrigerator-xc-168l_p131.html",  
+   "readMoreLink":"",  
    "downloadLink":"",
    "description": "Meling 4℃ Blood Bank Refrigerator XC-168L is a reliable blood storage refrigerator for safeguarding security of whole blood, blood plasmas, blood compartments and blood samples. The intelligent constant temperature control ensures the temperature control precision within 2~6℃ inside the cabinet, which can perfectly promise the temperature uniformity. The blood storage refrigerator equipped with auto-defrost glass door ensures safe medical or lab material storage. " 
 },
@@ -755,7 +755,7 @@
    "category": "labEquipment",    
    "image": "media/products/Blood Bank Refrigerator XC-630L.png",  
    "manufacturer":"Meling Biomedical",
-   "readMoreLink":"https://www.melingbiomedical.com/meling-new-product-4-blood-bank-refrigerator-xc-630l_p73.html",  
+   "readMoreLink":"",  
    "downloadLink":"https://www.melingbiomedical.com/uploadfile/attachment/8a00136108c5dc14915bf063f55e6c2b.pdf",
    "description": "Meling 4℃ Blood Bank Refrigerator XC-630L is a reliable blood storage refrigerator for safeguarding security of whole blood, blood plasmas, blood compartments and blood samples. The intelligent constant temperature control ensures the temperature control precision within 2~6℃ inside the cabinet, which can perfectly promise the temperature uniformity. The blood storage refrigerator equipped with auto-defrost glass door ensures safe medical or lab material storage" 
 },
@@ -765,7 +765,7 @@
    "category": "labEquipment",    
    "image": "media/products/Blood Bank Refrigerator XC-268L.png",  
    "manufacturer":"Meling Biomedical",
-   "readMoreLink":"https://www.melingbiomedical.com/4-high-performance-blood-bank-refrigerator-xc-268l_p71.html",  
+   "readMoreLink":"",  
    "downloadLink":"https://www.melingbiomedical.com/uploadfile/attachment/a3c5a62fb1384cb5b76204a4aac40719.pdf",
    "description": "Meling is a leading Chinese of blood bank refrigerators manufacturer, 4℃ Blood Bank Refrigerator XC-268L is a reliable blood storage refrigerator for safeguarding security of whole blood, blood plasmas, blood compartments and blood samples. The intelligent constant temperature control ensures the temperature control precision within 2~6℃ inside the cabinet, which can perfectly promise the temperature uniformity. The blood storage refrigerator equipped with auto-defrost glass door ensures safe medical or lab material storage. What makes this blood refrigerator outstanding is that it meets or exceeds the AABB and CDC regulations for blood storage. To give you high-efficiency capacity storage, this blood bank refrigerator is designed with 5 dip-coating shelves and 15 stainless steel baskets with 150 bags 450ml loading capacity." 
 },
@@ -775,7 +775,7 @@
    "category": "labEquipment",    
    "image": "media/products/CBR-600S.jpg",  
    "manufacturer":"Giantstar",
-   "readMoreLink":"http://www.gsmedical.co.kr/index/bbs/board.php?bo_table=s2_2&wr_id=36&page=2&sca1=10",  
+   "readMoreLink":"",  
    "downloadLink":"",
    "description": "Capacity(L):605 Liters<br>Temperature range(℃):2~8℃<br>External standard(WxHxD) mm:740x1970x820<br>Internal standard(WxHxD) mm:610x1440x680<br>Weight:162Kg<br>Certification:Mediacal device license(Cass 2),GMP,ISO 133485,WHO" 
 },
@@ -785,7 +785,7 @@
    "category": "labEquipment",    
    "image": "media/products/QFU-014.jpg",  
    "manufacturer":"Giantstar",
-   "readMoreLink":"http://www.gsmedical.co.kr/index/bbs/board.php?bo_table=s2_2&wr_id=86&stx=QFU-014&sop=and",  
+   "readMoreLink":"",  
    "downloadLink":"",
    "description": "Capacity(L):322 Liters<br>Temperature range(℃):-10 to -40℃<br>External standard(WxHxD) mm:641x1570x730<br>Internal standard(WxHxD) mm:511x1090x585<br>Weight:168Kg<br>Certification:Medical device license ( class 2 ), GMP, ISO13485, WHO" 
 },
@@ -795,7 +795,7 @@
    "category": "labEquipment",    
    "image": "media/products/DW-HL340.png",  
    "manufacturer":"Meling Biomedical",
-   "readMoreLink":"https://www.melingbiomedical.com/86-c-cost-effective-ultra-low-freezer-freezer-for-laboratory-and-medical-dw-hl340_p9.html",  
+   "readMoreLink":"",  
    "downloadLink":"",
    "description": "Meling -86°C ultra low temperature freezer DW-HL340 is cost-effective deep freezer for laboratory and medical grade. This ultra deep freezer is equipped with high-precision temperature control, ensuring the temperature uniformity in the cabinet with a range of -40°C to -86°C. The targeted refrigeration of the deep freezer enables fast refrigeration. It is designed in human-oriented with energy saving and environmentally friendly. It can safely store laboratory research materials, pharmaceutical raw materials, and more. This medical / laboratory deep freezer is suitable for using in blood banks, health and disease prevention systems, hospitals, colleges & universities, research institutions, the electronic industry, laboratories in colleges & universities, biological engineering, military enterprise, deep-sea fishing companies, etc." 
 },
@@ -805,7 +805,7 @@
    "category": "labEquipment",    
    "image": "media/products/DW-HL50HC.png",  
    "manufacturer":"Meling Biomedical",
-   "readMoreLink":"https://www.melingbiomedical.com/86-c-undercounter-ultra-low-freezer-for-laboratory-and-medical-freezer-dw-hl50hc_p5.html",  
+   "readMoreLink":"",  
    "downloadLink":"",
    "description": "Meling Undercounter -86°C ultra-low temperature freezer DW-HL50HC comes with a little body for great use. It is perfectly designed for storage of low temperature scientific experiments, plasma, tunny, biomaterial, and other biological products. This mini deep freezer can be applied to hospital, blood bank, university laboratories, electronic industries, research institutes, military industries, pelagic fishery companies, sanitation and anti-epidemic. With the microprocessor-based temperature controller, you are free to set the temperature range of -40℃~-86℃. The Upright type and Galvanized steel sheet（stainless steel optional） interior material helps it can be cleaned easily. This small ultra low temperature freezer provides you with secure alarm system with keyboard lock and password access." 
 },
@@ -815,7 +815,7 @@
    "category": "labEquipment",    
    "image": "media/products/remi-platelet-agitator.jpg",  
    "manufacturer":"Remi",
-   "readMoreLink":"https://www.remilabworld.com/platelets-incubator-agitator/",  
+   "readMoreLink":"",  
    "downloadLink":"https://www.remilabworld.com/wp-content/uploads/2021/07/platelets-Incubator.pdf",
    "description": "Ultra range of REMI Platelet Incubator & Agitator are specially designed to meet the storage requirements of Platelet concentrate.<br>Microprocessor integrated system provides excellent temperature accuracy. 7 days chart recorder & audio visual alarm system helps to indicate disturbance in storage conditions.<br>In case of temperature controller failure, innovative “Clever-Chip” automatically takes control for continued operations." 
 },
@@ -825,7 +825,7 @@
    "category": "labEquipment",    
    "image": "media/products/PLASMA EXPRESSOR.jpg",  
    "manufacturer":"Remi",
-   "readMoreLink":"https://www.remilabworld.com/plasma-expressor-xpress-m/",  
+   "readMoreLink":"",     
    "downloadLink":"https://www.remilabworld.com/wp-content/uploads/2021/07/Xpress-M.pdf",
    "description": "XPRESS-M is specially designed plasma expresser for separating out the blood components. The front panel of the XPRESS-M is loaded with high tension spring for quick transfer of plasma into other bag. XPRESS-M is ergonomically designed for long lasting trouble free operations" 
 },
@@ -835,7 +835,7 @@
    "category": "labEquipment",    
    "image": "media/products/laboratory-centrifuges.png",  
    "manufacturer":"Remi",
-   "readMoreLink":"https://www.remilabworld.com/laboratory-centrifuges/",  
+   "readMoreLink":"",   
    "downloadLink":"https://www.remilabworld.com/new/wp-content/uploads/2021/07/LABORATORY-CENTRIFUGE-plus.pdf",
    "description": "Laboratory Centrifuges model R-8C Plus & R-8M Plus are suitable for routine sample analysis in Medical, Hospital, Pathology and heads and adaptors, those units are truly versatile.<br>Micro Centrifuges models R-12C Plus are ideal for growing routine application in biochemical and clinical labs, for Hematocrit, Corpuscle Percentage contents in blood, Serum analysis and precipitate separation etc." 
 },
@@ -845,7 +845,7 @@
    "category": "labEquipment",    
    "image": "media/products/chemfast-elite.jpg",  
    "manufacturer":"Safe fast",
-   "readMoreLink":"https://www.faster-air.com/en/products/chemical-fume-hoods/chemfast-elite",  
+   "readMoreLink":"",  
    "downloadLink":"https://www.faster-air.com/media/com_hikashop/upload/safe/faster_chemfast_depliant_2020_sing.pdf",
    "description": "ChemFAST Elite are equipped with a microprocessor based monitoring system for a range of data which includes type and code number of the filter being used, installation date, maximum time allowance for filter use and a warning date for its replacement." 
 },
@@ -856,7 +856,7 @@
    "category": "labEquipment",    
    "image": "media/products/MTB20-F.png",  
    "manufacturer":"Adam equipment",
-   "readMoreLink":"https://www.adamequipment.com/mtb-baby-and-toddler-scale",  
+   "readMoreLink":"",    
    "downloadLink":"https://www.adamequipment.com/media/docs/Print%20Publications/Data%20Sheets/Letter/English/Email-Web/MTB-DS-LT-EN.pdf",
    "description": "Versatile and portable, the MTB baby scale offers excellent value for pediatricians and other healthcare providers. With a capacity of 44lb/20kg, this scale boasts the ability to weigh both newborn infants and toddlers on the same instrument. The MTB features quick start-up and easy operation, so minimal training is needed." 
 },
@@ -866,7 +866,7 @@
    "category": "labEquipment",    
    "image": "media/products/HCB-range.png",  
    "manufacturer":"Adam equipment",
-   "readMoreLink":"https://www.adamequipment.com/highland-portable-precision-balances",  
+   "readMoreLink":"",  
    "downloadLink":"https://www.adamequipment.com/media/docs/Print%20Publications/Data%20Sheets/Letter/English/Email-Web/HCB-Highland-DS-LT-EN.pdf",
    "description": "The Highland® portable precision balance offers advanced features in a compact, durable balance that stacks for easy storage. Featuring multiple weighing applications including parts counting, percent weighing and accumulation, the Highland provides fast, accurate weighing in a number of different environments – from science research in the laboratory or field, to manufacturing operations. Sturdy ABS construction allows the Highland to stand up to demanding lab use, while Highland’s ShockProtect® offers advanced overload protection to keep the balance safe. HandiCal® facilitates internal calibration without the need for external weights." 
 },
@@ -876,7 +876,7 @@
    "category": "labEquipment",    
    "image": "media/products/EPB1203i-R.png",  
    "manufacturer":"Adam equipment",
-   "readMoreLink":"https://www.adamequipment.com/equinox-precision-balances",  
+   "readMoreLink":"",  
    "downloadLink":"https://www.adamequipment.com/media/docs/Print%20Publications/Brochures/Letter/English/Equinox-Brochure-(8008)-Digital-EN.pdf",
    "description": "Equinox precision balances deliver remarkable precision to labs that perform highly detailed testing. The Equinox is ideal for research and quality assurance facilities; science education; precision counting; and production and manufacturing applications needing exceptionally precise results. Twelve precision models offer capacities from 360g to 8200g and readabilities of 1mg and 0.01g. A color touch screen display provides intuitive operation, with icon-driven menus and readily accessible applications and functions. The five-inch screen is generously sized, offering 800 X 480 pixel resolution for excellent visibility." 
 },
@@ -886,7 +886,7 @@
    "category": "labEquipment",    
    "image": "media/products/LAB84e-R.png",  
    "manufacturer":"Adam equipment",
-   "readMoreLink":"https://www.adamequipment.com/luna-analytical-balances",  
+   "readMoreLink":"",  
    "downloadLink":"https://www.adamequipment.com/media/docs/Print%20Publications/Data%20Sheets/Letter/English/Email-Web/LAB-Luna-DS-LT-EN.pdf",
    "description": "With stylish, modern backlighting, Luna's impressive display gives an aura of smart sophistication. The LCD features large, readily discernible 24mm digits in blue on a black background. Multilingual text and display capability make Luna well-suited for users in various regions. Luna provides USB and RS-232 interfaces for speedy data collection and transmission to computers or printers. ABS plastic construction and rugged grade 304 stainless steel pan mean Luna is easy to clean and can withstand demanding lab use. Available in four models with capacities up to 250g, Luna offers a readability of 0.0001g and can perform basic and detailed measuring tasks." 
 },
@@ -896,7 +896,7 @@
    "category": "labEquipment",    
    "image": "media/products/XC-368L.png",  
    "manufacturer":"Remi scientific",
-   "readMoreLink":"https://remi.com.my/Product/Details/410/41-blood-bank-refrigerator-xc-368l",  
+   "readMoreLink":"",   
    "downloadLink":"https://remi.com.my/Download/Product/378",
    "description": "Meling 4±1℃ Blood Bank Refrigerator XC-368L is a reliable blood storage refrigerator for safeguarding security of whole blood, blood plasmas, blood compartments and blood samples. The intelligent constant temperature control ensures the temperature control precision of ±1℃ inside the cabinet, which can perfectly promise the temperature uniformity. The blood storage refrigerator equipped with auto-defrost glass door ensures safe medical or lab material storage. What makes this blood refrigerator outstanding is that it meets or exceeds the AABB and CDC regulations for blood storage." 
 },
@@ -906,7 +906,7 @@
    "category": "labEquipment",    
    "image": "media/products/CHEST-CRYOGENIC-FREEZER.png",  
    "manufacturer":"Remi scientific",
-   "readMoreLink":"https://remi.com.my/Product/Details/404/-164-152-chest-cryogenic-freezer-rack-matching-solution",  
+   "readMoreLink":"",  
    "downloadLink":"https://remi.com.my/Download/Product/372",
    "description": "-164℃ / 152℃ Cryogenic freezer choose stainless steel chest frozen layer rack, high strength PC frozen layer box, can withstand the temperature of -196℃~121℃; The new appearance design, the gap and line design of the box body, is conducive to the rapid cooling of samples and the rapid discharge of liquid, the transparent box cover design, and the clear digital mark on the box body, easy to observe and  find samples. " 
 },
@@ -916,7 +916,7 @@
    "category": "labEquipment",    
    "image": "media/products/vertical-ult-freezer.png",  
    "manufacturer":"Remi scientific",
-   "readMoreLink":"https://remi.com.my/Product/Details/402/-86-vertical-ult-freezer-rack-matching-solution",  
+   "readMoreLink":"",    
    "downloadLink":"https://remi.com.my/Download/Product/370",
    "description": "Side-access freezer rack-Made of 304 stainless steel for durability and better appearance. No sharp edges to avoid risk of injury. Steel plate thickness: combination of 0.5 and 1 mm. Side-access design makes it convenient and economic.Sliding-drawer freezer rack-Made of 304 stainless steel for durability and better appearance. No sharp edges to avoid risk of injury. Steel plate thickness: combination of 0.6 and 1.2 mm. Suitable for common low temperature freezers and standard sized freezer boxes. " 
 },
@@ -926,7 +926,7 @@
    "category": "labEquipment",    
    "image": "media/products/laminar-airflow.png",  
    "manufacturer":"Dasit Group",
-   "readMoreLink":"https://www.faster-air.com/en/products/laminar-airflow-cabinets",  
+   "readMoreLink":"",  
    "downloadLink":"",
    "description": "Vertical/horizontal laminar flow cabinets for guarantee and mantain excellent product protection.<br> Examples:<br>FLOWFAST V<br>SMARTFAST<br>SMARTFAST MINI<br>FLOWFAST H" 
 },
@@ -936,7 +936,7 @@
    "category": "labEquipment",    
    "image": "media/products/cytofast-elite.png",  
    "manufacturer":"Dasit Group",
-   "readMoreLink":"https://www.faster-air.com/en/products/cytotoxic-solutions/cytofast-elite",  
+   "readMoreLink":"",   
    "downloadLink":"",
    "description": "CytoFAST Elite Cytotoxic Safety Cabinets belong to the latest generation of laminar airflow systems manufactured by Faster, in which the choice of materials of construction of the highest quality guarantees conformity to the strictest safety standards. <br>CytoFAST Elite are Cytotoxic Drug and Microbiological Safety Cabinets designed and built to performance requirements of the EN 12469:2000 and DIN 12980:2005-06 European Standards. They are triple HEPA filter technology cabinet, with 100% of the air filtered via the main H14 HEPA/ULPA filter directly below the work surface and then 70% of the air re-circulated via the recirculating H14 HEPA/ULPA filter within the cabinet, whilst the remaining 30% is discharged through an exhaust H14 HEPA/ULPA filter." 
 },
@@ -946,7 +946,7 @@
    "category": "labEquipment",    
    "image": "media/products/cytofast-top.png",  
    "manufacturer":"Dasit Group",
-   "readMoreLink":"https://www.faster-air.com/en/products/cytotoxic-solutions/cytofast-top",  
+   "readMoreLink":"",   
    "downloadLink":"",
    "description": "CytoFAST Top Cytotoxic Safety Cabinets belong to the latest generation of laminar airflow systems manufactured by Faster, in which the choice of materials of construction of the highest quality guarantees conformity to the strictest safety standards.<br>CytoFAST Top are Cytotoxic Drug and Microbiological Safety Cabinets designed and built to performance requirements of the EN 12469:2000 and DIN 12980:2005-06 European Standards." 
 },
@@ -956,34 +956,15 @@
    "category": "labEquipment",    
    "image": "media/products/glovefast-cyto.png",  
    "manufacturer":"Dasit Group",
-   "readMoreLink":"https://www.faster-air.com/en/products/cytotoxic-solutions/glovefast-cyto",  
+   "readMoreLink":"",  
    "downloadLink":"",
    "description": "GloveFAST Cyto are compact versions of cytotoxic isolators provided by Faster which represent a valid alternative for markets having limited space and limited budget. <br>They are available in 3 different sizes (1.2/1.5/1.8 mt width)." 
 },
-{    
-   "id":"84",
-   "name": "Calypso",    
-   "category": "waterDistillers",    
-   "image": "media/products/calypso-distiller.png",  
-   "manufacturer":"Fistreem",
-   "readMoreLink":"https://www.fistreeminternational.com/product/calypso-water-still/",  
-   "downloadLink":"https://www.fistreeminternational.com/wp-content/uploads/fistreem-brochure-scan.pdf",
-   "description": "Perfect for smaller Laboratories providing pure water in two convenient production rates of 2 or 4 Lhr-1.<br>Perfect for smaller Laboratories providing pure water in two convenient production rates of 2 or 4 Lhr-1.<br>Perfect for smaller Laboratories providing pure water in two convenient production rates of 2 or 4 Lhr-1." 
-},
-{    
-   "id":"85",
-   "name": "Cyclon",    
-   "category": "waterDistillers",    
-   "image": "media/products/cyclon-distiller.png",  
-   "manufacturer":"Fistreem",
-   "readMoreLink":"https://www.fistreeminternational.com/product/cyclon-ultrapure-water-stills/",  
-   "downloadLink":"https://www.fistreeminternational.com/wp-content/uploads/fistreem-brochure-scan.pdf",
-   "description": "Perfect for Laboratories providing pure water in two convenient production rates of 4 or 8 Lhr-1 single distilled or 4Lhr-1 double distilled.<br>The Cyclon stills simple design and ease of use, water can be dispensed from the system or collected in a storage reservoir. With the automated cleaning facility descaling is simplified requiring no dismantling of glassware.<br>This economical and space saving water distiller can be bench or wall mounted." 
-},
+
 {    
    "id":"87",
    "name": "QIAstat-Dx",    
-   "category": "molecular",    
+   "category": "syndromicTesting",    
    "image": "media/products/QIAstat-Dx.jpg",  
    "manufacturer":"Qiagen",
    "readMoreLink":"https://www.qiagen.com/us/products/diagnostics-and-clinical-research/infectious-disease/qiastat-dx-syndromic-testing/qiastat-dx-research",  
@@ -998,15 +979,6 @@
    "readMoreLink":"https://www.qiagen.com/us/products/discovery-and-translational-research/epigenetics/dna-methylation/methylation-specific-pcr/rotor-gene-q",  
    "downloadLink":"documents/Rotor-Gene-Q---Pure-Detection.pdf",
    "description": "QIAGEN's real-time PCR cycler, the Rotor-Gene Q, combines multiple optimized design features to provide the outstanding performance and reliable results that your research demands. Together with optimized QIAGEN kits for real-time PCR, the Rotor-Gene Q enables streamlined analysis for a wide range of applications. Q-Rex Software is operating and analysis software for life science qPCR applications. A choice of plug-ins lets you add new functionality without affecting established workflows." 
-},{    
-   "id":"89",
-   "name": "QIAquant",    
-   "category": "molecular",    
-   "image": "media/products/QIAquant.jpg",  
-   "manufacturer":"Qiagen",
-   "readMoreLink":"https://www.qiagen.com/us/products/discovery-and-translational-research/pcr-qpcr-dpcr/qpcr-assays-and-instruments/pcr-instruments/qiaquant",  
-   "downloadLink":"documents/QPRO-2180_1130039_BRO_PCR_QIAquant_1222.pdf",
-   "description": "QIAquant instruments are all-round systems designed for performance. They combine high-quality thermal elements for fast heating and cooling ramping rates and a fast multi-channel detection system for shorter cycling times. The open system is compatible with plasticware in standard SBS formats, low-and normal-profile, and all skirting types.<br>The QIAquant qPCR instruments deliver on the fundamental expectations to combine high performance optical detection of qPCR products with a high performance thermal block. The result is an all-round versatile system for quantitative PCR applications such as expression analyses, genotyping and the detection of pathogens. The combination of high quality thermal elements, fast heating and cooling ramping rates and the fiber-optic shuttle system enables shorter cycling times down to less than 30 minutes for 40 cycles." 
 },
 
 {    

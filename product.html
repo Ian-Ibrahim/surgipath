@@ -54,14 +54,14 @@
             <div id="mega-menu" class="items-center justify-between hidden w-full text-sm md:flex md:w-auto md:order-1">
                 <ul class="flex flex-col mt-4 font-medium md:flex-row md:space-x-8 md:mt-0">
                     <li>
-                        <a href="#home" aria-current="page">Home</a>
+                        <a href="/" aria-current="page">Home</a>
                     </li>
                     <li>
                         <a href="about.html" class="block py-2 pl-3 pr-4 text-[#1E1E24] border-b border-transparent md:hover:bg-transparent md:border-b-2 md:border-transparent md:hover:border-[#1E1E24] md:p-0">About</a>
                     </li>
                     <li>
                         <button id="mega-menu-dropdown-button" data-dropdown-toggle="mega-menu-dropdown" class="flex items-center justify-between w-full py-2 pl-3 pr-4 font-medium text-[#1E1E24] border-b-2 0 md:w-auto hover:bg-gray-50 md:hover:bg-transparent  md:border-b-2 border-[#1E1E24] md:p-0 ">
-                            products <svg aria-hidden="true" class="w-5 h-5 ml-1 md:w-4 md:h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                            Products <svg aria-hidden="true" class="w-5 h-5 ml-1 md:w-4 md:h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                         </button>
                         <div id="mega-menu-dropdown" class="absolute z-10 grid hidden w-auto grid-cols-2 text-sm bg-white border border-gray-100 rounded-lg shadow-md md:grid-cols-3 ">
                             <div class="p-4 pb-0 text-gray-900 md:pb-4 ">
@@ -131,8 +131,8 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="category.html?category=waterDistillers" class="text-gray-500 hover:text-[#1E1E24]"onclick="openCategoryPage('waterDistillers')">
-                                            Water Distillers
+                                        <a href="category.html?category=syndromicTesting" class="text-gray-500 hover:text-[#1E1E24]"onclick="openCategoryPage('glassware')">
+                                            Syndromic Testing
                                         </a>
                                     </li>
                                 </ul>
@@ -182,14 +182,20 @@
                 </li>
                 <li class="inline-flex items-center ">
                     <svg aria-hidden="true" class="w-6 h-6 text-gray-100" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
-                    <a href="#" class="inline-flex items-center text-xl font-medium text-white hover:text-[#1E1E24] ">
-                      Category
+                    <a href="catalogue.html" class="inline-flex items-center text-xl font-medium text-white hover:text-[#1E1E24] ">
+                      Catalogue
+                    </a>
+                </li>
+                <li class="inline-flex items-center ">
+                    <svg aria-hidden="true" class="w-6 h-6 text-gray-100" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+                    <a href="#" id="productCategory" class="inline-flex items-center text-xl font-medium text-white hover:text-[#1E1E24] ">
+                      Product Category
                     </a>
                 </li>
                 <li>
                     <div class="flex items-center">
                       <svg aria-hidden="true" class="w-6 h-6 text-gray-100" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
-                      <a  class="ml-1 text-xl font-medium text-[#1E1E24] md:ml-2 ">product</a>
+                      <a id="product-name-header" class="ml-1 text-xl font-medium text-[#1E1E24] md:ml-2 ">product</a>
                     </div>
                   </li>
               </ol>
@@ -224,9 +230,16 @@
             
             const productImage = document.getElementById('product-image');
             productImage.src = selectedProduct.image;
-
-            const productReadMore = document.getElementById('read-more');
-            productReadMore.href = selectedProduct.readMoreLink;
+            if(selectedProduct.readMoreLink!="" || selectedProduct.readMoreLink!=" "){
+                const productReadMore = document.getElementById('read-more');
+                productReadMore.href = selectedProduct.readMoreLink;
+            }
+            if(selectedProduct.readMoreLink=="" || selectedProduct.readMoreLink==" "){
+                const productReadMore = document.getElementById('read-more');
+                productReadMore.parentElement.remove();
+            }
+            
+            
             if(selectedProduct.downloadLink!=""){
             const productDownloadBtnBtn = document.getElementById('download-brochure');
             productDownloadBtnBtn.href = selectedProduct.downloadLink;
@@ -242,12 +255,17 @@
                 }
                 result += category[i];
             }
-
+            var firstLetterCapCategory = result.charAt(0).toUpperCase();
+            var remainingLettersCategory = result.slice(1);
+            const capitalizedWordCategory = firstLetterCapCategory + remainingLettersCategory;
+            
             const productCategory=document.getElementById('category-name');
             productCategory.textContent=result;
             
             const productDescription = document.getElementById('product-description');
             productDescription.innerHTML = selectedProduct.description;
+            document.getElementById('product-name-header').innerHTML=selectedProduct.name;
+            
 
             document.getElementById('loading').style.display = 'none';
         }
@@ -313,14 +331,14 @@
             <p class="mb-4" id="product-description">
                 ${product.description}
             </p>
-            <button class="primary-btn bg-[#208A7E] text-center  px-10 py-2 rounded ">
-                <a href="#" id="read-more" target="_blank" class=" inline-flex items-center text-white">
+            <button target="_blank" class="primary-btn bg-[#208A7E] text-center  px-10 py-2 rounded ">
+                <a href="#"  id="read-more"  class=" inline-flex items-center text-white">
                     Read more
                     <svg class="w-5 h-5 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path></svg>
                 </a>
             </button>
             <br>
-            <a href="#" target="_blank" id="download-brochure"class=" inline-flex items-center px-2 py-2  mt-2 hover:underline">    </a>
+            <a href="#" target="_blank" id="download-brochure" class=" inline-flex items-center px-2 py-2  mt-2 hover:underline">    </a>
         </div>
     </div>
     <section class="p-10">
