@@ -195,7 +195,7 @@
                 <li>
                     <div class="flex items-center">
                       <svg aria-hidden="true" class="w-6 h-6 text-gray-100" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
-                      <a id="product-name-header" class="ml-1 text-xl font-medium text-[#1E1E24] md:ml-2 ">product</a>
+                      <a id="product-name-header" class="ml-1 text-xl font-medium text-[#FC6C18] md:ml-2 ">product</a>
                     </div>
                   </li>
               </ol>
@@ -229,6 +229,9 @@
             productName.textContent = selectedProduct.name;
             
             const productImage = document.getElementById('product-image');
+            if(selectedProduct.image==""||selectedProduct.image==null||selectedProduct.image==" "){
+                selectedProduct.image='media/surgipath-logo.png'   
+            }
             productImage.src = selectedProduct.image;
             if(selectedProduct.readMoreLink!="" || selectedProduct.readMoreLink!=" "){
                 const productReadMore = document.getElementById('read-more');
@@ -259,8 +262,8 @@
             var remainingLettersCategory = result.slice(1);
             const capitalizedWordCategory = firstLetterCapCategory + remainingLettersCategory;
             
-            const productCategory=document.getElementById('category-name');
-            productCategory.textContent=result;
+            const productCategory=document.getElementById('productCategory');
+            productCategory.textContent=capitalizedWordCategory;
             
             const productDescription = document.getElementById('product-description');
             productDescription.innerHTML = selectedProduct.description;
@@ -292,6 +295,10 @@
 
                         const otherProduct = otherProducts[otherProductIndex];
                         const otherProductItem = document.createElement('div');
+
+                        if(otherProduct.image==""||otherProduct.image==null||otherProduct.image==" "){
+                            otherProduct.image='media/surgipath-logo.png'   
+                        }
                         otherProductItem.innerHTML = `
                         <a href='product.html?productId=${otherProduct.id}'>
                             <div  onclick="openProductPage('${otherProduct.id}')" class="card w-[15em] h-96 m-2 text-center bg-white border border-gray-200 rounded-lg shadow "  > 

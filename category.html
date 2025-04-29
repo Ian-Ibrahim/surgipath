@@ -229,9 +229,11 @@
             const startIndex = loadedProducts.length;
             const endIndex = startIndex + batchSize;
             const batchProducts = allProducts.slice(startIndex, endIndex);
-        
             // Generate the product cards for the batch of products
             const productCards = batchProducts.map(product => {
+                if(product.image==""||product.image==null||product.image==" "){
+                    product.image='media/surgipath-logo.png'   
+                }
                 return `
                     <a href='product.html?productId=${product.id}'>
                         <div  onclick="openProductPage('${product.id}')" class="card max-w-sm min-w-[25vw] h-[25rem] m-4 text-center bg-white border border-gray-200 rounded-lg shadow ">
@@ -261,7 +263,7 @@
             var firstLetterCapCategory = result.charAt(0).toUpperCase();
             var remainingLettersCategory = result.slice(1);
             const capitalizedWordCategory = firstLetterCapCategory + remainingLettersCategory;
-            const productCategory=document.getElementById('productCategory');
+            const productCategory=document.getElementById('category-header');
             productCategory.textContent=result;
             document.getElementById('categoryName').innerHTML=capitalizedWordCategory;
             document.getElementById('category-header').innerHTML=capitalizedWordCategory;
