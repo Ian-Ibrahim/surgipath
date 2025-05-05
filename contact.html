@@ -17,6 +17,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
     <title>Surgipath services (EA) limited</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="media/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="media/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="media/favicon-16x16.png">
+    <link rel="manifest" href="media/site.webmanifest">
 </head>
 <body>
     <nav class="bg-white shadow-lg border-gray-200 px-2 md:px-4 py-2.5 fixed z-50 w-full lg:pt-10">
@@ -194,7 +198,7 @@
 
     <section>
         <div class="contact-form  grid grid-cols-2 md:gap-6 ">     
-            <form class="w-full p-10 col-span-2 lg:col-span-1">
+            <form class="w-full p-10 col-span-2 lg:col-span-1" action="https://formsubmit.co/inquiries@surgipathealtd.co.ke" method="POST" >
                 <h1 class="mb-4 text-4xl font-extrabold">Leave a Message<br> For Us</h1>
                 <div class="grid md:grid-cols-2 md:gap-6">
                     <div class="relative z-0 w-full mb-10 group">
@@ -212,11 +216,11 @@
                 </div>
                 <div class="grid md:grid-cols-2 md:gap-6">
                     <div class="relative z-0 w-full mb-10 group">
-                        <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="floating_phone" id="floating_phone" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none   focus:outline-none focus:ring-0 focus:border-[#208A7E] peer" placeholder=" " required />
+                        <input type="text"  name="floating_phone" id="floating_phone" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none   focus:outline-none focus:ring-0 focus:border-[#208A7E] peer" placeholder=" " required />
                         <label for="floating_phone" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0   peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:dark:text-[#208A7E] peer-focus:-translate-y-6">Phone number (07XXXXXXXX)</label>
                     </div>
                     <div class="relative z-0 w-full mb-10 group">
-                        <input type="text" name="floating_company" id="floating_company" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none   focus:outline-none focus:ring-0 focus:border-[#208A7E] peer" placeholder=" " required />
+                        <input type="text" name="floating_company" id="floating_company" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none   focus:outline-none focus:ring-0 focus:border-[#208A7E] peer" placeholder=" "  />
                         <label for="floating_company" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0   peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:dark:text-[#208A7E] peer-focus:-translate-y-6">Company (Ex. Google)</label>
                     </div>
                     
@@ -225,8 +229,13 @@
                     <textarea type="text" name="floating_company" id="floating_company" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none   focus:outline-none focus:ring-0 focus:border-[#208A7E] peer" placeholder=" " required /></textarea>
                     <label for="floating_company" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0   peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:dark:text-[#208A7E] peer-focus:-translate-y-6">Message</label>
                 </div>
+                <input type="hidden" name="_next" value="https://www.surgipathealtd.co.ke/contact.html">
+                <input type="hidden" name="_subject" value="New submission from website!">
+                <input type="hidden" name="_autoresponse" value="Thank you for contacting us, our team will be in touch soon.">
+                <input type="hidden" name="_template" value="table">
                 <button type="submit" class="primary-btn text-white  focus:ring-4 focus:outline-none  bg-[#208A7E] font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center  ">
-                    <a href="">Submit</a> </button>
+                    <span>Submit</span>
+                </button>
             </form>
             <div class="contact-card  h-full flex w-full justify-center col-span-2 lg:col-span-1">
                 <div class=" lg:w-5/12 px-4 bg-[#208A7E] basis-full text-[#F3F3F7] p-5">

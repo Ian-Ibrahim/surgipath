@@ -2,17 +2,17 @@ var nav = document.querySelector("nav");
 function openCategoryPage(category) {
     window.location.href = `category.html?category=${category}`;
 }
-// start of tawk to
+
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
 var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
 s1.async=true;
-s1.src='https://embed.tawk.to/59dc57f1c28eca75e46251b3/default';
+s1.src='https://embed.tawk.to/6818a7695d55ef191a9db2f9/1iqg4rte0';
 s1.charset='UTF-8';
 s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
 })();
-// end of tawk.to script
+
 
 function showSearchModal(){
   searchModal.style.top='0rem';
